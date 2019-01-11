@@ -1,4 +1,4 @@
-//exmaple1.20
+//exmaple2.20
 clc
 disp("P=6, Z=780, E_g=500V, N=1000 rpm")
 disp("a) Lap wound,  A=P=6")

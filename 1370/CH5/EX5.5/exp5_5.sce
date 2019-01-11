@@ -1,4 +1,4 @@
-//Example 5.6
+//Example 5.5
 clc
 disp("The given values are, K = Rotor turns/Stator turns = 1/2 = 0.5 and")
 disp("P = 4, f = 50 Hz, N = 1455 r.p.m, E_line = 415 V")

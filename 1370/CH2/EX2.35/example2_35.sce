@@ -1,4 +1,4 @@
-//example2.25
+//example2.35
 clc
 disp("P=4, N=750 rpm, (E_g)=240 V, A=2 as wave, Z=792")
 disp("(E_g)=(psi*P*N*Z)/(60*A)  i.e.  240=(psi*4*750*792)/(60*2)")

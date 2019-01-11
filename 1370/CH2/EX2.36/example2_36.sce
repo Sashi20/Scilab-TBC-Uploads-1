@@ -1,4 +1,4 @@
-//exmaple2.26
+//exmaple2.36
 clc
 disp("(P_out)=1500 kW, (V_t)=550 V, P=10, A=P as lap, N=150 rpm, Z=2500, (P_cu)=25 kW, B=0.9 Wb/m^2")
 i=(1500*1000)/550

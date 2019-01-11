@@ -1,4 +1,4 @@
-//example2.26
+//example2.25
 clc
 disp("For a d.c. generator,")
 disp("E_g=(psi*N*P*Z)/(60*A)    i.e    E_g is directly proportional to (psi*N)      ... (P*Z)/(60*A) is constant")
