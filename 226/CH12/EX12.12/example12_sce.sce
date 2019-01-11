@@ -1,5 +1,5 @@
 //chapter 12
-//example 12.11
+//example 12.12
 //page 498
 printf("\n")
 printf("given")

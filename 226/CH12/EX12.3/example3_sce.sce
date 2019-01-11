@@ -3,6 +3,7 @@
 //page 477
 printf("\n")
 printf("given")
+Rc=10; //For exact value, refer to textbook and change accordingly 
 hfe=100;Ie=1.3*10^-3;f1=100;R1=120*10^3;R2=39*10^3;rs=600;Rl=R1;
 re=(26*10^-3)/Ie
 Xc2=re;

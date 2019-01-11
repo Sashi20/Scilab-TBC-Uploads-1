@@ -3,6 +3,7 @@
 //page 762
 printf("\n")
 printf("given")
+Ie2=2; //For exact value, refer to textbook and change accordingly 
 Vo=12;Il=40*10^-3;Vs=20;Vbe=.7;
 Vz=.75*Vo
 disp("for minimum D1 current select")
