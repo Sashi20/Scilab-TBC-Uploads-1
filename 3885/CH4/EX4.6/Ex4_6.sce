@@ -6,8 +6,8 @@
 // Example 4.6
 clc;
 clear;
-s=poly(0,'s')//defines s as  poly nomial variable
-h=syslin('c',(5*(1+2*s))/(1+4*s)*(4+0.25*s))//the given transfer function assigned to variablr h
+s=poly(0,'s')//defines s as  polynomial variable
+h=syslin('c',(5*(1+2*s))/(1+4*s)*(4+0.25*s))//the given transfer function assigned to variable h
 scf(1)
 bode(h,0.1,100)//frequency range
 show_margins(h)

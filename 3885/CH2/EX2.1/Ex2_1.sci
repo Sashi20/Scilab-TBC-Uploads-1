@@ -10,14 +10,14 @@ n=300;// number of turns
 li=0.01//linearity =1%
 v=30//voltage=30V
 kp=v/n
-disp(kp,'potentiometer constant in (volts/turn)')
+disp(kp,'Potentiometer constant in (volts/turn)')
 nmid=n/2
 vmid=kp*nmid
-disp(vmid,'voltage at mid point is;')
-disp('range of voltage at mid point with 1% linearoty is 14.7volts to 15.3 volts')//vmid(+-)0.3
-//assuming potentiometer is perfectly linear so the resistance at midpoint setting from reference is 50kohm
-//load resistance of 500Kohm  is connected in parallel with potentiometer
+disp(vmid,'Voltage at mid point is;')
+disp('Range of voltage at mid point with 1% linearity is 14.7volts to 15.3 volts')//vmid(+-)0.3
+//assuming potentiometer is perfectly linear so the resistance at midpoint setting from reference is 50kiloohm
+//load resistance of 500Kiloohm  is connected in parallel with potentiometer
 req=(500*50)/(500+50)
 v0=(v*req)/(50+req)//using voltage divison rule
-disp(v0,'voltage at midpoint with load resistance 500Kohm (in volts)')
+disp(v0,'Voltage at midpoint with load resistance 500Kiloohm (in volts)')
 

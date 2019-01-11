@@ -7,9 +7,8 @@
 
 clc;
 clear;
-s=poly(0,'s')//defines s as  poly nomial variable
+s=poly(0,'s')//defines s as  polynomial variable
 h=syslin('c',(5/(s*(1-s))))//the given transfer function assigned to variable h
 scf()
 nyquist(h)
-show_margins(h,'nyquist')
-disp('both open loop and closed loop system are unstable)
+disp('Both open loop and closed loop functions are unstable ')
