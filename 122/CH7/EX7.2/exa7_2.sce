@@ -1,12 +1,10 @@
-// Example 7-2
-// Steady state sinusoidal output lag and lead
+// Example 7-2 
+// Steady state sinusoidal output lag and lead plot()
 
 clear; clc;
 xdel(winsid());  //close all windows
 
-// please set the path
-// cd "/<your code directory>/"
-// exec("plotresp.sci")
+exec("plotresp.sci")
 
 s = %s;
 T1 = 1;

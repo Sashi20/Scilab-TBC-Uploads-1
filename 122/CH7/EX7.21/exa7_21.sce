@@ -4,9 +4,7 @@
 clear; clc;
 xdel(winsid());  //close all windows
 
-// please edit the path
-// cd "/<your code directory>/";
-// exec("shmargins.sci");
+exec("shmargins.sci");
 
 s = %s /2 / %pi;  // corrected for frequencies in rad/s
 num = 20*(s+1);

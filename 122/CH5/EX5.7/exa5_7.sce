@@ -3,10 +3,7 @@
 
 clear; clc;
 xdel(winsid()); //close all windows
-
-// Please edit the path
-// cd "/<your code directory>/";
-// exec("plotresp.sci");
+exec("plotresp.sci");
 
 t = 0:0.1:16;
 A = [-1  0.5; -1  0];

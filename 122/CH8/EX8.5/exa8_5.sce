@@ -4,9 +4,7 @@
 clear; clc;
 xdel(winsid());  //close all windows
 mode(0);
-// please edit the path
-// cd "";
-// exec("plotresp.sci");
+exec('plotresp.sci');
 
 s = %s;
 Gp = 5 / (s+1) / (s+5)
@@ -48,4 +46,3 @@ plotresp(t,t,YbyR,'Response to ramp reference input');
 subplot(2,1,2);
 u = 1/2 * t.^2;
 plotresp(u,t,YbyR,'Response to acceleration reference input');
-

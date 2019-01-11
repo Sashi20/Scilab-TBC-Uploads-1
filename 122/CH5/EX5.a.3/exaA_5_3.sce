@@ -4,9 +4,7 @@
 clear; clc;
 xdel(winsid());  //close all windows
 
-// Please edit the path
-// cd "/<your code directory>/";
-// exec("plotresp.sci");
+exec("plotresp.sci");
 
 s = %s;
 K = 1.42;
@@ -24,4 +22,3 @@ Mp = m - 1;
 tp = (t - 1) * 0.1;
 disp(Mp,'Mp = ');
 disp(tp,'tp = ');
-

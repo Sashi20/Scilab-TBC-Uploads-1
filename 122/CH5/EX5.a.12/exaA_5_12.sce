@@ -3,10 +3,7 @@
 
 clear; clc;
 xdel(winsid());  //close all windows
-
-// Please edit path if needed
-// cd "/<your code folder>/"
-// exec("plotresp.sci");
+exec("plotresp.sci");
 
 s = %s;
 G = syslin('c', s + 10, s^3 + 6*s^2 + 9*s + 10);

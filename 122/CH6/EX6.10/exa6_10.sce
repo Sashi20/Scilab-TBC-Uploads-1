@@ -4,9 +4,7 @@
 clear; clc;
 xdel(winsid());  //close all windows
 
-// please edit the path
-// cd "/<your code directory>/";
-// exec("plotresp.sci");
+exec("plotresp.sci");
 
 function [G,C] = getsystem(K)
   G = 20 / ( s*(s+1)*(s+4) + K*s ); //open loop system

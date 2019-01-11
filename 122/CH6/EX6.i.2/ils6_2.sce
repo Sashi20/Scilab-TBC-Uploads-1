@@ -7,9 +7,7 @@
 clear; clc;
 xdel(winsid());  //close all windows
 
-// please set the path
-// cd "/<your code directory>/"
-// exec("rootl.sci");
+exec("rootl.sci");
 
 s = %s;
 P = 1 /( s * (s + 1) * (s + 2) );
@@ -24,5 +22,3 @@ S = X + %i * Y;
 K = abs(horner(P,S)) ; // Gain evaluated over the grid
 
 contour(v,v,K,10);  // plot lines of constant gain
-
-

@@ -4,10 +4,8 @@ clear; clc;
 xdel(winsid());  //close all windows
 mode(0);
 
-// please edit the path
-// cd <your code directory>
-// exec("plotresp.sci");
-// exec("rootl.sci");
+exec("plotresp.sci");
+exec("rootl.sci");
 
 s = %s;
 G = 1 / ( s * (s + 1) * (s + 5) )
@@ -50,4 +48,3 @@ disp(H2,'closed loop system2 =');
 plotresp(u,t,H2,'Step Response to a PID controlled system');
 xstring(1.5,1.65,'System 1');
 xstring(0.5,1.3,'System 2');
-

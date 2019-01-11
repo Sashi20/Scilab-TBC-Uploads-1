@@ -4,9 +4,7 @@
 clear; clc;
 xdel(winsid());  //close all windows
 
-// please edit the path
-// cd "";
-// exec("plotresp.sci");
+exec("plotresp.sci");
 
 s = %s;
 G = 4 / ( s^3+ 6*s^2 + 8*s + 4);
@@ -63,5 +61,4 @@ H = G * Gc;
 H = syslin('c', H /. 1);
 plotresp(u,t,H,'Step Response with smallest overshoot');
 disp(Gc,'Gc = ');
-disp(H,'H = '); 
- 
+disp(H,'H = ');

@@ -4,10 +4,8 @@
 clear; clc;
 xdel(winsid());  //close all windows
 
-// please set the path
-// cd "/<your code directory>/"
-// exec("rootl.sci");
-// exec("gainat.sci");
+exec("rootl.sci");
+exec("gainat.sci");
 
 function drawr()
   rootl(G,[-4 -4; 4 4],'Gain at an arbitary point on the root locus');

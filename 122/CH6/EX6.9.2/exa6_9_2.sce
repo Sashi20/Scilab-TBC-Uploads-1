@@ -4,9 +4,7 @@
 clear; clc;
 xdel(winsid());  //close all windows
 
-// please edit the path
-// cd "/<your code directory>/";
-// exec("plotresp.sci");
+exec("plotresp.sci");
 
 s = %s;
 G = 4 / (s * (s + 0.5));

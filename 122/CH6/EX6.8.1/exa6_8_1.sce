@@ -4,9 +4,7 @@
 
 clear; clc;
 xdel(winsid());  //close all windows
-// please edit the path
-// cd "/<your code directory>/";
-// exec("rootl.sci");
+exec("rootl.sci");
 
 s = %s;
 G = syslin('c',4 , s * (s + 0.5)); //open loop system

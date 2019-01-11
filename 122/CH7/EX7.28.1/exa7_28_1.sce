@@ -5,9 +5,7 @@ clear; clc;
 xdel(winsid());  //close all windows
 mode(0);
 
-// please edit the path
-// cd "/<your code directory>/";
-// exec("shmargins.sci");
+exec("shmargins.sci");
 
 s = %s /2 /%pi ;
 G = 1 / (s * (s + 1) * (s + 2));
@@ -29,7 +27,7 @@ p2 = z2 / beta;
 disp((%s + z2)/(%s + p2),'Gclead = '); 
 Gclead = (s + z2)/(s + p2);
 
-z1 = 0.7 ; //corner frequencies are around w = 7 <-> -20db
+z1 = 0.7 ; //corner frequencies are around w = 7 &lt;-&gt; -20db
 p1 = 7;
 disp((%s + z1)/(%s + p1),'Gclag = '); 
 Gclag = (s + z1)/(s + p1);
@@ -38,5 +36,3 @@ Gc = K * Gclag * Gclead;
 GGc = syslin('c',Gc * G);
 scf();
 shmargins(GGc);
-
-

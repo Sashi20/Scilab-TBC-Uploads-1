@@ -5,9 +5,7 @@ clear; clc;
 xdel(winsid());  //close all windows
 mode(0);
 
-// please edit the path
-// cd "<path to dependencies>";
-// exec("ackermann.sci");
+exec('ackermann.sci');
 
 A = [0 1 0; 0 0 1;-1 -5 -6];
 B = [0; 0; 1];

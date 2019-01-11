@@ -4,9 +4,7 @@
 clear; clc;
 xdel(winsid());  //close all windows
 
-// please edit the path
-// cd "/<your code directory>/";
-// exec("spolarplot.sci");
+exec("spolarplot.sci");
 
 s = %s;
 G = syslin('c',1,s*(s+1));

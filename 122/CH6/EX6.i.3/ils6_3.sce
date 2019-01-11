@@ -8,9 +8,7 @@
 clear; clc;
 xdel(winsid());  //close all windows
 
-// please set the path
-// cd "/<your code directory>/"
-// exec("rootl.sci");
+exec("rootl.sci");
 
 function J = add(n,H)
   
@@ -18,7 +16,7 @@ function J = add(n,H)
   x = z(1);y = z(2);
   N = H.num;
   D = H.den;
-  if abs(y) <= 0.2 then    
+  if abs(y) &lt;= 0.2 then    
     if n == 1 then  D = D * (s-x);
       else   N = N * (s-x);
     end

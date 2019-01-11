@@ -5,9 +5,7 @@ clear; clc;
 xdel(winsid());  //close all windows
 mode(0);
 
-// please edit the path
-// cd "<your code directory>";
-// exec("plotresp.sci");
+exec("plotresp.sci");
 
 s = %s;
 Gp = syslin('c',s + 0.1,s^2 + 1);

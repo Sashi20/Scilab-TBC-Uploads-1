@@ -4,10 +4,8 @@
 clear; clc;
 xdel(winsid());  //close all windows
 mode(0);
-// please edit the path
-// cd "";
-// exec("plotresp.sci");
-// exec("stepch.sci");
+exec("plotresp.sci");
+exec("stepch.sci");
 
 s = %s;
 zeta = 0.5       // dominant pole charecteristics

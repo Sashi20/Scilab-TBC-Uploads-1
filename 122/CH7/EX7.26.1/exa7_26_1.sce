@@ -5,9 +5,7 @@ clear; clc;
 xdel(winsid());  //close all windows
 mode(0);
 
-// please edit the path
-// cd "/<your code directory>/";
-// exec("shmargins.sci");
+exec("shmargins.sci");
 
 s = %s/2/%pi;
 G = 4 / (s * (s + 2));

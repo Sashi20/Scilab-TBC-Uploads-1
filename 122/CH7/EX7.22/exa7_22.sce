@@ -4,9 +4,7 @@
 clear; clc;
 xdel(winsid());  //close all windows
 
-// please edit the path
-// cd "/<your code directory>/";
-// exec("plotresp.sci");
+exec("plotresp.sci");
 
 s = %s /2 /%pi; // frequencies in rad/s
 G1 = syslin('c',1,s + 1);

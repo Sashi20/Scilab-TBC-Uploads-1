@@ -4,10 +4,8 @@
 clear; clc;
 xdel(winsid());  //close all windows
 
-// please edit the path
-// cd "/<your code directory>/";
-// exec("rootl.sci");
-// exec("plotresp.sci");
+exec("rootl.sci");
+exec("plotresp.sci");
 
 s = %s;
 G = syslin('c',1,s^2);

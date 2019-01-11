@@ -3,10 +3,7 @@
 // for a Single Input Single Output System 
 
 clear; clc; close;
-
-// Please edit the path below
-// cd "/your code directory/";
-// exec("transferf.sci");
+exec("transferf.sci");
 
 A = [-1 1 0; 0 -1 1; 0 0 -2];
 B = [0; 0; 1];

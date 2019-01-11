@@ -3,10 +3,7 @@
 //            for a multiple input multiple output system 
 
 clear; clc; close;
-
-// Please edit the path below
-// cd "/your code directory/";
-// exec("transferf.sci");
+exec("transferf.sci");
 
 A = [0 1; -25 -4];
 B = [1 1; 0 1];

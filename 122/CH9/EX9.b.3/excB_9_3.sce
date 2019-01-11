@@ -4,9 +4,7 @@
 clear; clc;
 xdel(winsid());  //close all windows
 
-// please edit the path
-// cd "<path to dependencies>";
-// exec("transferf.sci");
+exec('transferf.sci');
 
 A = [1 2; -4 -3];
 B = [1;2];
@@ -27,5 +25,3 @@ Htf1 = transferf(A,B,C,D);
 Htf2 = transferf(Ac,Bc,Cc,D);
 disp(Htf1,'Htf1 = ');
 disp(Htf2,'Htf2 = ');
-
-

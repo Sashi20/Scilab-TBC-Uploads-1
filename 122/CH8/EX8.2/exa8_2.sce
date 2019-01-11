@@ -4,9 +4,7 @@
 clear; clc;
 xdel(winsid());  //close all windows
 
-// please edit the path
-// cd "";
-// exec("plotresp.sci");
+exec("plotresp.sci");
 
 s = %s;
 G = 1.2 / ( 0.36*s^3+ 1.86*s^2 + 2.5*s + 1);
@@ -27,10 +25,10 @@ for i = 1:6
     H = syslin('c', H /. 1);
     y = csim(u,t,H); 
     m = max(y);
-    if m < 1.1 then 
+    if m &lt; 1.1 then 
       y = csim(u1,t1,H);
       m = max(y);
-      if m  < 1.1 then
+      if m  &lt; 1.1 then
         k = k + 1; 
         solution(k,:) = [K(i) a(j) m];
       end
@@ -55,4 +53,3 @@ H = syslin('c', H /. 1);
 plotresp(u1,t1,H,'Step Response with 10% overshoot');
 disp(Gc,'Gc = ');
 disp(H,'H = ');
-  

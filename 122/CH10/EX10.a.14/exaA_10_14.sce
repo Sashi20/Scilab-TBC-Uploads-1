@@ -5,9 +5,7 @@ clear; clc;
 xdel(winsid());  //close all windows
 mode(0);
 
-// please edit the path
-// cd "<path to dependencies>";
-// exec("minorder.sci");
+exec("minorder.sci");
 
 function smallplot(i)
   subplot(2,2,i);xgrid(color('gray'));

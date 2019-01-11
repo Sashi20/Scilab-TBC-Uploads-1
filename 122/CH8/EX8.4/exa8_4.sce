@@ -4,9 +4,7 @@
 clear; clc;
 xdel(winsid());  //close all windows
 mode(0);
-// please edit the path
-// cd "";
-// exec("plotresp.sci");
+exec("plotresp.sci");
 
 s = %s;
 // Design Step 1: choosing a, b and c.
@@ -38,9 +36,9 @@ for i = 1:21
         m = max(y);
         if m < 1.19 & m > 1.02 then
           l = N;
-          while y(l) > 0.98 & y(l) < 1.02 ; l = l-1; end
+          while y(l) &gt; 0.98 & y(l) &lt; 1.02 ; l = l-1; end
             ts = (l-1) * 0.01; 
-          if ts < 1.0 then
+          if ts &lt; 1.0 then
              k = k + 1;
              solution(k,:) = [a b c m ts];
            end

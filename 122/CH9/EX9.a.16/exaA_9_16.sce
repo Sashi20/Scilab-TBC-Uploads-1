@@ -4,9 +4,7 @@
 clear; clc;
 xdel(winsid());  //close all windows
 
-// please edit the path
-// cd "<path to dependencies>";
-// exec("transferf.sci");
+exec("transferf.sci");
 
 
 A = [-3 1; -2  1.5];
@@ -19,4 +17,3 @@ disp(det(Cc), 'det(Cc) = ');
 Htf = transferf(A,B,C,D); disp(Htf,'Reduced transfer function =');
 e = spec(A);              disp(e,'Eigen values = ');
 D = poly(e,'s');   disp(D,'actual denominator (characteristic poly) =');
- 

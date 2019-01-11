@@ -4,10 +4,8 @@
 clear; clc;
 xdel(winsid());  //close all windows
 
-// please edit the path
-// cd "<path for the dependencies>";
-// exec("pf_residu.sci");
-// exec("ilaplace.sci");
+exec('pf_residu.sci');
+exec('ilaplace.sci');
   
 s = %s;
 A = [0 1; -2 -3];

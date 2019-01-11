@@ -5,9 +5,7 @@ clear; clc;
 xdel(winsid());  //close all windows
 mode(0)
 
-// please edit the path
-// cd "<path to dependencies>";
-// exec("plotresp.sci");
+exec("plotresp.sci");
 
 s = %s;
 Gp = cont_frm( 1, s*(s+1)*(s+2));

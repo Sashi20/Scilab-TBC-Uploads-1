@@ -4,9 +4,8 @@
 clear; clc;
 xdel(winsid());  //close all windows
 mode(0);
-// please edit the path
-// cd "<path to dependencies";
-// exec("plotresp.sci");
+
+exec('plotresp.sci');
 
 s = %s;
 Gp = 100 /(s*(s + 1))
@@ -51,4 +50,3 @@ subplot(2,1,2);
 t = 0:0.01:2;
 u = 1/2 * t.^2;
 plotresp(u,t,YbyR,'Response to acceleration reference input');
-

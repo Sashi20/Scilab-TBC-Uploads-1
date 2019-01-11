@@ -4,9 +4,7 @@
 clear; clc;
 xdel(winsid());  //close all windows
 
-// please edit the path
-// cd "<path for the dependencies>";
-// exec("pf_residu.sci");
+exec('pf_residu.sci');
 
 s = %s;
 N = s + 3;

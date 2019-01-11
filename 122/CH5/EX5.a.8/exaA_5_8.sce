@@ -4,10 +4,8 @@
 clear; clc;
 xdel(winsid());  //close all windows
 
-// Please edit path
-// cd "<your codes path>/";
-// exec("pf_residu.sci");
-// exec("plotresp.sci");
+exec("pf_residu.sci");
+exec("plotresp.sci");
 
 s = %s ;
 N = poly( [80 72 25 3],'s','c');
@@ -22,6 +20,4 @@ plotresp(u,t,G,'Unit Step Response of C(s) / D(s)');
 D = D * s; 
 [r,z,p] = pf_residu(N,D);
 
-disp(z,'zeros = ');disp([p,r],'poles : residues  ='); 
-
-  
+disp(z,'zeros = ');disp([p,r],'poles : residues  =');
