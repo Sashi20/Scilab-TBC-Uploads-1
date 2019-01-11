@@ -7,10 +7,6 @@ I_L=VA/(sqrt(3)*V_L)    //because VA=sqrt(3)*V_L*I_L
 I_aph=I_L//full load and star connected alternator
 V_ph=V_L/sqrt(3)
 
-//Graph is plotted and V_oc_ph and I_asc_Ph is obtained for 
-//SCC for I_asc=66.67 A,I_f=2.4 A
-//OCC for I_f=2.4 A,V_oc_ph=240 V
-
 //for measruemnt of impedance
 V_oc_ph=240 //for I_f=2.4..From o.c.c graph
 I_asc_ph=66.67 //for I_f=2.4...From s.c.c graph

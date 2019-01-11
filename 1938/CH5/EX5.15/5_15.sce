@@ -9,14 +9,12 @@ V_L=6600, V_ph=V_L/sqrt(3)
 //lagging
 phi=acos(0.8) 
 F_R= sqrt((F_O+F_AR*sin(phi) )^2 + (F_AR*cos(phi))^2 ) 
-//E_ph corresponding to F_R can be obtained by plotting open circuit characteristics
 E_ph=4350
 regulation=100*(E_ph-V_ph)/V_ph
 printf('(i)By Ampere-turn method or MMF method\nFull-load regulation at 0.8 lagging pf is %.2f percent\n',regulation)
 //leading
 phi=acos(0.8) 
 F_R= sqrt((F_O-F_AR*sin(phi) )^2 + (F_AR*cos(phi))^2 ) 
-//E_ph corresponding to F_R can be obtained by plotting open circuit characteristics
 E_ph=3000
 regulation=100*(E_ph-V_ph)/V_ph
 printf('Full-load regulation at 0.8 leading pf is %.2f percent\n',regulation)
