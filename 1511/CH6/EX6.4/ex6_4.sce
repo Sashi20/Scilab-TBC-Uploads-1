@@ -1,4 +1,4 @@
-// Example 6.12 page no-349
+// Example 6.4 page no-349
 clear
 clc
 
