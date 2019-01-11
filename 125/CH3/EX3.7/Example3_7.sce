@@ -2,6 +2,9 @@
 //Example3.7
 //page 111
 clc;
+exec('conv2d2.sce');
+exec('fft2d.sce');
+exec('ifft2d.sce');
 x =[1,2;3,4];
 h = [5,6;7,8];
 y = conv2d2(x,h);

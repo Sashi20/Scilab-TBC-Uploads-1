@@ -2,6 +2,8 @@
 //Example4.4
 //page 170
 clc;
+exec('dft_mtx.sce');
+
 f = [1,1,1,1;1,1,1,1;1,1,1,1;1,1,1,1];
 N =4; //4-point DFT
 kernel = dft_mtx(N);
@@ -13,4 +15,4 @@ disp(F,'2D DFT of given 2D image =')
 //    16.    0    0    0  
 //    0      0    0    0  
 //    0      0    0    0  
-//    0      0    0    0  
+//    0      0    0    0

@@ -2,6 +2,8 @@
 //Example3.16
 //page 134
 clc;
+exec('fft2d.sce');
+exec('ifft2d.sce');
 x = [5,10;15,20];
 h = [3,6;9,12];
 h = h(:,$:-1:1);

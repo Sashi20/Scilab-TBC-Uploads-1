@@ -2,6 +2,8 @@
 //Example3.12
 //page 122
 clc;
+exec('fft2d.sce');
+exec('ifft2d.sce');
 x = [1,2;3,4];
 h = [5,6;7,8];
 X = fft2d(x); //2D FFT of x matrix
