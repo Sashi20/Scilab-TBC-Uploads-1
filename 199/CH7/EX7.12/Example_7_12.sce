@@ -1,6 +1,6 @@
 // Chapter7
 // Page.No-282
-// Example_7_1
+// Example_7_12
 // Design of phase shift oscillator
 // Given
 clear;clc;

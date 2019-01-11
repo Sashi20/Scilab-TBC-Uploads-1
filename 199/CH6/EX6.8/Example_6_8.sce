@@ -1,6 +1,6 @@
 // Chapter6
 // Page.No-209, Figure.No-6.12
-// Example_6_7
+// Example_6_8
 // Change in resistance in straingage
 // Given
 clear;clc;
