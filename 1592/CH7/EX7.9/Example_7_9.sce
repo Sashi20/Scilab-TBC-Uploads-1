@@ -1,7 +1,6 @@
 //Scilab Code for Example 7.9 of Signals and systems by
 //P.Ramakrishna Rao
 clc;
-clear x y1 y y2 q t n;
 clear;
 //y(t)=exp|x(n)|
 x1=[1,3,5,3];//random variable

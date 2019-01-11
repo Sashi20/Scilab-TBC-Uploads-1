@@ -1,7 +1,6 @@
 //Scilab Code for Example 7.6 of Signals and systems by
 //P.Ramakrishna Rao
 clc;
-clear x y1 y y2 q t n;
 clear;
 //y(n)=x(n)-x(n-1);
 x=[2,4,3,6,7]
@@ -17,4 +16,3 @@ a=x(n-2)-x(n-2-1);
 disp(a,'x(n-2):');
 disp(b,'is equal to y(n-2):');
 disp('Hence the system is Shift invariant/fixed');
-

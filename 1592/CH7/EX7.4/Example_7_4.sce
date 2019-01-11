@@ -1,11 +1,10 @@
 //Scilab Code for Example 7.4 of Signals and systems by
 //P.Ramakrishna Rao
 clc;
-clear x y1 y y2 q t n;
 clear;
 //y(t)=x(2*t)
-disp('y(t) depends upon past inputs for t<0');
-disp('y(t) depends upon future inputs for t>0');
+disp('y(t) depends upon past inputs for t&lt;0');
+disp('y(t) depends upon future inputs for t&gt;0');
 disp('Hence the system is Dynamic');
 x1=[1,3,5,7,2,5,3,9];//Random Variable
 x2=[2,4,6,8,2,4,2,1];

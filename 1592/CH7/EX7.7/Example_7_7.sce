@@ -1,7 +1,6 @@
 //Scilab Code for Example 7.7 of Signals and systems by
 //P.Ramakrishna Rao
 clc;
-clear x y1 y y2 q t n;
 clear;
 //y(t)=n*x(n)
 disp('y(n) depends only upon present inputs');

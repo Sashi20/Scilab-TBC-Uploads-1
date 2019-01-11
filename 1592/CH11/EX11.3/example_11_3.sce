@@ -2,7 +2,6 @@
 //P.Ramakrishna Rao
 //Hilbert Transform
 clc;
-clear xr n t x1 x2;
 clear;
 n=1;
 for t=-1:0.01:1
@@ -16,9 +15,9 @@ x=x1+x2;
 t=-1:0.01:1;
 plot(t,xr);
 title('Given Signal x(t)');
-xlabel('time t-->');
+xlabel('time t--&gt;');
 figure(1);
 t=-1:0.01:1;
 plot(t,imag(x));
 title('Hilbert Transform');
-xlabel('time t-->');
+xlabel('time t--&gt;');

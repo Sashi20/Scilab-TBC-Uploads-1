@@ -1,11 +1,10 @@
 //Scilab Code for Example 7.5 of Signals and systems by
 //P.Ramakrishna Rao
 clc;
-clear x y1 y y2 q t n;
 clear;
 //y(t)=x(2*n)
-disp('y(n) depends upon past inputs for n<0');
-disp('y(n) depends upon future inputs for n>0');
+disp('y(n) depends upon past inputs for n&lt;0');
+disp('y(n) depends upon future inputs for n&gt;0');
 disp('Hence the system is Dynamic');
 x1=[1,3,5,3,2,5,3,9];//random variable
 x2=[2,4,6,4,2,4,2,1];

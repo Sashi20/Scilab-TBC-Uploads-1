@@ -1,7 +1,6 @@
 //Scilab Code for Example 7.3 of Signals and systems by
 //P.Ramakrishna Rao
 clc;
-clear x y1 y y2 q t n;
 clear;
 //y(n)=x(n)-x(n-1);
 disp('y(n) depends upon past inputs also');
@@ -24,4 +23,3 @@ y=b1*y1+b2*y2;
 disp(q,'This input gives the output:');
 disp(y,'For the system to be linear the output should be:');
 disp('Hence the system is linear');
-
