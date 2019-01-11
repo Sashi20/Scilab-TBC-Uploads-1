@@ -6,9 +6,9 @@ clc;
 // Material Balances involving Chemical Reaction
 
 
-// Example 4.5
+// Example 4.6
 // Page 121
-printf("Example 4.5, Page 121 \n \n");
+printf("Example 4.6, Page 121 \n \n");
 
 // solution
 
@@ -23,7 +23,7 @@ m=100 //[kmol] (basis) dry mixed gas
 //r = r1+r2 // taoal H2 
 ///n =.02x+.63y // N2 entering
 //N2:H2=1:3
-// ==> x-1.807y = 0(ii)
+// ==&gt; x-1.807y = 0(ii)
 //solving (i) and (ii)
 A = [1 1;1 -1.807]
 d = [100;0]

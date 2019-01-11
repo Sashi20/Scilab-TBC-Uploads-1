@@ -8,14 +8,14 @@ clc;
 
 // Example 3.18
 // Page 79
-printf("Example 3.10, Page 79 \n \n");
+printf("Example 3.18, Page 79 \n \n");
 
 // solution
 
 // Overall balance
 // F=R1+P2
 // Balance across Module I
-// F+R2 = R1+P1 ==> R1+P2+R2 = R1+P1
+// F+R2 = R1+P1 ==&gt; R1+P2+R2 = R1+P1
 // balance across module II
 // P1 = P2+R2
 P2 = 5 //[m^3/h]
