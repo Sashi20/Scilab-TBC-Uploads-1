@@ -1,5 +1,4 @@
-
-//example 2-2 in page 20
+//example 2-3 in page 20
 clc;
 //given data
 V1=100;//stated voltage one
@@ -12,4 +11,4 @@ E=V1-V2;// difference voltage
 emax=(e/E)*100;//maximum percentage error
 printf("E=%d V +/- %d percent",E,emax);
 //result
-//E=20 V +/- 25 percent 
+//E=20 V +/- 25 percent

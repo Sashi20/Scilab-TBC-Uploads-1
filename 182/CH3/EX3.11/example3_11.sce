@@ -1,5 +1,5 @@
 //To find  resistance Rs and Rsh in the given ciruit
-// example 3-10 in page 55
+// example 3-11 in page 55
 clc;
 //data given
 Iav=50e-6;//average current through PMCC instrument=50 micro ampere

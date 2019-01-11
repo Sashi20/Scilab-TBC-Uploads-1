@@ -1,5 +1,5 @@
 // To find the required multiplier resistance for the two given circuits
-//Example3-7 in page 49
+//Example3-8 in page 49
 clc;
 //Given data
 V=[10 50 100];// voltage ranges in volt
