@@ -1,7 +1,3 @@
-// Prob 1.15
-clc;
-clear;
-close;
 format('v',7);
 // Given data
 P=1000//in KVA
@@ -39,5 +35,3 @@ disp(Eline,"(c) Induced emf(V) : ");
 //Applying sine rule
 alfa=asind(ER/Eb*sind(theta+fi));//in degree
 disp("Angular retardation "+string(floor(alfa))+" degree "+string(floor(60*(alfa-floor(alfa))))+"min");
-//Note : Figure given in this question is not a plot. It is just drawn to represent data and can't be plotted.
-//Note : Answers in the book is not as much accurate as calculated by Scilab.
