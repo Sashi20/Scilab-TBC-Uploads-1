@@ -1,4 +1,4 @@
-//Solve Problem 1.11 using a SPICE method
+//Solve Problem 1.12 using a SPICE method
 //Solved Example 1.12 page no 21
 clear
 clc

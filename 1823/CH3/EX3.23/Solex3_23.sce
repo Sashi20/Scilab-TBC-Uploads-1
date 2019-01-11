@@ -1,5 +1,5 @@
 //Find the minimum value of RC that will maintain the transistor quiescent point at saturation,
-//Solved Example Ex3.16 page no 89
+//Solved Example Ex3.23 page no 89
 clear
 clc
 b=80
