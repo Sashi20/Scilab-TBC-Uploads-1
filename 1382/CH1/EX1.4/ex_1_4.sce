@@ -1,4 +1,4 @@
-// Example 1.3: standard resistor
+// Example 1.4: standard resistor
 clc, clear
 vf=1.8; // in volts
 if=16*10^-3; // in ampere

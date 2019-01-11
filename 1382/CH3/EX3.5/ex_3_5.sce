@@ -1,4 +1,4 @@
-// Example 3.1: determine maximum output power
+// Example 3.5: determine maximum output power
 clc, clear;
 Rl=80; // load resistance in ohm
 alfa=5; // turn ratio
@@ -12,18 +12,4 @@ disp(Rl1,"load as seen by transformer primary (ohm) = ")
 disp(Imax,"maximum current (mA) = ")
 disp(Imin,"minimum current (mA) = ")
 disp(Irms,"rms value of current (mA) = ")
-disp(Pout,"maximum power output (W) = ") 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+disp(Pout,"maximum power output (W) = ")

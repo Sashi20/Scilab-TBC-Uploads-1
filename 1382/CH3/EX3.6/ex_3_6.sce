@@ -1,4 +1,4 @@
-// Example 3.1: (i) maximum output power (ii) maximum collector efficiency (iii) power rating of the transistor
+// Example 3.6: (i) maximum output power (ii) maximum collector efficiency (iii) power rating of the transistor
 clc, clear;
 Vcc=10; // collector supply voltage in volts
 Icq=200; // zero-signal collector current in milli-ampere

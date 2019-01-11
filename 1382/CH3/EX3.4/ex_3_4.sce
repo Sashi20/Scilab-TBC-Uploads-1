@@ -1,4 +1,4 @@
-// Example 3.1: determine collector efficiency
+// Example 3.4: determine collector efficiency
 clc, clear;
 Vmax=25; //collector emitter voltag in volts
 Vmin=2.5;//collector emitter voltag in volts
