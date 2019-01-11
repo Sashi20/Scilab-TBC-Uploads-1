@@ -1,5 +1,3 @@
-
-
 //example 4.13
 //calculate maximum and minimum rainfall
 clc;funcprot(0);
@@ -16,5 +14,3 @@ end
 //from the curves
 mprintf("maximum rainfall=79cm for T=15 years.");
 mprintf("\nminimum rainfall =31 cm for T=15 years.");
-//graph is plotted between rd and T;ri and T
-

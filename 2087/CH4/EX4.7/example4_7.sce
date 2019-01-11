@@ -1,5 +1,3 @@
-
-
 //example 4.7
 //construct hyetograph
 clc;funcprot(0);
@@ -15,5 +13,3 @@ for i=2:13
    I(i)=r(i)/t;          //Rainfall intensity
 mprintf("\n%f",I(i));
 end
-
-//graph is plotted between I and T

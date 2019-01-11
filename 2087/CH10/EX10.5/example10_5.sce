@@ -1,5 +1,3 @@
-
-
 //example 10.5
 //design upstream impervious blanket
 clc;funcprot(0);
@@ -26,9 +24,7 @@ mprintf("\nx                     Xr              ho         reduction q(percent)
 for i=1:8
     mprintf("\n%f        %f        %f        %f",x(i),Xr(i),ho(i),r(i));
 end
-//graph is plotted between r and x.
 //after around 130m length there is only slight increase in head dissipated(ho)
 L=130;
 mprintf("\nThickness of blanket=%f m",Zb);
 mprintf("\nLength of blanket=%i m.",L);
-

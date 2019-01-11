@@ -1,8 +1,6 @@
-
-
 //example 4.8
 //compute maximum rainfall intensities for 15,30,45,60,90,120 minutes
-//plot intensity duration graph
+//plot intensity durationgraph
 clc;funcprot(0);
 //given
 CR=[0 12.4 22.1 35.1 52.7 63.7 81.9 109.2 123.5 132.6 143.3 146.0 146.0];  //cumulative rainfall
@@ -37,4 +35,3 @@ for i=1:13
 end
 I=[109.2 91 79.7 74.1 67.6 61.75];    //maximum intensity at respective durations
 D=[15 30 45 60 90 120];               //durations
-//greph is plotted between I and D

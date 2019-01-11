@@ -24,5 +24,3 @@ for i=1:13
 u(i)=y(i)*2;
 mprintf("\n%i",u(i));
 end
-//graph is plotted between u and t
-

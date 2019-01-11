@@ -1,5 +1,3 @@
-
-
 //example 8.11
 //calculate
 //24h max. rainfall with return period of 8,15 and 25.
@@ -30,6 +28,5 @@ mprintf("\n\nprobability(percent)          Rainfall(mm)");
 for i=1:3
     mprintf("\n%i                                %i",p1(i),r2(i));
 end
-//graph is plotted on semi-log graph between r and p
 
 mprintf("\n\nFor rainfall=100 m.\nT=4 years.\nProbability=25 percent.");

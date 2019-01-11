@@ -1,5 +1,3 @@
-
-
 //example 5.13
 //calculate formation constant of acquifer using theis method
 clc;funcprot(0);
@@ -17,7 +15,7 @@ end
 for i=1:25
     rt(i)=r^2/tday(i);
 end
-//graph is plotted between s and r^2/t and W(u) and u and they are superimposed.
+//Thegraph is plotted between s and r^2/t and W(u) and u and they are superimposed.
 //from which we get
 s1=0.52;
 Wu1=2.96;

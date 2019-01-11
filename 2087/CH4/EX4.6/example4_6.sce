@@ -1,5 +1,3 @@
-
-
 //example 4.6
 //ceck whether data at station X is consistence
 //year in which regime is indicated
@@ -31,4 +29,3 @@ mprintf("\n\nYear          Observed rainfall          Adjusted rainfall");
 for i=1:8
     mprintf("\n%i                %i                     %i",Q(i),O(i),A(i));
 end
-//graph is plotted between cx and cy

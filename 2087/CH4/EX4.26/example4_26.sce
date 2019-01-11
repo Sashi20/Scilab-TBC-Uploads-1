@@ -1,7 +1,4 @@
-
-
 //example4.26
-//derive the unit hydrograph
 clc;funcprot(0);
 //given
 A=92;                   //area of drainage basin
@@ -21,6 +18,3 @@ for i=1:18
      mprintf("\n%f",u(i));
 end
 mprintf("\nHydograph is 4-hr unit hydrograph");
-//graph is plotted between:
-//r and t
-//u and t

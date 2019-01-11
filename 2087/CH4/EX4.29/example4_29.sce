@@ -1,7 +1,4 @@
-
-
 //example4.29
-//derive and plot 6 hr unit hydrograph
 clc;funcprot(0);
 //given
 A=103.4;      //area of basin
@@ -19,4 +16,3 @@ for i=1:9
     mprintf("\n%f",u(i));
 end
 mprintf("\n\nThe succesive unit hydrograph will have same ordinates but will be shifted\nlaterally by 6 hrs.");
-//graph is plotted between u and t.

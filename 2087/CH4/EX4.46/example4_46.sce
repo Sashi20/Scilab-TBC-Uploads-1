@@ -1,5 +1,3 @@
-
-
 //example 4.46
 //draw storm hyetograph and intensity duration curve
 clc;funcprot(0);
@@ -13,5 +11,3 @@ for i=2:5
     I(i)=r(i)*60/30;           //rainfall intensity
     mprintf("\n%f",I(i));
 end
-//graph is plotted between I and t.
- 

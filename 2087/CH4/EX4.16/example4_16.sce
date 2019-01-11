@@ -1,5 +1,3 @@
-
-
 //example 4.16
 //plot infiltration capacity curve
 //calculate constant rate of infiltration
@@ -23,7 +21,7 @@ end
 for i=2:13
     ft(i)=Fd(i)/dt(i);     //infirltration rate
 end
-//from the graph
+
 mprintf("constant rate of infiltration=0.40 cm/hr.");
 avg10=F(4)*60/10;
 avg30=F(6)*60/30;
@@ -31,4 +29,3 @@ avg10=round(avg10*100)/100;
 avg30=round(avg30*100)/100;
 mprintf("\naverage rate of infiltration for first 10 min=%f cm/hr.",avg10);
 mprintf("\naverage rate of infiltration for first 30 min=%f cm/hr.",avg30);
-//graph is plotted between ft and t

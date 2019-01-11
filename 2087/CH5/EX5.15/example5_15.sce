@@ -9,7 +9,6 @@ s=[0.2 0.26 0.3 0.33 0.36 0.41 0.45 0.48 0.53 0.56 0.59 0.62 0.66 0.71 0.75 0.80
 for i=1:25
     tday(i)=tmin(i)/(60*24);
 end
-//graph is plotted between s and t
 //point P is choosen on it whose ordinate is:
 s1=0.45;
 t=0.00347;
@@ -24,4 +23,3 @@ T=Q*Wu/(4*%pi*s1);
 S=4*u*t*T/r^2;
 mprintf("formation constant of acquifer:");
 mprintf("\nT=%i cubic metre/day/m.\nS=%f.",T,S);
-

@@ -1,5 +1,3 @@
-
-
 //example4.19
 //calculate fi index and time of rainfall excess
 clc;funcprot(0);
@@ -24,7 +22,7 @@ ti=s-R-r(1)-r(8)-r(9);
 fi=ti/tr;
 for i=1:9
     P(i)=r(i)-fi;
-    if (P(i)<0) then
+    if (P(i)&lt;0) then
         P(i)=0;
     end
 end

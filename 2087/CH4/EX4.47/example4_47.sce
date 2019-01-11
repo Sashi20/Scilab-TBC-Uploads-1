@@ -1,5 +1,3 @@
-
-
 //example 4.47
 //calculate average depth of precipitation using depth area curve
 clc;funcprot(0);
@@ -23,4 +21,3 @@ for i=1:10
 end
 
 mprintf("From depth area curve we obtain average depth of precipitation=20.15 mm for an\narea of 2400 sq. km.");
-//graph is plotted between eud and a

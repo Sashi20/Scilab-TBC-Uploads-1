@@ -1,7 +1,4 @@
-
-
 //example4.21
-//calculateeffective rainfall hyetograph and volume of diret run-off
 clc;funcprot(0);
 //given
 A=8.6;                                    //catchment area
@@ -22,7 +19,6 @@ for i=2:9
     s=s+I(i);
     mprintf("\n%f",I(i));
 end
-//graph is plotted between I and T
 run=s*dt;
 V=run*A*10000;
 mprintf("\nVolume of direct run-off=%f cubic metre.",V);

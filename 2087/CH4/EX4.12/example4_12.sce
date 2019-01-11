@@ -1,5 +1,3 @@
-
-
 //example 4.12
 //plot IDF curve for return period of 10,2 and 1 years using california formula
 clc;funcprot(0);
@@ -14,7 +12,3 @@ for i=1:7
     i2(i)=p2(i)*60/t(i);                 //intensity of rainfall with return period of 2 years
     i3(i)=p1(i)*60/t(i);                 //intensity of rainfall with return period of 1 year
 end
-//graph is plotted between
-//t and i1
-//t and i2
-//t and i3
