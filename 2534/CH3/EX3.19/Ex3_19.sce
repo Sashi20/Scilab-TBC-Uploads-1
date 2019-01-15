@@ -1,4 +1,4 @@
-//Ex3_16
+//Ex3_19
 clc
 //considering Lissajous pattern given in question
 y1 = 2
