@@ -3,6 +3,7 @@ disp('given')
 disp('Using the gain-bandwidth product estimate upper cut off frequencies')
 disp('741 op-amp')
 disp('fu=800kHz and Av=1')
+R2=2; //For exact value, refer to textbook and change accordingly 
 fu=800000
 Av=1
 disp('f2=fu/Av')

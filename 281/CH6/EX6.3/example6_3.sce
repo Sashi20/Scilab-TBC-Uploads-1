@@ -9,6 +9,7 @@ disp("available supply voltage=+/-12V")
 Vcc=12
 disp("for P MOSFET Vdsmax=100 Idmax=210mA Rdon=5")
 Vdsmax=100 
+Vr1max=10; //For exact value, refer to textbook and change accordingly 
 Idmax=0.210
 Rdon=5
 disp("Vdsmax=Vcc=12")
