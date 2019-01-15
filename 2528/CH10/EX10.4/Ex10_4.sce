@@ -23,11 +23,11 @@ t=(0:0.001:6);
 V=Vout*ones(1:0.001:4);
 
 for i=0.001:0.001:1-.001
-    V=[Vout*(1-i) V Vout*(1-i)]
+    V=[Vout*(1-i) V Vout*(1-i)];
 end
 
-V=[V zeros(5.001:0.001:6)]
-V=[2 V 0]
+V=[V zeros(5.001:0.001:6)];
+V=[2 V 0];
 clf;
 plot(t,V)
 xgrid;
