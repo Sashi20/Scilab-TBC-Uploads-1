@@ -7,7 +7,7 @@ ucl = Xbar + 3*sqrt(Xbar);
 disp(ucl, "UCL is");
 disp(lcl, "LCL is");
 for i =1:20
-    if(X(i)> ucl )
+    if(X(i)&gt; ucl )
         total = total - X(i);
         num= num -1;
     end   
@@ -31,4 +31,4 @@ disp(ucl, "UCL is");
 disp(lcl, "LCL is");
 disp(Xbar, "It appears that the process is in control with mean");
 
-//The mean after the second recomputation is incoreectly calculated in the textbook. It should be ((17*84.41)-111 )/16 = 82.748 whereas the value given in the book is 82.56. The values of UCL and LCL change accordingly.
+//The mean after the second recomputation is incoreectly calculated in the textbook. It should be ((17*84.41)-111 )/16 = 82.748 whereas the value given in the book is 82.56. The values of UCL and LCL change accordingly.
