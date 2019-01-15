@@ -1,5 +1,5 @@
 clc;//clears the command window 
-clear;//clears all the variables 
+clear;
 //example 25.22
 //decimal to hexadecimal conversion
 format('v',4);//making the default precision to 8 significant digits
@@ -26,4 +26,3 @@ end
 b='.';//for concatenating to get the decimal part of hexadecimal 
 hex=x+b+f;//concatenating integer and decimal part
 disp(hex,'hexadecimal equivalent is');
-

@@ -1,5 +1,5 @@
 clc;//clears the command window 
-clear;//clears all the variables 
+clear;
 //example 25.17
 //decimal to octa conversion
 
@@ -10,7 +10,7 @@ temp=modulo(dec,1);//separating decimal part from the given number
 temp2=floor(dec);//separating integer part from the given number
 
 
-while(temp2>0)//storing each integer digit in vector for convenience
+while(temp2&gt;0)//storing each integer digit in vector for convenience
     p(i)=(modulo(floor(temp2),8))
     temp2=floor(temp2/8);
     i=i+1;
