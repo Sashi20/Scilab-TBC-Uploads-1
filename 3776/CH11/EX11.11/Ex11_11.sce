@@ -1,3 +1,4 @@
+
 clear
 //
 P = 200.0       //K The force on the beam
@@ -29,18 +30,19 @@ for i=1:2
   C_s = L*12/r_min(i)                  // Slenderness ratio L/R of the present situation
   if C_s <C_c then
       printf("\n Since calculated Le/r ratio is less than Cc,  we can apply the second ASD formula")
+      F_a_1 = 19.3                              //Ksi - AISC lets try this
+      c_m = 0.6 - 0.4*(-M_1/M_2)
+      F_e = (12*(%pi**2)*E)/(23*(L*12/r_x(i))**2)
+      k = f_a/F_a_1 + c_m*f_b*(1-(f_a/F_e))/F_b //Condition mentioned in AISC
   else
-      printf("\n The calculation is not possible")
+      printf("\n  we cannot apply the second ASD formula")
       end
-  F_a_1 = 19.3                              //Ksi - AISC lets try this
-  c_m = 0.6 - 0.4*(-M_1/M_2)
-  F_e = (12*(%pi**2)*E)/(23*(L*12/r_x(i))**2)
-  k = f_a/F_a_1 + c_m*f_b*(1-(f_a/F_e))/F_b //Condition mentioned in AISC
+
   if k>1 then
       printf("\n The following %s section is not satisfying our constraints since f_a/F_a_1 + c_m*f_b*(1-(f_a/F_e))/F_b %0.3f >1",st(i),k)
   else
       printf("\n The following %s section is satisfying our constraints since f_a/F_a_1 + c_m*f_b*(1-(f_a/F_e))/F_b %0.3f <1",st(i),k)
-   	end
+    end
 
 end
 

@@ -1,3 +1,4 @@
+
 clear
 //Given
 //
@@ -13,8 +14,11 @@ printf("\n C_c = %0.2f ",C_c)
 
 if C_s <C_c then
     printf ("\nSince calculated C_s is less than Cc, we can apply the second ASD formula.")
+    F_S = 5.0/3 +3*C_s/(8*C_c) -(C_s**3)/(8*C_c**3)        //Safety factor
+	Stress_all = (1 - (C_s**2)/(2*C_c**2))*stress_yp/F_S    //The allowable stress
+	a = p/Stress_all //sq.in the allowable area of the beam
 else
-    printf("The calculation is not possible")
+    printf("we cannot apply the second ASD formula")
     end
 F_S = 5.0/3 +3*C_s/(8*C_c) -(C_s**3)/(8*C_c**3)        //Safety factor
 Stress_all = (1 - (C_s**2)/(2*C_c**2))*stress_yp/F_S    //The allowable stress

@@ -1,3 +1,4 @@
+
 clear
 //Given
 //
@@ -12,11 +13,11 @@ C_s1 = L*12/r_min                          // Slenderness ratio L/R of the prese
 printf ("a)calculated Le/r ratio is %f",C_s1)
 if (C_s1 <C_c) then
     printf ("\n a)Since calculated Le/r ratio is less than Cc(126), we can apply the second ASD formula")
+    F_S = 5.0/3 +3*C_s1/(8*C_c) -(C_s1**3)/(8*C_c**3)        //Safety factor
+	Stress_all = (1 - (C_s1**2)/(2*C_c**2))*stress_yp/F_S    //The allowable stress
 else
-    print ("The calculation is not possible")
+    printf("we cannot apply the second ASD formula")
     end
-F_S = 5.0/3 +3*C_s1/(8*C_c) -(C_s1**3)/(8*C_c**3)        //Safety factor
-Stress_all = (1 - (C_s1**2)/(2*C_c**2))*stress_yp/F_S    //The allowable stress
 printf("\n a) The allowable stress in this case is %0.2f kips",Stress_all)
 printf("\n a) The allowable pressure in this case is %0.2f kips",Stress_all*A)
 
@@ -33,11 +34,13 @@ C_s = L*12/r_min                          // Slenderness ratio L/R of the presen
 printf ("\n b)calculated Le/r ratio is %f",C_s)
 if C_s <C_c then
     printf("\n b)Since calculated Le/r ratio is less than Cc,  we can apply the second ASD formula")
+    F_S = 5.0/3 +3*C_s/(8*C_c) -(C_s**3)/(8*C_c**3)        //Safety factor
+	Stress_all = (1 - (C_s**2)/(2*C_c**2))*stress_yp/F_S    //The allowable stress
+
 else
-    printf("The calculation is not possible")
+    printf("we cannot apply the second ASD formula")
+
 end
-F_S = 5.0/3 +3*C_s/(8*C_c) -(C_s**3)/(8*C_c**3)        //Safety factor
-Stress_all = (1 - (C_s**2)/(2*C_c**2))*stress_yp/F_S    //The allowable stress
 printf("\n b) The allowable stress in this case is %0.2f kips",Stress_all)
 printf("\n b) The allowable pressure in this case is %0.2f kips",Stress_all*A)
 printf("\n Similarly, for a column fixed at one end")
@@ -46,10 +49,10 @@ C_s = L*12/r_min*.8                          // Slenderness ratio L/R of the pre
 printf ("\n b)calculated Le/r ratio is %f",C_s)
 if C_s <C_c then
     printf("\n b)Since calculated Le/r ratio is less than Cc,  we can apply the second ASD formula")
+    F_S = 5.0/3 +3*C_s/(8*C_c) -(C_s**3)/(8*C_c**3)        //Safety factor
+    Stress_all = (1 - (C_s**2)/(2*C_c**2))*stress_yp/F_S    //The allowable stress
 else
-    printf("The calculation is not possible")
+    printf("we cannot apply the second ASD formula")
 end
-F_S = 5.0/3 +3*C_s/(8*C_c) -(C_s**3)/(8*C_c**3)        //Safety factor
-Stress_all = (1 - (C_s**2)/(2*C_c**2))*stress_yp/F_S    //The allowable stress
 printf("\n b) The allowable stress in this case is %0.2f kips",Stress_all)
 printf("\n b) The allowable pressure in this case is %0.0f kips",Stress_all*A)

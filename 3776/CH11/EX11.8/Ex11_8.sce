@@ -1,3 +1,4 @@
+
 clear
 //Given
 //
@@ -9,12 +10,13 @@ E = 29*(10**3)                                  //ksi - The youngs modulus
 lamda = L*12*((stress_yp/E)**0.5)/(4*(%pi)) //column slenderness ratio
 if lamda<1.5 then
     printf("Since lamda<1.5 we can apply the AISC LFRD formula")
+    stress_cr = (0.658**(lamda**2))*stress_yp    //ksi - The critical stress
+	P_n = stress_cr*A                            //kips //Nominal compressive strength
+	o = 0.85                                     //Resistance factor
+	p_u = o*P_n                                  //kips ,column design compressive strength
+
 else
-    printf("The following approach is wrong")
+    printf("we cannot apply the AISC LFRD formula")
     end
-stress_cr = (0.658**(lamda**2))*stress_yp    //ksi - The critical stress
-P_n = stress_cr*A                            //kips //Nominal compressive strength
-o = 0.85                                     //Resistance factor
-p_u = o*P_n                                  //kips ,column design compressive strength
 printf("\ncolumn design compressive strength  %0.3f kips",p_u)
 // small variation due to rounding off errors

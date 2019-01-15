@@ -1,3 +1,4 @@
+
 clear
 //Given 
 l = 6        //m -length of the beam 
@@ -16,8 +17,17 @@ A_1 = l_1* b_1   //sq.in - area of part_1
 y_1 = 200.0      //mm com distance 
 A_2 =l_2*b_2     //sq.mm - area of part_1
 y_2 = 225.0      //in com distance
-Q = 2*A_1*y_1 + A_2*y_2 // mm**3 For the whole system
-q = R_a*Q*(10**3)/I     //N/mm The shear flow 
+Q1 = 2*A_1*y_1 + A_2*y_2 // mm**3 For the whole system
+q = R_a*Q1*(10**3)/I     //N/mm The shear flow 
 d = shear_al*(10**3)/q  //mm The space between the nails
 printf("\n The minimal space between the nails  %0.0f mm",d)
-printf("\n Similar calculation for 4.5 KN gives spacing of 246mm")
+
+printf("\n Similar calculation for 4.5 KN section")
+
+Q2 = Q1/2   // for the 	small section
+
+q = R_a*Q2*(10**3)/I     //N/mm The shear flow 
+d = shear_al*(10**3)/q  //mm The space between the nails
+printf("\n The minimal space between the nails  %0.0f mm",d)
+
+
