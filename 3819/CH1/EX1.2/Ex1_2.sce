@@ -1,7 +1,8 @@
 // A Textbook of Fluid Mecahnics and Hydraulic Machines - By R K Bansal
 // Chapter 1-Properties of Fluid
-// Problem 1.21
-
+// Problem 1.2
+clc
+clear
 //Given Data Set in the Problem
 V=1/1000
 SG=0.7

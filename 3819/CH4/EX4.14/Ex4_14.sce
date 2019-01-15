@@ -1,7 +1,8 @@
 // A Textbook of Fluid Mecahnics and Hydraulic Machines - By R K Bansal
 // Chapter 4-Buoyancy and Floatation
 //// Problem 4.14
-
+clc
+clear
 //Given Data Set in the Problem
 dens=1000
 g=9.81
@@ -30,5 +31,5 @@ BG=AG-AB
 //for meta centric height
 I=1/12*L*b^3
 Vol=L*b*h
-GM=I/Vol-BG
-mprintf("The meta centric height of both the pontoonm and the boiler is %f m \n",GM)
+GM=(I/Vol)-BG
+mprintf("The meta centric height of both the pontoonm and the boiler is %.3f m \n",GM)

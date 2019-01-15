@@ -1,7 +1,8 @@
 // A Textbook of Fluid Mecahnics and Hydraulic Machines - By R K Bansal
 // Chapter 3-Hydrostatic Forces on surfaces
 // Problem 3.21
-
+clc
+clear
 //Data given in the Problem
 b=2
 h=3
@@ -19,4 +20,4 @@ mprintf("The total pressure  is %f N\n",F)
 //2)
 IG=b*h^3/36
 COP=IG*(sin (theta*%pi/180))^2/(A*H)+H
-mprintf("Te COP is at %f m \n",COP)
+mprintf(" The COP is at %.3f m \n",COP)

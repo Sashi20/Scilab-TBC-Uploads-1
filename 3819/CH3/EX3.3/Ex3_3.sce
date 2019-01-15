@@ -11,4 +11,4 @@
 //Depth of COP from free surface=(I/(A*h_CG))+h_gate
 //Since I=(b*d^3)/12;
 //h_COP=(b*d^3/12/b/d/p)+p=d^2/12+p
-disp("The depth of centre of pressure from free surface is (d^2/12)+p ")
+//The depth of COP from free surface is (d^2/12)+p "
