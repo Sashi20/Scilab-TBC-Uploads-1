@@ -3,7 +3,6 @@
 // page 303
 
 // figure given in book is for reference only. It is not required to solve the example since the required details are very clearly specified in the problem statement.
-// moreover more data is needed to plot the graph given in book.
 
 Av_max1=2000 // for 2 kHz
 Av_sqrt_2=1414 // for 10 kHz and 50 Hz

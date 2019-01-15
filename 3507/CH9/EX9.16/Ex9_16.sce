@@ -42,4 +42,4 @@ printf("dc output voltage for bridge circuit = %.3f V \n \n",Vdc_dash)
 
 printf("for same output, PIV for centre-tap circuit = %.3f V and bridge circuit = %.3f V \n",PIV1,PIV2)     
     
-// the figure of transformer is for reference only. Also it cannot be plotted in scilab since scilab does not have centre-tap transformer
+// the figure of transformer is for reference only.

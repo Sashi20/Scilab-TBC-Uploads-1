@@ -2,7 +2,7 @@
 //example9.19
 //page165
 
-// the waveform given in book is for understanding only. It is not required to solve the problem. Also it cannot be plotted in scilab unless Vm and Vdc are given.
+// the waveform given in book is for understanding only. It is not required to solve the problem.
 
 R=25 // ohm
 Rl=750 // ohm
