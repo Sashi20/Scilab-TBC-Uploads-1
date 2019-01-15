@@ -1,4 +1,4 @@
-// Example 6.13
+// Example 6.14
 // Calculation of the upper bound on the single-pass gain
 // Page no 297
 

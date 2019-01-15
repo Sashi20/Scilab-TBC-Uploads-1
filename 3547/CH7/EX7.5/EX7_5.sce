@@ -1,4 +1,4 @@
-// Example 2.1 
+// Example 7.5
 // Compuatation of the transmission distance
 //
 // Page no. 325
@@ -40,8 +40,3 @@ Td=Td*10^-3;
 
 //Displaying the result in command window
 printf("\n The transmission distance is = %0.0f km",Td);
-
-
-
-
-
