@@ -1,3 +1,4 @@
+
 clc
 //
 
@@ -7,7 +8,7 @@ sY=50                                                                          /
 
 // Calculation
 //Case(a) Onset Of Yield
-I=((1/12.0)*(12)*((16**3))-(1/12.0)*(12-0.75)*((14**3))**0)                // Centroidal moment of inertia(in**4) 
+I=((1/12.0)*(12)*((16**3))-(1/12.0)*(12-0.75)*((14**3)))                // Centroidal moment of inertia(in**4) 
 
 //Bending Moment
 sMAX=sY                                                                        // Stress(ksi)

@@ -1,3 +1,4 @@
+
 clc
 //
 
@@ -17,4 +18,4 @@ v=n*(Ey/Ex)                                                                     
 
 //Result
 printf("\n Modulus of elasticity = %.1f GPa' ,E)
-printf("\n Poissons ratio = %.1f ' ,v)
+printf("\n Poissons ratio = %.2f ' ,v)

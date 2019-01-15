@@ -1,26 +1,18 @@
+
 clc
 //
 
 //Variable declaration
-V=1.5                                                                         // Force(kN)
-y1=0.0417                                                                     // Distance(m)
-y2=0.0583                                                                     // Distance(m)
-AreaA=0.100*0.020                                                             // Area(m**2)
-AreaB=0.060*0.020                                                             // Area(m**2)
-I=8.63*((10**-6))                                                           // Moment of inertia(m**2) 
-t=0.020                                                                       // Distance(m)
+tf=0.770                                                                      // Distance(in)
 
 //Calculation         
-//Shearing Stress in Joint a
-Qa=AreaA*y1                                                                   
-taweA=((V*Qa)/(I*t))                                                   // Shearing stress in joint a(kPa)
+I=(394 + 2*((1/12)*(12)*(0.75**3) + (12)*(0.75)*((5.575**2)))**0)     // Centroidal moment of inertia(in**4)
 
+t=2*tf                                                                        // Distance(in)  
+Q=(2*(4.31*0.770*4.815) + (12)*(0.75)*(5.575))                         
 
-//Shearing Stress in Joint b
-Qb=AreaB*y2
-taweB=((V*Qb)/(I*t))                                                   // Shearing stress in joint b(kPa)
+t=(((50)*(82.1))/((954)*(1.54)))                                       // Shearing stress(ksi)
 
 
 // Result
-printf("\n Shearing stress in joint a = %0.3f kPa' ,taweA)
-printf("\n Shearing stress in joint b = %0.3f kPa' ,taweB)
+printf("\n Horizontal shearing stress = %0.3f ksi' ,t)

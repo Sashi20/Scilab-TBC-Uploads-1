@@ -1,18 +1,31 @@
+
 clc
 //
 //
 
 //Variable declaration
-M=8                                                                        // Bending moment(kip.in)
-A=(2.5)*(1.5)                                                              // Area(in**2)  
-R=5.969                                                                     
-e=0.0314                                                                   // Distance(in)
+// Reactions
+Rb=40                                                                             // Reaction at B(kN)
+Rd=14                                                                             // Reaction at D(kN)
 
-//Calculation         
-// Case(a)
-Smax=((8)*(6.75-5.969))/((3.75)*(0.0314)*(6.75))                           // Maximum stress(ksi)  
-Smin=((8)*(5.25-5.969))/((3.75)*(0.0314)*(5.25))                           // Minimum stress(ksi)
+// Calculations
+// Shear and Bending-Moment Diagrams
+V1=-20                                                                            // Force(kN) 
+M1=0                                                                              // Moment(kN.m)
+V2=-20                                                                            // Force(kN) 
+M2=-50                                                                            // Moment(kN.m) 
+V3=26                                                                             // Force(kN) 
+M3=-50                                                                            // Moment(kN.m)
+V4=26                                                                             // Force(kN)
+M4=28                                                                             // Moment(kN.m)
+V5=-14                                                                            // Force(kN)  
+M5=28                                                                             // Moment(kN.m)
+V6=-14                                                                            // Force(kN)
+M6=0                                                                              // Moment(kN.m)  
+// Maximum Normal Stress
+S=(1/6.0)*(0.080)*((0.250**2))                                                    // Section modulus of the beam(m**3)
+Mb=(50*(10**3))                                                                 // Moment(N.m)
+sM=(Mb/S)/(((10**6)))                                                                         // Stress(Pa)
 
 // Result
-printf("\n Maximum stress = %0.3f ksi' ,Smax)
-printf("\n Minimum stress = %0.3f ksi' ,Smin)
+printf("\n Maximum normal stress in the beam = %0.3f MPa' ,sM)

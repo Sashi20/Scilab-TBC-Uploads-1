@@ -1,3 +1,4 @@
+
 clc
 //
 
@@ -14,4 +15,4 @@ P=((40*10*eave)/(1000))                                             // Largest A
 
 
 // Results
-printf("\n Largest Axial Load =%1f in' ,P)
+printf("\n Largest Axial Load =%1f kN' ,P)

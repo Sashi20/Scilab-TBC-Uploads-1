@@ -1,18 +1,15 @@
+
 clc
 //
 //
 //Variable declaration
-l=0.020                                                                           // Length(m)
-b=0.100                                                                           // Breadth(m)
-V=500                                                                             // Vertical shear(N)
-y=0.060                                                                           // Distance(m)
+tw=5.8                                                     // Distance(mm)
+d=349                                                      // Distance(mm)
+Vmax=58                                                    // Force(kN)
 
 //Calculation         
-A=l*b                                                                             // Area(m**2)
-Q=A*y                                                                             // First moment of an area with respect to a given axis
-I=(1/12.0)*(0.020)*(0.1**3) + 2*((1/12.0)*(0.1)*(0.02**3) + (0.020*0.1)*(0.06**2))    // Moment of inertia(m**4)    
-q=(V*Q)/(I)                                                                       
-F=(0.025)*q                                                                       // Shearing force in each nail(N)
+Aweb=d*tw                                                  // Area(mm*2)
+Tmax=(Vmax/Aweb)*(1000)                                    // Maximum shearing stress(ksi)
 
 // Result
-printf("\n Shearing force in each nail is = %0.3f N' ,F)
+printf("\n Maximum allowable shearing stress for steel beam = %0.3f MPa' ,Tmax)

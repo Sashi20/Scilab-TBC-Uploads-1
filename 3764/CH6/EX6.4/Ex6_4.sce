@@ -1,18 +1,18 @@
+
 clc
-//
 //
 
 //Variable declaration
-l=0.75                                                     // Distance(in)
-b=3                                                        // Breadth(in)  
-V=600                                                      // Vertical shear(lb)
-y=1.875                                                    // Distance(in)
+tf=0.770                                                                      // Distance(in)
 
 //Calculation         
-Q=l*b*y                                                    
-I=(1/12.0)*((4.5**4)-(3**4))                                 // Moment of inertia(in**4)
-q=(V*Q)/(I)                                                
-F=(1.75)*(46.15)                                           // Shearing force(lb)
+I=(394 + 2*((1/12)*(12)*(0.75**3) + (12)*(0.75)*((5.575**2)))**0)     // Centroidal moment of inertia(in**4)
+
+t=2*tf                                                                        // Distance(in)  
+Q=(2*(4.31*0.770*4.815) + (12)*(0.75)*(5.575))                         
+
+t=(((50)*(82.1))/((954)*(1.54)))                                       // Shearing stress(ksi)
+
 
 // Result
-printf("\n Shearing force in each nail = %0.3f lb' ,F)
+printf("\n Horizontal shearing stress = %0.3f ksi' ,t)
