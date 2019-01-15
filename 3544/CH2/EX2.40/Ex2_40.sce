@@ -1,15 +1,4 @@
-//Example of simple columnar ransposition technique with multiple rounds
-
-// Move scilab to current file directory
-[u,t,n] = file()
-n = strcat(n)
-file_name = basename(n)+fileext(n)
-file_name = strcat(file_name)
-ind=strindex(n,file_name)
-path = part(n,1:ind-1)
-chdir(path)
-
-exec("Chapter_2.sci")
+exec('Chapter_2.sci');
 
 pt = "Come home tomorrow"
 disp("Original plaintext message:")
