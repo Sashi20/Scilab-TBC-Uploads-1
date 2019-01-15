@@ -1,4 +1,4 @@
-// Example 7.42
+// Example 7.44
 // Calculation of a)excess loss,b)insertion loss,c)crosstalk and d)split ratio for the device.
 // Page no 498
 
