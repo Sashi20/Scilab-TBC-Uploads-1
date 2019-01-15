@@ -28,3 +28,4 @@ disp(Td,Ild,Impd,Vmpd,'The motor phase voltage,motor phase current line current 
 disp('For full load torque ')
 Ilat=(0.75^2);
 disp('times the full load current',Ilat,'The line current is:')
+//The results in the book are tabulated using various expressions already found.Proper solution is not given in the text book.

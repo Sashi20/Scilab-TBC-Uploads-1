@@ -3,7 +3,7 @@ clear;
 B=0.50;//Mean gap flux density
 Ys=40;//Slot spacing
 Cs=(35*12);//Conductor section
-J=33;//Current density
+J=3.3;//Current density
 //case:1
 disp('To find the tangential force per length of gap periphery and per unit axial length of the machine:')
 A=(Cs*J*1000)/Ys;

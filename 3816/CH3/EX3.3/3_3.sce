@@ -2,7 +2,7 @@ clc;
 clear;
 Mva=3.75;
 V=10;
-p=5;
+p1=10;//2p=10
 S=144;
 C=5;
 S1=12;
@@ -10,9 +10,9 @@ x1=1;
 x2=2;
 thetaa1=0.116;
 m=3;
-r=(p*%pi)/S;
+r=(p1*%pi)/S;
 disp(r,'The slot angle is:')
-g1=S/(p*m);
+g1=S/(p1*m);
 disp(g1,'The fractional value of slot per pole per phase is:')
 Sab=g1*((3*x1)+2);
 disp(Sab,'The spacing between the starts of Aand B is:')
