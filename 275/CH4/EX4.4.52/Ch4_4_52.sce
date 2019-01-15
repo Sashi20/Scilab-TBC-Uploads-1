@@ -1,7 +1,8 @@
 clc
+Vd=10; //For exact value, refer to textbook and change accordingly 
 disp("Example 4.52")
 printf("\n")
-disp("Determine the minimum & maximum values of VEB1 for a UJT")
+disp("Determine the minimum &amp; maximum values of VEB1 for a UJT")
 printf("Given\n")
 Vbb=15
 //intrinsic ratios

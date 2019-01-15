@@ -1,4 +1,5 @@
 clc
+Vt=10; //For exact value, refer to textbook and change accordingly 
 disp("Example 4.29")
 printf("\n")
 disp("Calculate suitable values of R1,Rp,R2 for SCR in circuit Fig 4.12")
@@ -20,16 +21,7 @@ Vs2=Vm*sin(90*%pi/180)
 //to trigger SCR at 10deg moving contact of Rp is at top
 //from circuit
 VR1=Vs1-Vg
-//choose I1min>>Ig
+//choose I1min&gt;&gt;Ig
 I1min=6*10^-3
 R1=VR1/I1min
-//since Ig<<I1min, current through Rp & R2 is I1min
-RpPLUSR2=Vg/I1min
-//to trigger SCR at 90deg moving contact of Rp is at bottom
-VR2=Vt
-I1=Vs2/(R1+RpPLUSR2)
-R2=Vg/I1
-Rp=RpPLUSR2-R2
-printf("Resistance R1 is %f ohm \n",R1)
-printf("Resistance R2 is %f ohm \n",R2)
-printf("Resistance Rp is %f ohm \n",Rp)
+//since Ig&lt;<i1min, current="" through="" rp="" &="" r2="" is="" i1min="" rpplusr2="Vg/I1min" to="" trigger="" scr="" at="" 90deg="" moving="" contact="" of="" bottom="" vr2="Vt" i1="Vs2/(R1+RpPLUSR2)" printf("resistance="" r1="" %f="" ohm="" \n",r1)="" \n",r2)="" \n",rp)="" <="" div=""></i1min,>
