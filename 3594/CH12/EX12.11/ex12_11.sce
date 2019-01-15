@@ -1,6 +1,6 @@
-
 clc
 //given
+g=9.8 //acceleration due to gravity
 N=100//rpm
 ke=1.93//As per given figure
 l=15//1 inch of fig = 15 ton ft 

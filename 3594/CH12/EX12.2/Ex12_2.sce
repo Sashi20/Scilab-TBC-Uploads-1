@@ -1,6 +1,6 @@
-
 clc
 //given
+g=9.8 //acceleration due to gravity
 ne=31
 na=25
 nb=90
