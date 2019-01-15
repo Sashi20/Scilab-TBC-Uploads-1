@@ -1,6 +1,6 @@
 clear;
 clc;
-
+T0=10 //For exact value, refer to the original texbook and change accordingly
 //To find Approx Value
 function[A]=approx(V,n)
   A=round(V*10^n)/10^n;//V-Value  n-To what place
