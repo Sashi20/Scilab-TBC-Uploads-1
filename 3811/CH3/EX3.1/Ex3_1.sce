@@ -1,4 +1,4 @@
-o//Book name: Fundamentals of electrical drives by Mohamad A. El- Sharkawi
+//Book name: Fundamentals of electrical drives by Mohamad A. El- Sharkawi
 //chapter 3
 //example 3.1
 //edition 1
