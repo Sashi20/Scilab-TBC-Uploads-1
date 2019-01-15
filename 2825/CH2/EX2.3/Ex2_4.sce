@@ -1,4 +1,4 @@
-//Ex2_4 Pg-88
+//Ex2_3 Pg-88
 clc
 disp("(n_i)^2 = n*p = n_p*N_a")
 ni=2.5*10^19 //density of electron hole
