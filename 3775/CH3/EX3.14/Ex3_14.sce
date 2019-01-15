@@ -18,5 +18,5 @@ pf=P/sqrt(3)/Vs/Is;// power factor
 
 printf('\n Average load voltage = %.3f V',Vo)
 printf('\n Average load current = %.1f A',Io)
-printf('\n input power factor = %.4f',pf)
+printf('\n input power factor(lag) = %.4f',pf)
 // Note : Ans in the textbook is wrong as in calculation for pf Io is used in place of Is

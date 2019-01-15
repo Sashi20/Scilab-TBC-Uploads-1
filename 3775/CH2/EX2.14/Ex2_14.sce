@@ -18,7 +18,7 @@ diBYdt=60/2;// A/micro-s
 dvaBYdt=200/2;// V/micro-s
 L=VS/diBYdt;// uH
 R=L*10**6/VS*dvaBYdt/10**6;// ohm
-printf('Value of L = %.2f uH',L)
+printf('Value of L = %.2f micro H',L)
 printf('\n Value of R = %.1f ohm',R)
 
 Ip=VS/RL+VS/R;// A
