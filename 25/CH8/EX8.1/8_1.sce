@@ -2,6 +2,7 @@
 // program to compute the reflection coefficients seen looking in to the output port.
 // as the power is divided in to 2:1 ratio. and Pin=(1/2)*Vo^2/Zo;
 // so,P1=(1/3)*Pin;and P2=(2/3)*Pin ............(i)
+exec('parallel_impedence.sce');
 Zo=50;
 Z1=3*Zo;  // from above condition.............(i)
 Z2=(3/2)*Zo;
