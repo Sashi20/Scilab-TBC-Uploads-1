@@ -1,5 +1,5 @@
 //page 56
-clc;funcprot(0);//EXAMPLE 3.14
+clc;funcprot(0);//EXAMPLE 3.3
 // Initialisation of Variables
 r=1;.........// one unit of radius of each atom of FCC  cell
 a0=(4*r)/sqrt(2);..........//Lattice constant for FCC   cell
