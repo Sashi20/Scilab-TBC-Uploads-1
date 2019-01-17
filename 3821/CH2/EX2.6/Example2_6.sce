@@ -1,4 +1,4 @@
-////Example 1.6 Page No:24
+////Example 2.6 Page No:24
 ///Find Stress in square metal bar
 //Input data
 clc;

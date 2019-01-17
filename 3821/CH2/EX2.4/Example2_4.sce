@@ -1,4 +1,4 @@
-////Example 1.4 Page No:22
+////Example 2.4 Page No:22
 ///Find Stress in square rod
 //Input data
 clc;
@@ -20,4 +20,3 @@ printf('stress in square rod %f N/m^2',sigmac);
 printf('\n');
 printf('strain in square rod ec= %f\n',ec);
 printf('shortening of length of the rod= %f m \n',deltaLc);
-

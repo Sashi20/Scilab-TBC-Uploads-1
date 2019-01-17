@@ -1,4 +1,4 @@
-///Example 1.3 Page No:21
+///Example 2.3 Page No:21
 ///Find Stress in the Steel wire
 //Input Data
 clc;

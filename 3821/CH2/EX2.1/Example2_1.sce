@@ -1,4 +1,4 @@
-///Example 1.2 Page No:20
+///Example 2.1 Page No:20
 ///Find Cross-Section Area
 ///Input data
 clc;

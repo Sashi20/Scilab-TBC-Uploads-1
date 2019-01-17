@@ -1,4 +1,4 @@
-////Example 1.5 Page No:23
+////Example 2.5 Page No:23
 ////Find Stress in metallic rod
 ////input data
 clc;

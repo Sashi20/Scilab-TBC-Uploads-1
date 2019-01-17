@@ -1,5 +1,5 @@
 ////Chapter 13  Steam Engines
-////Example 13.2 Page No 285
+////Example 13.3 Page No 285
 ///Find Mean Effective pressure
 ///Input data
 clc;
