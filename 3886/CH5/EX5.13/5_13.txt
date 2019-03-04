@@ -1,0 +1,7 @@
+
+
+Startup execution:
+  loading initial environment
+
+--> exec('C:\Users\Amit\Desktop\Scilab\5\5_13.sce', -1)
+Thus 600N load can be placed anywhere between B and a point 1.85 m from B

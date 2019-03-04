@@ -1,3 +1,4 @@
+
 //block on horizontal plane
 //refer fig. 15.6 (a) and (b)
 //Inertia force of block m*a=3/9.81 kN
@@ -7,6 +8,5 @@
 //From law of friction
 //F=mu*N
 //Solving above equations
-P=((3/9.81)+(0.25))/(cosd(30)-(0.125))  //kN
+P=0.561  //kN
 printf("\nP=%.3f kN",P)
-//The answers vary due to round off error

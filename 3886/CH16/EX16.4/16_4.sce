@@ -8,7 +8,7 @@ P=F+W*(1/120)  //kN
 Pw=P*v  //kW (mistake in book)
 u=15.556  //m/sec
 //Resultant force parallel to the plane R
-R=F+W*sind(theta)  //kN (Down the plane)
+Res=F+W*(1/120)  //kN (Down the plane)
 s=((420*(15.556^2))/(2*9.81*5.6))  //m
 printf("Power of locomotive=%.4f kW\ns=%.4f m",Pw,s)
 //The answers vary due to round off error

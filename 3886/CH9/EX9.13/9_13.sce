@@ -10,7 +10,7 @@ Iyy=((12*80^3)/12)+((128*12^3)/12)+((10*120^3)/12)  //mm^4
 //Polar moment of Inertia (Izz)
 Izz=Ixx+Iyy  //mm^4
 kxx=sqrt(Ixx/A)  //mm
-Kyy=sqrt(Iyy/A)  //mm  The answer provided in the textbook is wrong
+kyy=sqrt(Iyy/A)  //mm  (The answer provided in the textbook is wrong)
 printf("\nIzz=%.2d mm^4\nkxx=%.2f mm\nkyy=%.2f mm",Izz,kxx,kyy)
 
 

@@ -8,8 +8,9 @@ u1y=-7.411  //m/sec
 v1x=u1x
 //Initial and final velocities of floor=0
 //From the defination of coefficient of restitution
-v1y=sqrt((1.986^2)+(5.929^2))  //m/sec
-theta=atand(v1x/v1y)  //degree to the line of impact
+v1y=5.929  //m/sec
+v1=sqrt((1.986^2)+(5.929^2))
+theata=atand(v1x/v1y)  //degree to the line of impact also theta is spelled theata
 //Inclination to the plane
 I=90-18.52  //degree  The answer provided in the textbook is wrong
 printf("\nv1=%.3f m/sec\nInclination to the plane=%.3f degree",v1,I)

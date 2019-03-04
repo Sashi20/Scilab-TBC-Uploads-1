@@ -1,0 +1,3 @@
+ 
+--> exec('C:\Users\Amit\Desktop\Scilab\5\5_14.sce', -1)
+Thus a 600 N force can support a range of loads between 56.87 N to 6330.43 N
