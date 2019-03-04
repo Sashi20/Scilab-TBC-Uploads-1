@@ -1,5 +1,4 @@
-Ex3 pg63
-clear
+
 //given
 //find the piston speed
 pa=9.

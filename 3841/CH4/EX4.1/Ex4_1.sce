@@ -1,5 +1,4 @@
-Ex1 pg61
-clear
+
 //find the area piston for given parameters
 //given
 a=3.
