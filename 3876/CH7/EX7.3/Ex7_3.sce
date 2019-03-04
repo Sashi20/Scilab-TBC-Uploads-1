@@ -1,3 +1,4 @@
+
 //Chapter 7 Conductivity
 
 clc;
@@ -19,5 +20,5 @@ G= M/n
 q= G*nf
 
 //RESULTS
-mprintf("Volume of oxygen produced= %.2f lit",V)
-mprintf("\nQuantity of aluminium produced= %.2f geams",q)
+mprintf("Volume of oxygen produced= %.2f liters",V)
+mprintf("\nQuantity of aluminium produced= %.2f grams",q)

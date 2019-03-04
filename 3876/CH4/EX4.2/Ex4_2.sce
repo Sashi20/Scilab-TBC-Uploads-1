@@ -1,3 +1,4 @@
+
 //Chapter 4 Solutions Nonelectrolytes
 
 clc;
@@ -18,7 +19,14 @@ k= c/P
 c1= k*p
 
 //RESULTS
-mprintf("Concentration of oxygen= %.4f gram per litre",c)
+mprintf("Part (a)")
+mprintf("\nConcentration of oxygen= %.4f gram per litre",c)
+mprintf("\nPart (b)")
 mprintf("\nMoles dissolved = %.4f moles",g)
+mprintf("\nPart (c)")
 mprintf("\nBunsen absorption = %.4f litre",K)
+mprintf("\nPart (d)")
 mprintf("\nGrams of oxygen dissolved = %.4f gram per litre",c1)
+mprintf("\nHenry law can be written ")
+cp=c*p/P
+mprintf("%.4f gram per liter",cp)

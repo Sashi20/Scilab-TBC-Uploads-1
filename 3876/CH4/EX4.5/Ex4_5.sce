@@ -1,3 +1,4 @@
+
 //Chapter 4 Solutions Nonelectrolytes
 
 clc;
@@ -13,6 +14,8 @@ n= 2 //moles
 P= p*((m/M)/((m/M)+n))
 P1= p*(n/((m/M)+n))
 dp= p-P1
+p=p-P1
 
 //RESULTS
 mprintf("Vapour pressure of solution= %.2f mm",P1)
+mprintf("\n p= %.2f mm",p)

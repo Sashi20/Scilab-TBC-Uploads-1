@@ -1,3 +1,4 @@
+
 //Chapter 12 Thermodynamics Thermodynamic chemistry
 
 clc;
@@ -12,4 +13,4 @@ H2= -68.317 //kcal
 H3= H-H1-H2
 
 //RESULTS
-mprintf("Heat of reaction= %.2f cal",H3)
+mprintf("Heat of reaction= %.2f kcal",H3)

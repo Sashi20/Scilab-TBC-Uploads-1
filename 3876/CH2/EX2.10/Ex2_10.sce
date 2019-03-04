@@ -1,3 +1,4 @@
+
 //Chapter 2 Gases
 
 clc;
@@ -17,4 +18,4 @@ P1= (n*R*(T+273)/(V-n*a))-(b/V**2)
 
 //RESULTS
 mprintf("Pressure = %.0f atm",P)
-mprintf("\nPressure using vanderwals equation= %.1f atm",P1)
+mprintf("\nPressure using van der Waals equation= %.1f atm",P1)

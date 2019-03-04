@@ -1,13 +1,14 @@
+
 //Chapter 3 Liquids
 
 clc;
 clear;
 
 //Initialisation of Variables
-p= 388.6 //mm
-p1=26.5 //mm
-T= 60 //C
-R= 1.99 //cal mole^-1 A^-1
+p= 388.6 //vapor pressure for benzene in mm
+p1=26.5 //vapor pressure for benzene in mm
+T= 60 //temperature in C
+R= 1.99 //calories in cal mole^-1 A^-1
 
 //Calculations
 Lv= log10(p/p1)*2.303*R*273*(273+T)/(T)

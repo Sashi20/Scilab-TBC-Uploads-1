@@ -1,3 +1,4 @@
+
 //Chapter 9 Ionic Equilibria and Buffer Action
 
 clc;
@@ -15,5 +16,5 @@ m= M*K
 m1= M*c
 
 //RESULTS
-mprintf("Quantity = %.2e gms",m)
-mprintf("\nQuantity = %.2e gms",m1)
+mprintf("The atomic weight of silver being %d, the weight of silver remaining \n in solution is %.2e gram",M,m)
+mprintf("\nThe original quantity of silver in the solution was %.2e grams",m1)

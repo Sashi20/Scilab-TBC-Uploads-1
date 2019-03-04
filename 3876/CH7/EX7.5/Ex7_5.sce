@@ -1,3 +1,4 @@
+
 //Chapter 7 Conductivity
 
 clc;
@@ -15,4 +16,4 @@ k= M*C/(R*CB)
 A= k*1000/m
 
 //RESULTS
-mprintf("Equivalent conductance= %.1f ohms",A)
+mprintf("Equivalent conductance= %.1f mhos",A)

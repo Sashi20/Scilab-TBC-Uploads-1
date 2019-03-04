@@ -1,3 +1,4 @@
+
 //Chapter 7 Conductivity
 
 clc;
@@ -24,12 +25,14 @@ Mb= mb*N
 Mf= mf*N
 v= N*V
 E= e*I*60*60
+Ee = E * 2.78e-7 //joules to kilowatt-hour conversion
 
 //RESULTS
-mprintf("Quantity of hydrogen produced= %.2f gms",Mh)
-mprintf("\nQuantity of chlorine produced= %.2f gms",Mc)
-mprintf("\nQuantity of silver produced= %.2f gms",Ms)
-mprintf("\nQuantity of bromine produced= %.2f gms",Mb)
-mprintf("\nQuantity of ferrous ion  produced= %.2f gms",Mf)
+mprintf("Number of faradays used= %.2f",N)
+mprintf("\nQuantity of hydrogen produced= %.2f grams",Mh)
+mprintf("\nQuantity of chlorine produced= %.2f grams",Mc)
+mprintf("\nQuantity of silver produced= %.2f grams",Ms)
+mprintf("\nQuantity of bromine produced= %.2f grams",Mb)
+mprintf("\nQuantity of ferrous ion  produced= %.2f grams",Mf)
 mprintf("\nVolume occupied by gases= %.2f lit",v)
-mprintf("\nEnergy expenditure= %.0f joules",E)
+mprintf("\nEnergy expenditure= %.0f joules or %.2f kilowatt-hour",E,Ee)

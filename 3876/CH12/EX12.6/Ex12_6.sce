@@ -1,3 +1,4 @@
+
 //Chapter 12 Thermodynamics Thermodynamic chemistry
 
 clc;
@@ -15,4 +16,4 @@ T1= 25 //C
 H1= H+(Cp2-2*Cp-3*CP1)*((T-T1)/1000)
 
 //RESULTS
-mprintf("Heat of formation= %.2f cal",H1)
+mprintf("Heat of formation= %.2f kcal",H1)

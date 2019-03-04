@@ -1,3 +1,4 @@
+
 //Chapter 8 Chemical Equlibrium
 
 clc;
@@ -15,4 +16,4 @@ H= log10(kp/kp1)*2.303*R*(273+T1)*(273+T)/(T-T1)
 H= H+62 
 
 //RESULTS
-mprintf("Average Heat of reaction= %.2f cal",H)
+mprintf("Average Heat of reaction= %d cal",H)
