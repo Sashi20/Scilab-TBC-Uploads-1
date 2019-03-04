@@ -1,4 +1,5 @@
 
+
 //Describe how you would prepare a phosphate buffer with a pH of seven point four
 
 //Example 11.5 
@@ -9,7 +10,7 @@ clear;
 
 Ka1=7.5*10^-3; //Equilibrium constant for H3PO4= H+ +H2PO4-
 
-pKa1=-log10(Ka1); //minus logerithm of Ka1
+pKa1=-log10(Ka1); //minus logarithm of Ka1
 
 Ka2=6.2*10^-8; //Equilibrium constant for H2PO4-= H+ +HPO4--
 
@@ -25,5 +26,5 @@ C1=10^(pH-pKa2); //Concentration of required solution to prepare buffer solution
 
 C=C1/1.0; //Ratio  of the required solution to prepare buffer solution of  pH of 7.40 
 
-printf("Ratio of the required solution = %.2f The buffer is dissolve to disodium hydrogen phosphate and sodium dihydrogen phosphate in a mole ratio of 1.5:1.0 ",C);
+printf("Ratio of the required solution = %.2f The buffer is dissolved to disodium hydrogen phosphate and sodium dihydrogen phosphate in a mole ratio of 1.5:1.0 ",C);
 

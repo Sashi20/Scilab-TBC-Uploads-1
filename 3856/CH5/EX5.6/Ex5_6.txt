@@ -1,1 +1,2 @@
- Encrease in Entropy = 29.0 J K^-1
+
+ Increase in Entropy = 29.0 J K^-1
