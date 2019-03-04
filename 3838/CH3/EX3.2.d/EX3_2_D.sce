@@ -4,4 +4,5 @@ Syms s t
 w=2;
 a=5;
 F=exp(-a*t)*sin(w*t)
-laplace(F,t,s)
+B=laplace(F,t,s)
+disp(B)

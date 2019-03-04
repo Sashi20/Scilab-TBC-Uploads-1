@@ -2,4 +2,5 @@
 clc;
 Syms s t
 F=(t^(2)-2*t)*unit_step(t-1)
-laplace(F,t,s)
+b=laplace(F,t,s)
+disp(b)

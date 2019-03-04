@@ -2,5 +2,5 @@
 clc;
 Syms s t;
 A=3
-laplace(A,t,s)
-
+B=laplace(A,t,s)
+disp(B)

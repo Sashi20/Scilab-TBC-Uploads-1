@@ -2,4 +2,5 @@
 clc;
 Syms s t
 w=2;
-laplace(cos(w*t),t,s)
+B=laplace(cos(w*t),t,s)
+disp(B)

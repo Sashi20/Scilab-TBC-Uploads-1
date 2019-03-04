@@ -1,4 +1,5 @@
 //EXAMPLE 3.1.D
 clc;
 Syms s t
-laplace(-exp(-3*t),t,s)
+B=laplace(-exp(-3*t),t,s)
+disp(B)

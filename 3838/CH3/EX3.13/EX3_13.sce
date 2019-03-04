@@ -1,6 +1,6 @@
 //Example 3.13
 clc;
-syms s;
+Syms s,t;
 I=2/((s)*(s+1)*(s+2)^(2));
-i=ilaplace(I);
+i=ilt(I,s,t);
 disp(i);

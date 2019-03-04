@@ -1,8 +1,8 @@
 //Example 3.30.A
 clc;
-syms s t;
-x=laplace(3*t);
-y=laplace(1);
+Syms s t;
+x=laplace(3*t,t,s);
+y=laplace(1,t,s);
 z=x*y;
-f=ilaplace(z);
+f=ilt(z,s,t);
 disp(f);
