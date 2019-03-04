@@ -1,0 +1,2 @@
+For 1300nm, Coupling length= 1.91 mm
+For 1550nm, Coupling length= 0.92 mm 

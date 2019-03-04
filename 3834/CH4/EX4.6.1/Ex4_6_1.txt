@@ -1,0 +1,2 @@
+ Pulse spreading by material dispersion = 7.55 ns/km
+Pulse spreading over entire fiber = 754.91 s

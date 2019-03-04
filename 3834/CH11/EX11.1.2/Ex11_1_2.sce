@@ -3,10 +3,10 @@
 //windows 7
 //Scilab version-6.0.0
 clc;
-clear ;
+clear all;
 //given
 ETA=0.7;//The quantum efficiency
 lambda=1664;//Operating wavelength in nm
-R=(ETA/1248)*lambda;//Responsivity of an InGaAs photodiode  A/W
+R=(ETA/1248)*lambda;
 
 mprintf("Responsivity of an InGaAs photodiode =%.3f A/W",R);

@@ -1,0 +1,1 @@
+Maximum bit rate limited by chromatic dispersion= 1.25 Gbps 

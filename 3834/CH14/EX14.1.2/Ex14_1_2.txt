@@ -1,0 +1,2 @@
+ Link loss = 21.6 dB
+ Hence, we need to use in-line amplifier 

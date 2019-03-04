@@ -3,12 +3,14 @@
 //windows 7
 //Scilab version-6.0.0
 clc;
-clear ;
+clear all;
 //given
 E=0.712;//the energy gap E=Ec-Ef in eV
-KBT=0.025;//Boltzman constant temperature product in eV
+Kb=1.38E-23;//Boltzman constant in J/K
+T=300;//Room temperature in K
 e=1.6E-19;//Electrons value in Coulomb
-Y=E/KBT;
-fE= exp(-Y);//Probability of excited electrons at conduction band at room tenmperature 
+P=(Kb*T)/e;
+Y=E/P;
+fE= exp(-Y);
 
-mprintf("The probability of excited electrons at conduction band at room tenmperature = %.2f *1e-13 ",fE*1e13);//multiplication by 1e13 to change the unit to 1e-13
+mprintf("the probability of excited electrons at conduction band at room tenmperature = %.3f ",fE*1E+12);

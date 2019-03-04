@@ -1,0 +1,2 @@
+SNR of Si avalanche photodiode = 45.18
+SNR of InGaAs avalanche photodiode = 8.8 

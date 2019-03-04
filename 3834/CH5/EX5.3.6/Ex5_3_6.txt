@@ -1,0 +1,2 @@
+Pulse spread caused by PMD for single  mode fiber= 5.00 ps
+Bit Rate of 50.00 Gbps is limited by PMD. 

@@ -1,9 +1,9 @@
-//Fiber Optics Communication Technology, by Djafer K. Mynbaev and Lovell L.scheiner
+//Fibre Optics Communication Technology, by Djafer K. Mynbaev and Lovell L.scheiner
 //Windows 8
 //Scilab version- 6.0.0
 //Example 12.4.2
 clc;
-clear ;
+clear all;
 //given
 
 w1=10.5E-6;//MFD of transmission fibre in m
@@ -14,5 +14,5 @@ a=w1*w2;
 y=w2^2+w1^2;
 z=(2*a)/y;
 
-Ldb=-10*log10(z^2);//Connection loss in transmission fibre in dB
-mprintf("Connection loss in transmission fibre = %.2f dB",Ldb);//the answer vary due to rounding
+Ldb=-10*log10(z^2);
+mprintf("Connection loss in transmission fibre = %.2f dB",Ldb);

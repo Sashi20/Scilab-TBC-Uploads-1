@@ -1,9 +1,9 @@
 //Fiber-optics communication technology, by Djafer K. Mynbaev and Lowell L. Scheiner 
 //Example 5.1.1
-//windows XP
-//Scilab version-5.5.1
+//windows 8
+//Scilab version-6.0.0
 clc;
-clear;
+clear all;
 //given
 
 n1=1.4675;//Refractive index of the core for silica fiber
@@ -14,4 +14,4 @@ y=n2*n2;
 
 NA=sqrt(x-y);
 
-mprintf("Numerical aperture of singlemode fiber =%.3f",NA);
+mprintf("Numerical aperture of singlemode fiber =%.2f",NA);

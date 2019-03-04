@@ -3,10 +3,19 @@
 //windows 7
 //Scilab version-6.0.0
 clc;
-clear ;
+clear all;
 //given
-tautr=100//transit time in ps
-tauRC=100//time constant induced by a capacitor in ps
-BWPD1=1/(2*%pi*(tautr+tauRC))
 
-mprintf("\nBandwidth of InGaAs photodiode = %.3f Gbit/s",BWPD1*1E3);//multiplication by 1e3 to convert unit from 10^12 bits/s to Gbits/s
+Vsat=1E+5; //ssaturation voltage in volts
+
+//case 1
+w1=40E-6;//width of the depletion region of an Si photodiode
+tautr1=w1/Vsat;
+BWsi=1/(2*%pi*tautr1);
+mprintf("Bandwidth of Si photodiode = %.3f Gbit/s",BWsi*1E-9);
+
+//case 2
+w2=4E-6;//width of the depletion region of an InGaAs photodiode
+tautr2=w2/Vsat;
+BWInGaAs=1/(2*%pi*tautr2);
+mprintf("\nBandwidth of InGaAs photodiode = %.2f Gbit/s",BWInGaAs*1E-9);

@@ -1,9 +1,9 @@
-//Fiber Optics Communication Technology, by Djafer K. Mynbaev and Lovell L.scheiner
+//Fibre Optics Communication Technology, by Djafer K. Mynbaev and Lovell L.scheiner
 //Windows 7
 //Scilab version- 6.0.0
 //Example 3.1.2
 clc;
-clear;
+clear all;
 //given
 
 //case 1
@@ -16,8 +16,8 @@ n4=1.402;//Refractive index of the cladding for plastic optical fiber
 
 //case 1
 alphac=asind(sqrt(1-(n2/n1)^2));
-mprintf("\n The Critical propagation angle for case 1 = %.2f deg",alphac);
+mprintf("\n The Critical propogation angle for case 1 = %.2f deg",alphac);
 
 //case 2
 alphac2=asind(sqrt(1-(n4/n3)^2));
-mprintf("\n The Critical propagation angle for case 2 = %.2f deg",alphac2);
+mprintf("\n The Critical propogation angle for case 2 = %.2f deg",alphac2);

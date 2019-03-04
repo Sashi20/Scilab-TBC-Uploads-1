@@ -1,0 +1,4 @@
+Power Efficiency of a VCSEL diode = 0.084
+Hence, Power Efficiency of a VCSEL diode = 8.4 Percent 
+Power Efficiency of a broad area laser diode = 0.003
+Hence, Power Efficiency of a broad area laser diode = 0.3 Percent  

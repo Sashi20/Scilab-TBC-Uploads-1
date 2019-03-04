@@ -1,9 +1,9 @@
-//Fiber Optics Communication Technology, by Djafer K. Mynbaev and Lovell L.scheiner
+//Fibre Optics Communication Technology, by Djafer K. Mynbaev and Lovell L.scheiner
 //Windows 7
 //Scilab version- 6.0.0
 //Example 3.2.2
 clc;
-clear;
+clear all;
 //given
 
 A=0.5;//Attenuation in dB/km

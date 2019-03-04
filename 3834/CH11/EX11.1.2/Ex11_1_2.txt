@@ -1,0 +1,1 @@
+Responsivity of an InGaAs photodiode =0.933 A/W 

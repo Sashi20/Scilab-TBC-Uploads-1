@@ -1,0 +1,2 @@
+ The amount of light coupling in a GI multimode fiber is = 0.038
+The amount of light coupling in a SI singlemode fiber is = 0.017 

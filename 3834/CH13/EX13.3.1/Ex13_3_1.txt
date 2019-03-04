@@ -1,0 +1,2 @@
+ Frequency of surface acoustic wave = 170392584.51 Hz
+Tuning time acousto-optic interaction = 5.87 micro-s 

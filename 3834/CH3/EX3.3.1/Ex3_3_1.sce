@@ -3,7 +3,7 @@
 //windows 7
 //Scilab version-6.0.0
 clc;
-clear;
+clear all;
 //given
 d=62.5E-6;//core diameter in SI units
 NA=0.275;//numerical aperture
@@ -15,4 +15,4 @@ V=x/lambda;
 
 N=(V^2)/4;
 
-mprintf("Number of modes for graded index fiber = %.0f",N);
+mprintf("Number of modes for graded index fiber = %.2f",N);

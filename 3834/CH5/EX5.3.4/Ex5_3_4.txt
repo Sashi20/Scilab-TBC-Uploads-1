@@ -1,0 +1,1 @@
+ Pulse spread caused by PMD for single  mode fiber= 5.00 ps 

@@ -1,0 +1,2 @@
+ Intrinsic loss due to diameter mismatch = 0.83 dB
+Intrinsic loss due to NA mismatch = 0.95 dB 

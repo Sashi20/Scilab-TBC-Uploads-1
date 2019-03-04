@@ -1,9 +1,9 @@
-//Fiber Optics Communication Technology, by Djafer K. Mynbaev and Lovell L.scheiner
+//Fibre Optics Communication Technology, by Djafer K. Mynbaev and Lovell L.scheiner
 //Windows 8
 //Scilab version- 6.0.0
 //Example 12.3.4
 clc;
-clear ;
+clear all;
 //given
 
 Pis=300E-6;//input-signal power in W
@@ -17,4 +17,4 @@ SNRout=Pos/Pon;
 
 Fn=SNRin/SNRout;
 
-mprintf("Noise figure of an optical amplifier = %.2f or %.1fdB",Fn,10*log10(Fn));
+mprintf("Noise figure of an optical amplifier = %.2f.",Fn);

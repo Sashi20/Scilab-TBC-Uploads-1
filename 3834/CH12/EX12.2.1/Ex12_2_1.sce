@@ -1,9 +1,9 @@
-//Fiber Optics Communication Technology, by Djafer K. Mynbaev and Lovell L.scheiner
+//Fibre Optics Communication Technology, by Djafer K. Mynbaev and Lovell L.scheiner
 //Windows 8
 //Scilab version- 6.0.0
 //Example 12.2.1
 clc;
-clear ;
+clear all;
 //given
 
 deltaf=100E9;//spacing in Hz
@@ -12,6 +12,6 @@ c=3E17;//speed of light in nm/s
 f=c/lambda;
 
 x=1/(f*f);
-deltalambda=c*deltaf*x;//Spacing between channels in nm
+deltalambda=c*deltaf*x;
 
 mprintf("Spacing between channels is = %.2f nm",deltalambda);

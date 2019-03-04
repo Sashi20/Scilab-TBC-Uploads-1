@@ -1,0 +1,2 @@
+ Gain of erbium-doped fibre for case 1 = 23.01 dB
+Gain of erbium-doped fibre for case 2 = 23.01 dB 

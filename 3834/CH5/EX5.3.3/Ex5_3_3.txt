@@ -1,0 +1,2 @@
+
+chromatic dispersion in single mode fibre = 15.00 ps 

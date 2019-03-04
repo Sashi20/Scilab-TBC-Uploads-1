@@ -1,9 +1,9 @@
 //Fiber-optics communication technology, by Djafer K. Mynbaev and Lowell L. Scheiner 
 //Example 6.3.1
-//windows XP
-//Scilab version-5.5.1
+//windows 8
+//Scilab version-6.0.0
 clc;
-clear ;
+clear all;
 //given
 
 L=100E12;//Length of the single-mode fiber link in nm
@@ -14,15 +14,15 @@ S0=0.092;//zero dispersion slope in ps/nm^2
 
 y=lambda0/lambda;
 z=1-y^4;
-Dlambda=(S0/4)*lambda*z;//dispersion coefficient in ps/nm.Km
+Dlambda=(S0/4)*lambda*z;
 
 deltalambda=1;//light source's spectral width in nm
 
-deltatchrom=Dlambda*deltalambda*L;//Pulse spread caused by chromatic dispersion in s
+deltat=Dlambda*deltalambda*L;
 
-mprintf("Pulse spread caused by chromatic dispersion = %.2f ps",deltatchrom*1E-12);//multiplication by 1e-12 to convert unit from s to ps
+mprintf("Pulse spread caused by chromatic dispersion = %.2f ps",deltat*1E-12);
 
 x=6.66;//here, x= L/Ldcf assumed to be 6.66
 
-Ddcf=-Dlambda*x;//dispersion in DCF in ps/nm.Km
-mprintf("\nWe need DCF of %.2f ps/nm.km to compensate for dispersion in a conventional SM fiber.",Ddcf);
+Ddcf=-Dlambda*x;
+mprintf("\nWe need DCF of %.2f ps/nm.km to compensate for dispersion in a conventional SM fibre.",Ddcf);

@@ -1,0 +1,2 @@
+Pulse spread caused by chromatic dispersion = 1746.06 ps
+We need DCF of -116.29 ps/nm.km to compensate for dispersion in a conventional SM fibre. 

@@ -3,7 +3,7 @@
 //windows 7
 //Scilab version-6.0.0
 clc;
-clear;
+clear all;
 //given
 
 d=62.5E-6;//core diameter in SI units
@@ -13,6 +13,6 @@ lambda=1300E-9;//operating wavelength lambda in m
 
 x=3.14*d*NA;
 V=x/lambda;
-PcladbyPtotal=2*sqrt(2)/(3*V)//Power carried by fiber cladding
+PcladbyPtotal=2*sqrt(2)/(3*V)
 mprintf("\nPower carried by fiber cladding = %.3f",PcladbyPtotal);
 

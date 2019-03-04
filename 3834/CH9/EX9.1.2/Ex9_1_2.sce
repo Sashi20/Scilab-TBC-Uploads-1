@@ -1,9 +1,9 @@
-//Fiber Optics Communication Technology, by Djafer K. Mynbaev and Lovell L.scheiner
+//Fibre Optics Communication Technology, by Djafer K. Mynbaev and Lovell L.scheiner
 //Windows 8
 //Scilab version- 6.0.0
 //Example 9.1.2
 clc;
-clear ;
+clear all;
 //given
 Pout=100E-6;//radiated power in W
 
@@ -14,8 +14,8 @@ b=n1*n1;
 c=n2*n2;
 v=b-c;
 NA=sqrt(v);//numerical aperture
-mprintf("\n Numerical aperture=%.4f",NA);
+mprintf("\n numerical aperture=%.2f",NA);
 
-Pin=Pout*NA*NA;//light power Pin in W
-mprintf("\nLight power Pin=%.2f uW",Pin*1e6);//multiplication by 1e6 to convert unit from W to uW
+Pin=Pout*NA*NA*1000000;
+mprintf("\nLight power Pin=%.2f W",Pin);
 

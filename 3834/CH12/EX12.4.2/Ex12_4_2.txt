@@ -1,0 +1,1 @@
+ Connection loss in transmission fibre = 1.89 dB 

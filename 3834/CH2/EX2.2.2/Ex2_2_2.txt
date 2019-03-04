@@ -1,0 +1,3 @@
+Angle of reflection=30.0 degrees
+ Angle of refraction case 1=19.5 degrees 
+ Angle of refraction case2=48.6 degrees 

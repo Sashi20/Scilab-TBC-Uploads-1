@@ -3,7 +3,7 @@
 //windows 7
 //Scilab version-6.0.0
 clc;
-clear ;
+clear all;
 //given
 
 M=20;//Multiplication factor of a photodiode
@@ -15,11 +15,11 @@ R=0.9;//Responsivity of a photodiode
 e=1.6E-19;//Electrons value in Coulomb
 
 //case 1
-FsSi=2.49;//excess noise factor of Si avalanche photodiode
-SNRs=(R*Pin)/(2*e*FsSi*BWpd);//SNR of Si avalanche photodiode
-mprintf("SNR of Si avalanche photodiode = %.2f",SNRs);//the answer vary due to rounding
+Fssi=2.49;//excess noise factor of Si avalanche photodiode
+SNRs=(R*Pin)/(2*e*Fssi*BWpd);
+mprintf("SNR of Si avalanche photodiode = %.2f",SNRs);
 
 //case 2
 FsInGaAs=12.78;//excess noise factor of InGaAs avalanche photodiode
-SNRt=(R*Pin)/(2*e*FsInGaAs*BWpd);//SNR of InGaAs avalanche photodiode
-mprintf("\nSNR of InGaAs avalanche photodiode = %.2f",SNRt);//the answer vary due to rounding
+SNRt=(R*Pin)/(2*e*FsInGaAs*BWpd);
+mprintf("\nSNR of InGaAs avalanche photodiode = %.1f",SNRt);

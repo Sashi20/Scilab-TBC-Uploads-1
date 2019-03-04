@@ -1,0 +1,2 @@
+Wavelength is=496.3 nm. 
+It will emit green colour. 

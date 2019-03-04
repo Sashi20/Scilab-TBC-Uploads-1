@@ -1,0 +1,2 @@
+Io =25 mA 
+To =51 degree Centigrade 

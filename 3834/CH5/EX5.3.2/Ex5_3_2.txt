@@ -1,0 +1,2 @@
+ pulse spread caused by material dispersion=20.00 ps
+pulse spread caused by waveguide dispersion=5.00 ps 

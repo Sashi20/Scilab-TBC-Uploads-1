@@ -1,0 +1,2 @@
+ Gain of Fabry-Perot semiconductor optical amplifier = 7.14 for Gs=2
+Gain of Fabry-Perot semiconductor optical amplifier = 867.00 for Gs=3 

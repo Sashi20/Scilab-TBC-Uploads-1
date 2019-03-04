@@ -1,0 +1,1 @@
+Noise figure of an optical amplifier = 3.33

@@ -1,0 +1,2 @@
+ Bandwidth of Si photodiode = 0.398 Gbit/s
+Bandwidth of InGaAs photodiode = 3.98 Gbit/s

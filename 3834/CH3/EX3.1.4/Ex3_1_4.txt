@@ -1,0 +1,2 @@
+ numerical aperture for case 1=0.24
+ numerical aperture for case 2=0.47 

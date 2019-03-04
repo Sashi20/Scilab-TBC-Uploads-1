@@ -1,0 +1,1 @@
+ Numerical aperture of singlemode fiber =0.12 

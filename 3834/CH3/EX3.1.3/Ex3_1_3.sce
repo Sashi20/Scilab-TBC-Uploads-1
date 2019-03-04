@@ -1,9 +1,9 @@
 //Fiber-optics communication technology, by Djafer K. Mynbaev and Lowell L. Scheiner 
 //Example 3.1.3
-//windows XP
-//Scilab version-5.1.1
+//windows 7
+//Scilab version-6.0.0
 clc;
-clear;
+clear all;
 //given
 
 //case 1
@@ -23,7 +23,7 @@ n3=1.495;//refractive index of the core
 n4=1.402;//refractive index of the cladding
 
 alphac2=asin(sqrt(1-(n4/n3)^2));
-mprintf("\n The critical propagation angle for case 1 = %.2f deg",alphac2);
+mprintf("\n The Critical propogation angle for case 1 = %.2f deg",alphac2);
 b2=sin(alphac2);
 thetaa2=asind(n3*b2);//by snell's law
 

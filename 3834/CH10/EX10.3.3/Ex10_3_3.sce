@@ -3,13 +3,12 @@
 //windows 7
 //Scilab version-6.0.0
 clc;
-clear ;
+clear all;
 //given
 RIN=1E-16;//relative intensity in 1/Hz
 P=100E-6;//power received in W
 BW=100E+6;//Receiver bandwidth in Hz
 
-PN=sqrt(RIN*(P^2)*BW);//The average noise power detected by receiver W
+Pn=sqrt(RIN*(P^2)*BW);
 
-mprintf("The average noise power detected by receiver = %.2f uW",PN*1E+6);
-//multiplication by 1e6 to convert unit to W from uW 
+mprintf("The average noise power detected by receiver = %.2f micro-w",Pn*1E+6);

@@ -1,0 +1,3 @@
+Noise-Equivalent power(NEP) = 321.9 nW
+Noise-Equivalent power(NEP) for given wavelength lambda=1550nm = 12.8 nW
+Noise-Equivalent power(NEP) for given wavelength lambda=1550nm = 12.8 nW 

@@ -1,0 +1,2 @@
+ RMS value of noise current for an MF-432 PIN photodiode = 30.2 nA
+Bandwidth value of noise current for an MF-432 PIN photodiode = 0.603 pA/Hz 

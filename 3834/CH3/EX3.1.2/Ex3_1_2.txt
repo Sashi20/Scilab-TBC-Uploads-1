@@ -1,0 +1,3 @@
+
+ The Critical propogation angle for case 1 = 9.43 deg
+ The Critical propogation angle for case 2 = 20.32 deg 

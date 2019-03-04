@@ -3,7 +3,7 @@
 //windows 7
 //Scilab version-6.0.0
 clc;
-clear;
+clear all;
 //given
 L=5;//fiber length in km
 NA=0.275;//numerical aperture
@@ -16,8 +16,8 @@ e=NA*NA;
 
 d=L*e;
 
-deltatsi=(d/p)*1E9;//pulse spreading in ns //answer vary due round-off
-deltatsi_by_L=(deltatsi/L)//pulse spreading per unit length in ns/Km//answer vary due round-off
+deltatsi=(d/p)*1E9;//answer is changed due round-off
+Q=(deltatsi/L)
 
-mprintf("\n Light pulse spreading= %.2f ns",deltatsi);
-mprintf("\n Pulse spreading per unit length is=%.2f ns/Km",deltatsi_by_L);
+mprintf("\n light pulse spreading= %.2f sec",deltatsi);
+mprintf("\n ratio of deltatsi per length is=%.2f sec/Km",Q);

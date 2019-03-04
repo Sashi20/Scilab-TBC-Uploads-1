@@ -1,0 +1,1 @@
+Light velocity in glass=2.0x10^8 m/s 

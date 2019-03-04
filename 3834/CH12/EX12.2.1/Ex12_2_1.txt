@@ -1,0 +1,1 @@
+ Spacing between channels is = 0.80 nm

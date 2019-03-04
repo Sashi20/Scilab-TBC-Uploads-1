@@ -3,7 +3,7 @@
 //windows 8
 //Scilab version-6.0.0
 clc;
-clear;
+clear all;
 //given
 
 lambda=850;// wavelength in nm
@@ -15,12 +15,12 @@ lambda0=1343;//assumed zero dispersion wavelength in nm
 y=lambda0/lambda;
 x=1-(y*y*y*y);
 
-Dlambda=-(S0*x*lambda)/4;//dispersion parameter in ps/nm.km
+Dlambda=-(S0*x*lambda)/4;
 
-deltatgmat=(Dlambda*deltalambda)/1000;//Pulse spreading by material dispersion in ns/km
+deltatgmat=(Dlambda*deltalambda)/1000;
 
-mprintf("Pulse spreading by material dispersion = %.2f ns/km",deltatgmat);//the answer vary due to roundingoff
+mprintf("Pulse spreading by material dispersion = %.2f ns/km",deltatgmat);
 
-deltatmat=deltatgmat*100;//Pulse spreading over entire fiber in s
+deltatmat=deltatgmat*100;
 
-mprintf("\nPulse spreading over entire fiber = %.2f s",deltatmat);//the answer vary due to roundingoff
+mprintf("\nPulse spreading over entire fiber = %.2f s",deltatmat);

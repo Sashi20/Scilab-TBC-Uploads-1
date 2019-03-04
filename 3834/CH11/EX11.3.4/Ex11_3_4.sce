@@ -3,26 +3,28 @@
 //windows 7
 //Scilab version-6.0.0
 clc;
-clear;
+clear all;
 //given
 
-NEPnorm1=3.3E-12;//Bandwidth normalised NEP in W/sqrt(Hz) from 0-10MHz
+NEPnormBW1=3.3E-12;//Bandwidth normalised NEP in W/sqrt(Hz)
 BW1=10E+6;//Bandwidth for case 1 in Hz
 
-x=NEPnorm1*sqrt(BW1);
+x=NEPnormBW1*sqrt(BW1);
 
-NEPnorm2=30E-12;//Bandwidth normalised NEP in W/sqrt(Hz)from 10-125 MHz
+NEPnormBW2=30E-12;//Bandwidth normalised NEP in W/sqrt(Hz)
 BW2=115E+6;//Bandwidth for case 2 in Hz
 
-y=NEPnorm2*sqrt(BW2);
+y=NEPnormBW2*sqrt(BW2);
 
 NEP=sqrt(x^2+y^2);
 mprintf("Noise-Equivalent power(NEP) = %.1f nW",NEP*1E+9);
 
-Rmax=1.1;//Maximum value of responsivity of a photodiode in A/W at 1550nm
+Rmax=1.1;//Maximum value of responsivity of a photodiode in A/W
 Rlambda=0.9;//Responsivity of a photodiode for given wavelength 1300nm in A/W
-BW=125E+6;//Bandwidth  in Hz
-NEPlambda1=NEPnorm2*(Rmax/Rlambda)*sqrt(BW);
-mprintf("\nNoise-Equivalent power(NEP) for given wavelength lambda=1550nm = %.1f nW",NEPlambda1*1E9);
 
+NEPlambdaBW1=x*(Rmax/Rlambda);
+mprintf("\nNoise-Equivalent power(NEP) for given wavelength lambda=1550nm = %.1f nW",NEPlambdaBW1*1E+9);
+
+NEPlambdaBW2=y*(Rmax/Rlambda);
+mprintf("\nNoise-Equivalent power(NEP) for given wavelength lambda=1550nm = %.1f nW",NEPlambdaBW1*1E+9);
 

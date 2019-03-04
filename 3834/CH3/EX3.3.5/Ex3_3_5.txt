@@ -1,0 +1,3 @@
+
+ the ratio of the dlamda to the length is=-87650938.49 ns/Km
+ chromatic dispersion parameter =-4.38 sec/m 

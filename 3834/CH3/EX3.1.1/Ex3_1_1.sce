@@ -3,7 +3,7 @@
 //windows 7
 //Scilab version-6.0.0
 clc;
-clear;
+clear all;
 //given
 
 //case 1
@@ -17,11 +17,10 @@ n4=1.402;//refractive index of the cladding
 //case 1
 b=n2/n1;
 thetac=asind(b);
-mprintf("\n The critical incident angle for case 1 is=%.2f degrees",thetac);
+mprintf("\n the critical incident angle for case 1 is=%.2f degrees",thetac);
 
 //case 2
 g=n4/n3;
-mprintf("\n The ratio=%.2f",g);
+mprintf("\n\nthe ratio=%.2f",g);
 thetac2=asind(g);
-mprintf("\n The critical incident angle for case 2 is=%.2f degrees",thetac2);
-
+mprintf("\n the critical incident angle for case 2 is=%.2f degrees",thetac2);

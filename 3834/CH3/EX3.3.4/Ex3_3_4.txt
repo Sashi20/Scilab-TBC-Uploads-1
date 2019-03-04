@@ -1,0 +1,2 @@
+pulse spreading due to modal dispersion=0.91 sec
+ maximum bit rate=0.18 sec/Km 
