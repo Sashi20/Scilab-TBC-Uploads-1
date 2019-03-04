@@ -1,3 +1,4 @@
+
 //===========================================================================
 //chapter 6 example 26
 clc;
@@ -18,13 +19,13 @@ theta	= delta+(((acos(0.8))*180)/%pi)     //from figure taken the value of gamma
 z   = cos((theta*%pi)/180)
 z1  = sin(((theta)*%pi)/180)
 Kc	= KT+(((Ie*z)+(Im*z1))/Ie)  //actual current in A
-e	= ((Kn-Kc)/Kc)*100	//ratio error
+e	= ((KN-Kc)/Kc)*100	//ratio error
 b	=(180/%pi)*(((Im*z)-(Ie*z1))/(KT*Is))
 theta1	= delta-(((acos(0.8))*180)/%pi)    //from figure taken the value of gamma
 z11   = cos((theta1*%pi)/180)
 z12  = sin(((theta1*%pi)/180))
 Kc1	= KT+(((Ie*z11)+(Im*z12))/Is)	//actual current in A
-e1	= ((Kn-Kc1)/Kc1)*100	//ratio error
+e1	= ((KN-Kc1)/Kc1)*100	//ratio error
 b1	=(180/%pi)*(((Im*z11)-(Ie*z12))/(KT*Is))
 
 
@@ -32,4 +33,4 @@ b1	=(180/%pi)*(((Im*z11)-(Ie*z12))/(KT*Is))
 mprintf("ratio error = %3.2f  percentage",e);
 mprintf("\nphase angle error = %3.1f °",b);
 mprintf("\nratio error = %3.2f percentage",e1);
-mprintf("\nphase angle error = %3.2f percentage°",b1);
+mprintf("\nphase angle error = %3.2f °",b1);

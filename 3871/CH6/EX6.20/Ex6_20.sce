@@ -1,3 +1,4 @@
+
 //===========================================================================
 //chapter 6 example 20
 
@@ -32,6 +33,6 @@ b	=(180/%pi)*((I01*y)/(KT*Is));		//phase angle
 
 
 //result
-mprintf("primary current  = %3f. A",y);
-mprintf("\nphase angle  = %3.3f ",b);
+mprintf("primary current  = %3.0d A",Ip);
+mprintf("\nphase angle  = %3.3f ° ",b);
 

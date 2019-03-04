@@ -1,3 +1,4 @@
+
 //===========================================================================
 //chapter 6 example 25
 
@@ -9,6 +10,7 @@ KT	= 201;		//turn ration
 Ie	= 3;		//cross loss  current in A
 Im	= 7;		//magnetising component of exciting current in A
 delta	=0;
+Kn     = 200;
 
 //calculations
 

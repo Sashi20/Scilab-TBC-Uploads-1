@@ -1,3 +1,4 @@
+
 //=============================================================
 //Chapter 5 example 6
  
@@ -14,7 +15,7 @@ I      = 1;
 //calculations
 r       = Rt-R;         //swamping resistance in Ω
 X      = (2*%pi*f*r)^2;
-Y       = L*x;
+Y       = L*X;
 Y1         = I*L;
 //L         = C*r^2/(I+w^2*C^2*r^2)
 //C*r^2     = L*I+L*w^2*C^2*r^2
