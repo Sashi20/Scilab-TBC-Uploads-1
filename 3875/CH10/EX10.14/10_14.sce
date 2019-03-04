@@ -13,5 +13,5 @@ N=P/E //no of photons incident on the metal per sec
 N_e=N*eff //no of electrons released per sec
 I=N_e*e
 
-mprintf("The photoelectric current is = %1.3e amp or 1.837 micro-amp",I)
+mprintf("The photoelectric current is = %1.3f micro-amp",I*10^6) //multiplying by 10^6 to convert from ampere to micro-ampere.
 //The Answer provided in the textbook is wrong.

@@ -1,2 +1,2 @@
- Resistance is = 19 ohm
-Capacitance is = 33.3 mF
+Resistance is = 19 ohm
+Capacitance is = 33.3 micro F

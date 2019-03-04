@@ -11,14 +11,13 @@ v_g=22 //velocity of golf ball in m/s
 
 //calculation
 //case (a)
-lambda=(h/sqrt(2*m*KE))
-mprintf("The de-Broglie wavelength is = %1.3e m or 0.388 nm\n",lambda)
+lambda=((h/sqrt(2*m*KE))/10^-9) //converting from m to nm by dividing by 10^-9 
+mprintf("The de-Broglie wavelength is = %1.3f nm\n",lambda) //The answer varies due to round off error.
 
 //case (b)
 m=m_h/a //mass in kg
-lambda=(h/(m*v))
-mprintf("The de-Broglie wavelength is = %1.2e m or 0.988 nm\n",lambda) //The answer provided in the textbook is wrong.
+lambda=((h/(m*v))/10^-9) //converting from m to nm by dividing by 10^-9 
+mprintf("The de-Broglie wavelength is = %1.3f nm \n",lambda) 
 
-//case (c)
-lambda1=h/(m_g*v_g)
+lambda1=h/(m_g*v_g) //Wavelength in m 
 mprintf("The de-Broglie wavelength of the golf ball is = %1.1e m",lambda1)

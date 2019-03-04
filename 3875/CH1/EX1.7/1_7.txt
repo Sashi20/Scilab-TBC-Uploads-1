@@ -1,5 +1,5 @@
- (i)Impedance = 12.4 ohm
+(i)Impedance = 12.4 ohm
 (ii)Current = 19.41 A
 (iii)Power Factor = 0.65 (lag)
 (iv)Power Consumed = 3015 W
-(v)The value of capacitance is = 168 mF
+(v)The value of capacitance is = 168 micro F

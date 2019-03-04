@@ -1,12 +1,4 @@
-The lattice parameter for Bragg reflections from plane 110 is = 0.242 nm
-
-The lattice parameter for Bragg reflections from plane 200 is = 0.296 nm
-
-The lattice parameters 0.242 nm and 0.296 nm are not equal,hence metal is not bcc.
-
-The lattice parameter for Bragg reflections from plane 111 is = 0.296 nm
-
-The lattice parameter for Bragg reflections from plane 200 is = 0.296 nm
-
-The lattice parameters 0.296 nm and 0.296 nm are equal,hence metal is fcc.
-The atomic diameter is = 0.2093 nm
+ (i)The lattice parameter is = 0.242 nm
+(ii)The lattice parameter is = 0.2960 nm
+The lattice parameter is consistent at value=0.296 nm
+(iii)The atomic diameter is = 0.2093 nm

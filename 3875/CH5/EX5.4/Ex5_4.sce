@@ -16,6 +16,15 @@ N1=ceil(lambda/(k1*d_lambda)) //No. of grating lines
 //for the second order
 N2=ceil(lambda/(k2*d_lambda)) //No. of grating lines 
 
+if(Total_lines>N1) then
+    printf("\nAs the total number of lines required for the just resolution in the first order is %d and the total number of lines on the grating is %d, the lines will appear resolved in first order\n",N1,Total_lines) 
+else 
+    printf("\nAs the total number of lines required for the just resolution in the first order is %d and the total number of lines on the grating is %d, the lines will not be resolved\n",N1,Total_lines)
+end
 
-printf("\nAs the total number of lines required for the just resolution in the first order is %d and the total number of lines on the grating is %d, the lines will not be resolved\n",N1,Total_lines) 
-printf("\nAs the total number of lines required is %d and the given grating has a total of %d lines, the lines will appear resolved in second order\n",N2,Total_lines) 
+if(Total_lines>N2) then
+    printf("\nAs the total number of lines required is %d and the given grating has a total of %d lines, the lines will appear resolved in second order\n",N2,Total_lines)
+else
+    printf("\nAs the total number of lines required is %d and the given grating has a total of %d lines, the lines will not be resolved\n",N2,Total_lines)
+end
+    

@@ -1,2 +1,2 @@
-The wavelength is = 5962.5 A
-The wavelength is = 5611.8 A
+The wavelength  8th bright band is = 5962.5 A
+The wavelength  9th dark band is = 5611.8 A

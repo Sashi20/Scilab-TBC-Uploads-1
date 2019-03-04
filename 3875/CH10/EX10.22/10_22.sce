@@ -6,6 +6,6 @@ T=300 //Temperature in K
 m=1.00878*1.66*10^-27 //mass of neutron in kg
 
 //calculation
-lambda=(h/sqrt(3*m*K_b*T))
+lambda=((h/sqrt(3*m*K_b*T))/10^-9) //converting from m to nm by dividing by 10^-9 ,wavelength in nm
 
-mprintf("The de-Broglie wavelength is = %1.2e m or 0.145 nm",lambda)
+mprintf("The de-Broglie wavelength is = %1.3f nm",lambda)
