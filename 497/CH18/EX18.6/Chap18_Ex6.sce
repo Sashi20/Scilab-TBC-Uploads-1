@@ -1,6 +1,6 @@
 //Kunii D., Levenspiel O., 1991. Fluidization Engineering(II Edition). Butterworth-Heinemann, MA, pp 491
 
-//Chapter-18, Example 5, Page 471
+//Chapter-18, Example 6, Page 471
 //Title: Design of a Roaster for Coarse Ore
 //==========================================================================================================
 
@@ -62,7 +62,7 @@ XBbar=3*y-6*y^2+6*y^3*(1-exp(-1/y));//Average conversion of ZnS from Eqn.(22)
 
 //OUTPUT
 printf('\nSelection of models to represent reactor');
-printf('\n\tSince ratio ubr/(umf/ephsilonmf)= %f <1, the reactor is operating in slow bubble regime',f);
+printf('\n\tSince ratio ubr/(umf/ephsilonmf)= %f &lt;1, the reactor is operating in slow bubble regime',f);
 printf('\n\tSince particle size =%f micrometer, they react according to shrinking-core model',dp);
 printf('\n\tConversion obtained for %f micrometer particle:%f',dp,XBbar);
 
