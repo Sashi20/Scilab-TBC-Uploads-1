@@ -1,7 +1,7 @@
 clear;
 clc;
 
-//Example - 4.1 
+//Example - 4.2
 //Page number - 148
 printf("Example - 4.1 and Page number - 148\n\n");
 
@@ -27,7 +27,7 @@ W_theot = Q_theot;//[J] - Theoritical work done
 // Since actual work done by the gas is 0.55 kJ therefore actual heat supplied is also 0.55 kJ because under isothermal conditions delta_U = 0
 Q_actual = W_actual;
 
-// Since Q_theot > Q_actual, so the process is irreversible
+// Since Q_theot &gt; Q_actual, so the process is irreversible
 printf(" Since, Q_theot = %f J  is greater than  Q_actual = %f J\n",Q_theot,Q_actual);
 printf(" Therefore,the process is internally irreversible");
 
@@ -38,6 +38,3 @@ printf(" Therefore,the process is internally irreversible");
 // delta_S_sys = Q/T_b + S_gen
 S_gen = delta_S_sys - (Q_theot/T);//[J/K]
 // The entropy generated may be due to friction and other dissipayive effects or due to non-quasi-static expansion
-
-
-

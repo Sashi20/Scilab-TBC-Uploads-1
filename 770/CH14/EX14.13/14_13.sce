@@ -1,7 +1,7 @@
 clear;
 clc;
 
-//Example - 14.15
+//Example - 14.13
 //Page number - 481
 printf("Example - 14.15 and Page number - 481\n\n")
 
@@ -28,4 +28,3 @@ Y1 = exp((V_mol_1/(R*T))*(phi_1^(2))*((del_1-del_2)^(2)));
 Y2 = exp((V_mol_2/(R*T))*(phi_2^(2))*((del_1-del_2)^(2)));
 
 printf("The value of activity coefficients for Scatchard-Hilderbrand model are\n Y1 = %f \t and \t Y2 = %f\n\n",Y1,Y2);
-
