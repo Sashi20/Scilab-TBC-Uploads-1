@@ -7,7 +7,7 @@
 clear;
 close;
 clc;
-rb =  input('Enter the bit rate=');
+rb =  8;
 Tb =1/rb;  //Bit duration
 f = -rb/2:1/100:rb/2;
 Amplitude_Response = abs(2*sin(2*%pi*f.*Tb));
@@ -35,4 +35,4 @@ ylabel('                                            <H(f) ----->')
 title('Phase Repsonse of Modified Duobinary Singaling')
 xgrid(1)
 //Result
-//Enter the bit rate=8 
+//Enter the bit rate=8

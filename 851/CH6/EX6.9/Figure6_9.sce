@@ -7,7 +7,7 @@
 clear;
 close;
 clc;
-rb =  input('Enter the bit rate=');
+rb =  8;
 Tb =1/rb;  //Bit duration
 f = -rb/2:1/100:rb/2;
 Amplitude_Response = abs(2*cos(%pi*f.*Tb));
@@ -33,4 +33,4 @@ xlabel('                                           Frequency f---->')
 ylabel('                                            <H(f) ----->')
 title('Phase Repsonse of Duobinary Singaling')
 //Result
-//Enter the bit rate=8 
+//Enter the bit rate=8

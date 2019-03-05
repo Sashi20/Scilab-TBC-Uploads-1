@@ -4,9 +4,9 @@
 //page 207
 clear;
 clc;
-a0 = input('Enter the amplitude of sinusoidal signal:');
-f0 = input('Enter the frequency of sinusoidal signal in Hz:');
-fs = input('Enter the sampling frequency in samples per seconds:');
+a0 = 1;
+f0 = 4000;
+fs = 8000;
 Ts = 1/fs;//Sampling interval
 delta = 2*%pi*f0*a0*Ts;//Step size to avoid slope overload
 Pmax = (a0^2)/2;//maximum permissible output power
@@ -29,4 +29,4 @@ disp(SNRo_dB,'Maximum output signal-to-nosie in dB for Delta Modualtion:')
 //Maximum output signal-to-nosie in dB for Delta Modualtion:3.859115 
 ///////////////////////////////////////////////////////////////////////
 //Conclusion: comparing result 1 with result 2, if the sampling frequency
-//is doubled the signal to noise increased by 9 dB 
+//is doubled the signal to noise increased by 9 dB

@@ -6,10 +6,10 @@
 clear;
 clc;
 close;
-f = input('Enter the Analog Carrier Frequency in Hz');
+f = 2;
 t = 0:1/512:1;
 x = sin(2*%pi*f*t);
-I = input('Enter the digital binary data');
+I = [0,1,1,0,1,0,0,1];
 //Generation of ASK Waveform
 Xask = [];
 for n = 1:length(I)

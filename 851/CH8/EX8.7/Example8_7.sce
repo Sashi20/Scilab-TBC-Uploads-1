@@ -4,9 +4,9 @@
 //Time Domain Approach
 close;
 clc;
-g1 = input('Enter the input Top Adder Sequence:=')
-g2 = input('Enter the input Bottom Adder Sequence:=')
-m = input('Enter the message sequence:=')
+g1 = [1,1,1];
+g2 = [1,0,1];
+m = [1,1,0,0,1];
 x1 = round(convol(g1,m));
 x2 = round(convol(g2,m));
 x1 = modulo(x1,2);

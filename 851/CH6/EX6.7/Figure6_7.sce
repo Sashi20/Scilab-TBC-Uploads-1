@@ -5,7 +5,7 @@
 //page 250
 close;
 clc;
-rb = input('Enter the bit rate:');
+rb = 1;
 Tb =1/rb;
 t =-3:1/100:3;
 Bo = rb/2;
@@ -14,9 +14,9 @@ x =t/Tb;
 for j =1:3
   for i =1:length(t)
     if((j==3)&((t(i)==0.5)|(t(i)==-0.5)))
-        p(j,i) = sinc_new(2*Bo*t(i));
+        p(j,i) = sinc(2*Bo*t(i));
     else
-        num =  sinc_new(2*Bo*t(i))*cos(2*%pi*Alpha*Bo*t(i));
+        num =  sinc(2*Bo*t(i))*cos(2*%pi*Alpha*Bo*t(i));
         den =   1-16*(Alpha^2)*(Bo^2)*(t(i)^2)+0.01; 
         p(j,i)= num/den;
     end
@@ -32,8 +32,8 @@ plot2d(t,p(3,:))
 poly2= a.children(1).children(1);
 po1y2.foreground=4;
 poly2.line_style = 3;
-xlabel('t/Tb------>');
-ylabel('p(t)------->');
+xlabel('t/Tb------&gt;');
+ylabel('p(t)-------&gt;');
 title('RAISED COSINE SPECTRUM - Practical Solution for ISI')
 legend(['ROlloff Factor =0','ROlloff Factor =0.5','ROlloff Factor =1'])
 xgrid(1)

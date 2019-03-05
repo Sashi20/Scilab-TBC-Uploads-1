@@ -4,8 +4,8 @@
 //clear;
 //close;
 //clc;
-rb = input('Enter the bit rate in bits per second:');
-Eb = input('Enter the Energy of bit:');
+rb = 2;
+Eb = 1;
 f = 0:1/(100*rb):(4/rb);
 Tb = 1/rb; //bit duration in seconds
 for i = 1:length(f)
@@ -14,15 +14,15 @@ for i = 1:length(f)
   else
     SB_MSK(i) = (32*Eb/(%pi^2))*(cos(2*%pi*Tb*f(i))/((4*Tb*f(i))^2-1))^2;
   end
-    SB_QPSK(i)= 4*Eb*sinc_new((2*Tb*f(i)))^2;
+    SB_QPSK(i)= 4*Eb*sinc((2*Tb*f(i)))^2;
 end
 a = gca();
 plot(f*Tb,SB_MSK/(4*Eb));
 plot(f*Tb,SB_QPSK/(4*Eb));
 poly1= a.children(1).children(1);
 poly1.foreground = 3;
-xlabel('Normalized Frequency ---->')
-ylabel('Normalized Power Spectral Density--->')
+xlabel('Normalized Frequency ----&gt;')
+ylabel('Normalized Power Spectral Density---&gt;')
 title('QPSK Vs MSK Power Spectra Comparison')
 legend(['Minimum Shift Keying','QPSK'])
 xgrid(1)

@@ -4,7 +4,7 @@
 clc;
 close;
 t = -1.5:0.01:2.5;
-g = 2*sinc_new(2*t-1);
+g = 2*sinc(2*t-1);
 disp(max(g),'Aliasing error cannot exceed max|g(t)|')
 f = -1:0.01:1;
 G = [0,0,0,0,ones(1,length(f)),0,0,0,0];

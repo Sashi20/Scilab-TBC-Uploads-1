@@ -9,12 +9,12 @@ x0= 1;
 x1= 0;
 x2 =0;
 x3 =0;
-N = input('Enter the period of the signal')
+N = 7;
 for i =1:N
   x3 =x2;
   x2 =x1;
   x1 = x0;
-  x0 =xor(x1,x3);
+  x0 =bitxor(x1,x3);
   disp(i,'The PN sequence at step')
   x = [x1 x2 x3];
   disp(x,'x=')
@@ -42,4 +42,4 @@ disp('_________________________________________________________')
 //  The PN sequence at step   6.  
 //  x=       0.    1.    0.  
 //  The PN sequence at step   7.  
-//  x=       0.    0.    1.   
+//  x=       0.    0.    1.

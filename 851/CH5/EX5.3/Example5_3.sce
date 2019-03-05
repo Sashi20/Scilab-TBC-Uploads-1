@@ -4,8 +4,8 @@
 //Channel Bandwidth B
 clear;
 clc;
-n = input('Enter no. of bits used to encode:')
-W = input('Enter the message signal banwidth in Hz:')
+n =8;
+W = 4000;
 B = n*W;
 disp(B,'Channel width in Hz:')
 SNRo = 6*n - 7.2;
