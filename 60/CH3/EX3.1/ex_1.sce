@@ -1,5 +1,8 @@
-   // Example(3.1)
-
+// Example(3.1)
+exec('bisect.sce');
+exec('newt.sce');
+exec('regulfalsi.sce');
+exec('secantm.sce');
 // finding roots using bisection method
     
      deff('[y]=f(x)','y=x-0.2*sin(x)-0.5')
@@ -24,4 +27,3 @@ x=(0.5+1)/2
 deff('[y]=f(x)','y=x-0.2*sin(x)-0.5')
 deff ('[y]=g(x)','y=1-0.2*cos(x)')
 x=newton(x,f,g)
-

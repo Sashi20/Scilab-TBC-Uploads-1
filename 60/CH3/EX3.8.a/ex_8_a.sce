@@ -1,7 +1,7 @@
 //example(pg no.111)
 
 
-//a,b & f are the modulus coeff of x^0,x^1,x^5
+//a,b &amp; f are the modulus coeff of x^0,x^1,x^5
  c=[-6.8 10.8 -10.8 7.4 -3.7 1]
  a=6.8;
  b=10.8;
@@ -10,7 +10,7 @@
  p5=poly(c,'x','coeff')
   p=n*a/b
   q=a/f^(1/n)
- roots(p4)
+ roots(p5)
  
  xset('window',0);                                   
 x=-2:.01:2.5;                                             // defining the range of x.
