@@ -11,9 +11,9 @@ xt = sin(Wo*t);
 for k =0:5
   C(k+1,:) = exp(-sqrt(-1)*Wo*t.*k);
   a(k+1) = xt*C(k+1,:)'/length(t);
-  if(abs(a(k+1))<=0.01) 
+  if(abs(a(k+1))&lt;=0.01) 
     a(k+1)=0;
   end
 end
 a =a';
-ak = [-a,a(2:$)];
+ak = [-a,a(2:$)]
