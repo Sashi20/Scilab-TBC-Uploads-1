@@ -1,7 +1,7 @@
 clc;
 //page no 763
 //prob no. 20.2.5
-d=10*10^-6;wave=1.3*10^-6;n1=1.55;V_max=2.405clc;
+d=10*10^-6;wave=1.3*10^-6;n1=1.55;V_max=2.405;clc;
 
 //page no 762
 //prob no. 20.2.4
