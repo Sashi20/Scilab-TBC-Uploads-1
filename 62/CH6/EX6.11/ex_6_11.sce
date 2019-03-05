@@ -4,14 +4,14 @@ clc;
 n=-10:10;
 a=2;
 for i=1:length(n)
-    if n(i)<=-1 then
+    if n(i)&lt;=-1 then
         x(i)=-2^n(i);
     else
         x(i)=0;
     end
 end
 x=x';
-figure
+figure;
 subplot(2,1,1)
 plot2d3(n,x);
 title("x[n]")

@@ -15,9 +15,9 @@ for i=1:length(n)
         g=[g x(i)];
     end
 end
-Fk=dft(f,-1);
-Gk=dft(g,-1);
+Fk=fft(f,-1);
+Gk=fft(g,-1);
 //Xk=Fk-WkN*Gk
-Xk=Fk-WkN'.*Gk;
+Xk=Fk-WkN.*Gk;
 Xk=[Xk; Xk];
 disp(round(Xk))

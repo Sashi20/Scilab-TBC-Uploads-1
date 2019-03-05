@@ -1,15 +1,12 @@
 //ex_22 product of x(t) and unit step function
-clear x;
-clear t;
 clear;
-clear y;
 clc;
 close;
 t=-1:1/100:2
 for i=1:(length(t))
-    if t(i)<0 then
+    if t(i)&lt;0 then
         x(i)=t(i)+1;
-    elseif t(i)<1
+    elseif t(i)&lt;1
         x(i)=1
     else
         x(i)=2
@@ -22,7 +19,7 @@ a.y_location='origin'
 xtitle('x(t)','t')
 //a.x(t)*u(1-t)
 for i = 1:(length(t))
-    if t(i)<1  then
+    if t(i)&lt;1  then
         u1(i)=1
     else
         u1(i)=0
@@ -35,7 +32,7 @@ plot2d(t,y)
 a.y_location='origin'
 xtitle('x(t)*u(1-t)','t')
 for i = 1:(length(t))
-    if t(i)<1 & t(i)>0 then
+    if t(i)&lt;1 &amp; t(i)&gt;0 then
         u2(i)=1
     else
         u2(i)=0

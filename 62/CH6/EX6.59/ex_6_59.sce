@@ -8,8 +8,8 @@ p=x(1:4)+x(5:8);
 k=0:N/2-1;
 WkN=exp(-%i*2*%pi*k/N);
 q=[x(1:4)-x(5:8)].*WkN;
-Pk=dft(p,-1);
-Qk=dft(q,-1);
+Pk=fft(p,-1);
+Qk=fft(q,-1);
 //X[2k]=P[k]  X[2k+1]=Q[k]
 for i=1:length(k)
     if modulo(i,2)==0 then
