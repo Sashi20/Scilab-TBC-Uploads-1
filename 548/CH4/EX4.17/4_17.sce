@@ -1,6 +1,4 @@
-pathname=get_absolute_file_path('4_17.sce')
-filename=pathname+filesep()+'4_17data.sci'
-exec(filename)
+exec('4_17data.sci')
 disp("M1^2=2*[(Po/P1)^((y-1)/y)-1]/(y-1))","let Mach no at which the airplane flying is M1 then")
 M1=sqrt(2*[(Po/P1)^((y-1)/y)-1]/(y-1));disp(M1,"M1=");
 a1=sqrt(y*R*T);disp(a1,"a1=(y*R*T)^0.5","speed of sound at that point");

@@ -1,6 +1,4 @@
-pathname=get_absolute_file_path('5_14.sce')
-filename=pathname+filesep()+'5_14data.sci'
-exec(filename)
+exec('5_14data.sci')
 Cl=L/(q*S);
 disp(Cl,"Cl=","Cl=L/(q*S)","Lift coefficient Cl:")
 printf("\Answer:\n")

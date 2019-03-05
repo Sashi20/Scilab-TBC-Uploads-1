@@ -1,6 +1,4 @@
-pathname=get_absolute_file_path('4_16.sce')
-filename=pathname+filesep()+'4_16data.sci'
-exec(filename)
+exec('4_16data.sci')
 disp("Vt=(2(Po-P)/D)^0.5","True velocity of airplane")
 Vt=sqrt(2*(Po-P)/D);disp(Vt,"Vt=");
 disp("Ve=(2(Po-P)/Ds)^0.5","Eqivalent airspeed of airplane")

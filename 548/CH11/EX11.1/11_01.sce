@@ -1,6 +1,4 @@
-pathname=get_absolute_file_path('11_01.sce')
-filename=pathname+filesep()+'11_01data.sci'
-exec(filename)
+exec('11_01data.sci')
 Cp=Cpmax*(sin(theta))^2;
 disp(Cp,"Cp=","Cp=Cpmax*(sin(theta))^2","pressure coefficient at point 1 Cp:")
 printf("\Answer:\n")

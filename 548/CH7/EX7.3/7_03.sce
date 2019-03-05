@@ -1,6 +1,4 @@
-pathname=get_absolute_file_path('7_03.sce')
-filename=pathname+filesep()+'7_03data.sci'
-exec(filename)
+exec('7_03data.sci')
 A=[1,Awb*ab2;1,Awb*ab3];
 B=[1,1];//coefficient of moment coefficient about aerodynamic center
 C=[Awb*ab2,Awb*ab3];//coefficient of h-hac

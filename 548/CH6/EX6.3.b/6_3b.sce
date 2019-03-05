@@ -1,6 +1,4 @@
-pathname=get_absolute_file_path('6_3b.sce')
-filename=pathname+filesep()+'6_3b_data.sci'
-exec(filename)
+exec('6_3b_data.sci')
 clf();
 i = 1;
 Cl = 0;Cd = 0;Cl_Cd =0;Thrust = 0;

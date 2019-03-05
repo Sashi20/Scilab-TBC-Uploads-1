@@ -1,6 +1,4 @@
-pathname=get_absolute_file_path('6_13.sce')
-filename=pathname+filesep()+'6_13data.sci'
-exec(filename)
+exec('6_13data.sci')
 clf();
 V=linspace(20,400,500);
 i = 1;
@@ -25,4 +23,3 @@ disp(E,"E=","Endurance E=(Cl_Cdmax*log(Wo/W1))/c")
 printf("\Answer:\n")
 printf("\n\Maximum range of CJ-1: %f m\n\n",R)
 printf("\n\Maximum Endurance of CJ-1: %f s\n\n",E)
-

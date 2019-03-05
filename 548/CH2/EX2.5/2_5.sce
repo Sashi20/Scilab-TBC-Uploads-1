@@ -1,6 +1,4 @@
-pathname=get_absolute_file_path('2_5.sce')
-filename=pathname+filesep()+'2_5data.sci'
-exec(filename)
+exec('2_5data.sci')
 function[unit]=Conversion(SI)
      unit=(9.8*(0.3048)^2)*(SI)/4.448;
  endfunction

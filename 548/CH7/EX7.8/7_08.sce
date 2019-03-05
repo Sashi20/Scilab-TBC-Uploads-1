@@ -1,6 +1,4 @@
-pathname=get_absolute_file_path('7_08.sce')
-filename=pathname+filesep()+'7_08data.sci'
-exec(filename)
+exec('7_08data.sci')
 Dtrm=(Cmo+DCmcg*a1)/(Vh*DClt);
 disp(Dtrm,"Dtrm=","Dtrm=(Cmo+DCmg*a1)/(Vh*DClt)","elevator deflection angle Dtrm::")
 printf("\Answer:\n")

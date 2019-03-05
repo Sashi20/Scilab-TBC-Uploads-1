@@ -1,6 +1,4 @@
-pathname=get_absolute_file_path('5_12.sce')
-filename=pathname+filesep()+'5_12_data.sci'
-exec(filename)
+exec('5_12_data.sci')
 a=L*(M^2-1)^0.5/(4*q*S);
 disp(a,"a=","a=L*(M^2-1)^0.5/(4*q*S)","angle of attack at sea level:")
 a1=L*(M^2-1)^0.5/(4*q1*S);

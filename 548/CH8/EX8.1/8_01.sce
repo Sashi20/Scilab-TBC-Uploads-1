@@ -1,6 +1,4 @@
-pathname=get_absolute_file_path('8_01.sce')
-filename=pathname+filesep()+'8_01data.sci'
-exec(filename)
+exec('8_01data.sci')
 h=Rb*V*cos(alpha);disp(h,"h=","h=Rb*V*cos(alpha)")
 P=h^2/K;disp(P,"P=")
 e=sqrt(1+2*(h^2/K^2)*((V^2/2)-(K/Rb)));disp(e,"e=","e=sqrt(1+2*(h^2/K^2)*((V^2/2)-(K/Rb)))")

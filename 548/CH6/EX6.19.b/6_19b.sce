@@ -1,6 +1,4 @@
-pathname=get_absolute_file_path('6_19b.sce')
-filename=pathname+filesep()+'6_19data.sci'
-exec(filename)
+exec('6_19data.sci')
 disp("(R/C)max=(P/W)max-0.8776*sqrt(W/(S*D*Cdo))*(Cd/Cl)^1.5")
 A=Pa/Wo;
 Cd_Cl=2*Cdo/sqrt(Cdo*%pi*e*AR);//ratio , Cd/Cl

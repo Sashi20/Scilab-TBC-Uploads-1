@@ -1,6 +1,4 @@
-pathname=get_absolute_file_path('9_01.sce')
-filename=pathname+filesep()+'9_01data.sci'
-exec(filename)
+exec('9_01data.sci')
 x=poly(0,'x');
 P=x-10*x+9.5;
 t=roots(P);

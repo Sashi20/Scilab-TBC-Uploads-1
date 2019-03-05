@@ -1,6 +1,4 @@
-pathname=get_absolute_file_path('4_14.sce')
-filename=pathname+filesep()+'4_14data.sci'
-exec(filename)
+exec('4_14data.sci')
 disp("P2+D(V2^2-V1^2)/2","pressure at reservoir P1=")
 P1=P2+D*(V2^2-V1^2)/2;disp(P1,"P1=")
 disp("Mt=D*A1*V1","mass flow rate :")

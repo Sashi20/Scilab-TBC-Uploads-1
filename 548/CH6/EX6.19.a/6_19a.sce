@@ -1,6 +1,4 @@
-pathname=get_absolute_file_path('6_19a.sce')
-filename=pathname+filesep()+'6_19data.sci'
-exec(filename)
+exec('6_19data.sci')
 A=D*S*Cdo/2;
 B=2*Wo^2/(D*S*%pi*e*AR);
 V=poly(0,'V');

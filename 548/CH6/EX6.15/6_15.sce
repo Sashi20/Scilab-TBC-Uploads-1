@@ -1,6 +1,4 @@
-pathname=get_absolute_file_path('6_15.sce')
-filename=pathname+filesep()+'6_15data.sci'
-exec(filename)
+exec('6_15data.sci')
 Cl_Cdmax=sqrt(Cdo*%pi*e*AR)/(2*Cdo);
 disp(Cl_Cdmax,"(Cl/Cd)max=","(Cl/Cd)max=sqrt(Cdo*%pi*e*AR)/(2*Cdo)")
 Cl_Cd1max=((1/3)*Cdo*%pi*e*AR)^(1/4)/(4*Cdo/3);

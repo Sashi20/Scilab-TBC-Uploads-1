@@ -1,6 +1,4 @@
-pathname=get_absolute_file_path('5_10.sce')
-filename=pathname+filesep()+'5_10_data.sci'
-exec(filename)
+exec('5_10_data.sci')
 clf();
 i = 1;
 while(i<=length(M)) 

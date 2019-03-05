@@ -1,6 +1,4 @@
-pathname=get_absolute_file_path('4_11.sce')
-filename=pathname+filesep()+'4_11data.sci'
-exec(filename)
+exec('4_11data.sci')
 disp("Mach No M=V/a");
 M=V/a;disp(M,"M=")
 printf("\Answer:\n")

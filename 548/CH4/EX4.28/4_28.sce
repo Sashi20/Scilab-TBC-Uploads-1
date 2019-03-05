@@ -1,6 +1,4 @@
-pathname=get_absolute_file_path('4_28.sce')
-filename=pathname+filesep()+'4_28data.sci'
-exec(filename)
+exec('4_28data.sci')
 Ds=q*S*0.074/Re^0.2;disp(Ds,"Ds=","Ds=q*S*0.074/Re^0.2","turbulent drag over complete area(A+B)");
 Da=q*A*0.074/Ret^0.2;disp(Da,"Da=","Da=q*A*0.074/Ret^0.2","turbulent drag over area A");
 disp(Ds-Da,"Db=","turbulent drag over area B Db:");Db=Ds-Da;

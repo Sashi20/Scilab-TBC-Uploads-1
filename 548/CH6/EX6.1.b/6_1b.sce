@@ -1,6 +1,4 @@
-pathname=get_absolute_file_path('6_1b.sce')
-filename=pathname+filesep()+'6_1b_data.sci'
-exec(filename)
+exec('6_1b_data.sci')
 clf();
 i = 1;
 Cl = 0;Cd = 0;Cl_Cd =0;Thrust = 0;
@@ -14,5 +12,3 @@ end
 xlabel("Velocity (m/s)");
 ylabel("Thrust (kN)");
 plot2d(V,Thrust,3);
-
-

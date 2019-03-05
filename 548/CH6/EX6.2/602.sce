@@ -1,6 +1,4 @@
-pathname=get_absolute_file_path('602.sce')
-filename=pathname+filesep()+'602data.sci'
-exec(filename)
+exec('602data.sci')
 clf();
 i = 1;
 Cl = 0;Cd = 0;Cl_Cd =0;Thrust = 0;
@@ -20,4 +18,3 @@ disp("As Thrust required equals Thrust provided by two turbofan at Velocity 297 
 Vmax=297;
 printf("\Answer:\n")
 printf("\n\maximum velocity: %f m/s\n\n",Vmax)
-

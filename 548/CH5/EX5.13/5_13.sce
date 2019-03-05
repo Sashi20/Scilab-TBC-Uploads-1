@@ -1,6 +1,4 @@
-pathname=get_absolute_file_path('5_13.sce')
-filename=pathname+filesep()+'5_13data.sci'
-exec(filename)
+exec('5_13data.sci')
 L=q*S*4*a/sqrt(M^2-1);
 disp(L,"L=","L=q*S*4*a/sqrt(M^2-1)","Lift exerted on airplane L:")
 printf("\Answer:\n")

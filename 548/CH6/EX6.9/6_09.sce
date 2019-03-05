@@ -1,6 +1,4 @@
-pathname=get_absolute_file_path('6_09.sce')
-filename=pathname+filesep()+'6_09data.sci'
-exec(filename)
+exec('6_09data.sci')
 V1=sqrt(2*Wl*cos(a)/(D1*Cl));disp(V1,"V1=","V1=sqrt(2*Wl*cos(a)/(D1*Cl))","For altitude 3048 meter:")
 V2=sqrt(2*Wl*cos(a)/(D2*Cl));disp(V2,"V2=","V2=sqrt(2*Wl*cos(a)/(D2*Cl))","For altitude 609.6 meter:")
 printf("\Answer:\n")

@@ -1,11 +1,9 @@
-pathname=get_absolute_file_path('6_4a.sce')
-filename=pathname+filesep()+'6_4a_data.sci'
-exec(filename)
+exec('6_4a_data.sci')
 clf();
 V=linspace(20,300,500);
 i = 1;
 Cl = 0;Cd = 0;Cl_Cd =0;Thrust = 0;
-while(i<=length(V)) 
+while(i&lt;=length(V)) 
     Cl(i) = 2*W/(D*S*V(i)^2);
     Cd(i) = Cdo + Cl(i)^2/(%pi*e*AR);
     Cl_Cd(i) = Cl(i)/Cd(i);
@@ -19,4 +17,3 @@ ylabel("Power (KN-m/s)");
 plot2d(V,Power,4);
 plot2d(V,Pa,5);
 disp("the intersection of both graph shows maximum velocity of CP-1 at sea level which is arround 81m/s.")
-

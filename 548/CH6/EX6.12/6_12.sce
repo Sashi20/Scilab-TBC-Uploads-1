@@ -1,6 +1,4 @@
-pathname=get_absolute_file_path('6_12.sce')
-filename=pathname+filesep()+'6_12data.sci'
-exec(filename)
+exec('6_12data.sci')
 clf();
 V=linspace(20,120,500);
 i = 1;
@@ -25,4 +23,3 @@ disp(E,"E=","Endurance E=(n/c)*(Cl^1.5/Cd)*sqrt(2*D*S)*[1/sqrt(W1)-1/sqrt(Wo)]")
 printf("\Answer:\n")
 printf("\n\Maximum range of CP-1: %f m\n\n",R)
 printf("\n\Maximum Endurance of CP-1: %f s\n\n",E)
-
