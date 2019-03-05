@@ -21,7 +21,7 @@ clear;
     endfunction
     
     xa = 3.99*10^-3;
-    xs = fric(xa);)
+    xs = fric(xa);
     
     disp(xs,"Friction Factor is")
     del_P=xs*l*rho*(v^2)/(2*id);//[kPa]
