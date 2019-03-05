@@ -1,6 +1,7 @@
 //example 3.10 
 // this program needs kmappos.sci and noof.sci
-
+exec( 'kmap.sci');
+exec('noof.sci');
 k=[0 0 0 0;0 0 0 1; 1 1 1 1;1 1 1 1];
 disp("The minimal expression of Y from the following Kmap is :');
 kmap(k);

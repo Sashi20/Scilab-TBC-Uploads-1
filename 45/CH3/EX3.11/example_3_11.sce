@@ -1,6 +1,7 @@
 //example 3.11 
 // this program needs kmappos.sci and noof.sci
-
+exec( 'kmappos.sci');
+exec('noof.sci');
 clc
 disp('The given kmap is '); //displaying the given kmap
 disp('      C''D''  C''D  CD  CD''');

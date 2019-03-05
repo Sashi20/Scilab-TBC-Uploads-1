@@ -1,6 +1,9 @@
 //example 4.11 
 //uses functions kmap.sci and noof.sci so run them before running this program .. 
 clc;
+exec( 'kmap.sci');
+exec('kmapsx.sci');
+exec('noof.sci');
 s=[0  1 1 1 1 ];
 x1=[0 1 0 0 0 ];
 x2=[0 0 1 0 0 ];

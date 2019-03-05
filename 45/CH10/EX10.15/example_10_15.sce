@@ -2,6 +2,7 @@
 //this program use kmap2.sci 
 //kmap2.sci should be executed before executing this program
 clc;
+exec('kmap2.sci');
 a= [0 0 1 1]
 b= [0 1 0 1]
 y= [1 1 0 1]

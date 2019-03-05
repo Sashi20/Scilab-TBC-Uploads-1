@@ -1,6 +1,6 @@
 //Example 5.1
 clc                                                                     //clears the command window 
-clear                                                                   //clears all the variables 
+clear                                                                   
 p=1;                                                                    //initialising variables 
 q=1;
 z=0;
@@ -13,7 +13,7 @@ bin=110.001;
 d= modulo(bin,1);                                                                  //separating the decimal part and the integer part 
 d=d*10^10;
 a=floor(bin);                                                                      //removing the decimal part 
-while(a>0)                                                                         //Loop to take the binary bits of integer in to a matrix 
+while(a&gt;0)                                                                         //Loop to take the binary bits of integer in to a matrix 
     r=modulo(a,10);
     b(1,q)=r;
     a=a/10;
@@ -24,7 +24,7 @@ for m=1:q-1                                                                     
      c=m-1;
     f = f + b(1,m)*(2^c);
 end
-while(d>0)                                                                          //Loop to take the binary bits of decimal in to a matrix 
+while(d&gt;0)                                                                          //Loop to take the binary bits of decimal in to a matrix 
     e=modulo(d,2)
     w(1,p)=e
     d=d/10;

@@ -4,6 +4,9 @@
 //noof.sci and noof0.sci
 //the above programs should be executed before executing these programs  
 clc;
+exec('kmap3.sci');
+exec('noof.sci');
+exec('noof0.sci');
 n= [ 0 0 0;
      0 0 1;
      0 1 0;

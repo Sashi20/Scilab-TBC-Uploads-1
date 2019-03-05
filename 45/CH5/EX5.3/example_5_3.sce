@@ -1,6 +1,6 @@
 //Example 5.3
 clc                                                                     //clears the command window .
-clear                                                                   //clears all the variables .
+clear                                                                   
 format('v',18);                                                         //increasing the precision to 18 .
 n=2; /// given 2 mb
 dec = n * 2^20 ; 

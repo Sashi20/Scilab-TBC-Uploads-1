@@ -1,5 +1,7 @@
 //example 3.12
 clc
+exec( 'kmappos.sci');
+exec('noof.sci');
 disp('The given kmap is '); //displaying the given kmap
 disp('      C''D''  C''D  CD  CD''');
 disp('A''B''    0    0    1   0');

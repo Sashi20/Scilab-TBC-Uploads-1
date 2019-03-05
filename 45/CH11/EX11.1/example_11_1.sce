@@ -4,6 +4,9 @@ clc;
 //kmap3a.sci  to find the kmap 
 //noof.sci function used inside kmap
 //noof0.sci function used inside kmap
+exec('kmap3a.sci');
+exec('noof.sci');
+exec('noof0.sci');
 n= [ 0 0 0;
      0 0 1;
      0 1 0;
@@ -15,7 +18,7 @@ n= [ 0 0 0;
       for i= 1:8    //printing the state synthesis table
       an1(i,1)=n(i,3);
       dn(i,1)=n(i,3);
-      if n(i,1)==1 & n(i,2) ==1 & n(i,3)==0 then
+      if n(i,1)==1 &amp; n(i,2) ==1 &amp; n(i,3)==0 then
           z(i,1)=1;
       else 
           z(i,1)=0;

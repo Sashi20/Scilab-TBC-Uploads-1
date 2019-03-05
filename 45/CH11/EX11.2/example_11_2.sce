@@ -4,6 +4,8 @@
 //noof1.sci 
 //above two shoulb be executed before executing this code
 clc;
+exec('donkmapij.sci');
+exec('noof1.sci');
 tt=[0 0 0 0 0 0 0 0 0 0;  // given state synthesis table 
     0 0 0 1 0 0 0 0 0 0;
     0 0 1 0 0 1 0 0 0 1;

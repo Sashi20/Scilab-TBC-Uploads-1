@@ -5,6 +5,9 @@
 //noof0.sci 
 //above three functions are first execute before executing this program 
 clc;
+exec('kmp3abx.sci');
+exec('noof.sci');
+exec('noof0.sci');
 disp('State table through karnaugh map'); // state table through  kmap 
 disp('     00      01      11      10');
 disp('a    a''      a''      b        b');

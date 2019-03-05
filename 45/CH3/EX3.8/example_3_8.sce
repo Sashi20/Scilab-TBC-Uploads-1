@@ -1,6 +1,8 @@
 //example 3.8
 // this program needs kmap.sci and noof.sci
 clc;
+exec( 'kmap.sci');
+exec('noof.sci');
 disp('      C''D''  C''D  CD  CD''');//displaying the given kmap
 disp('A''B''    0    0    0   0');
 disp('A''B     0    0    1   0');

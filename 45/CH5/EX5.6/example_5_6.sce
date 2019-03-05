@@ -1,6 +1,6 @@
 //Example 5.6
 clc                                                                     //clears the command window 
-clear                                                                   //clears all the variables 
+clear                                                                   
 q=0;
 b=0;
 s=0;
@@ -10,7 +10,7 @@ a=363;                                                                          
 d=modulo(a,1);                                                                        //separating the decimal part and the integer part 
 a=floor(a);                                                                            //removing the decimal part 
 
-while(a>0)                                                                               //taking integer part in to a matrix and convert to equivalent binary 
+while(a&gt;0)                                                                               //taking integer part in to a matrix and convert to equivalent binary 
     x=modulo(a,2);
     b= b + (10^q)*x;
     a=a/2;
@@ -24,11 +24,10 @@ for i=1:10                                                                      
      d=d*2;
      q=floor(d);
      s=s+q/(10^i);
-     if d>=1 then
+     if d&gt;=1 then
          d=d-1;
      end
  end
  k=b+s;
  disp("The give decimal number is 363")
 printf(" The binary equivalent of the given decimal number is = %f",k);                                                                         // displaying the final result.
- 
