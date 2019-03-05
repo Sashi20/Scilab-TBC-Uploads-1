@@ -1,5 +1,6 @@
 clc;
 clear;
+Tcritical= 400 //For exact values, refer to textbook and change accordingly
 T0=288;//K
 p0=101;//kPa(abs)
 l=2;//m
@@ -20,9 +21,4 @@ Vratio=0.73;//where Vratio=V1/Vcritical
 //hence,
 p2=(1/prat)*pratio*p0;//kPa(abs)
 pcritical=p2; 
-//we find that pd<pcritical
-d1=dratio*(1.23);//kg/(m^3)
-Vcritical=(286.9*Tcritical*k)^0.5;//m/sec = V2
-V1=Vratio*Vcritical;//m/sec
-m=d1*%pi*(D^2)*V1/4;//kg/sec
-disp("kg/sec",1.65,"is less than the flowrate for the longer tube =","kg/sec,",m,"The flowrate for the smaller tube=")
+//we find that pd
