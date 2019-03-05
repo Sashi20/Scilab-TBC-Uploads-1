@@ -1,4 +1,5 @@
 //ex7.16
+exec('value_of_K.sci', -1);
 I_D_on=200*10^-3;
 V_DD=24;
 R_D=200;

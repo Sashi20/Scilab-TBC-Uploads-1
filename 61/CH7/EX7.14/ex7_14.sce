@@ -1,4 +1,5 @@
 //EX7.14
+exec('value_of_I_D.sci', -1);
 I_D_on=500*10^-3;
 V_GS=10;
 V_GS_th=1;

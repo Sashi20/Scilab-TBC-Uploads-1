@@ -1,4 +1,5 @@
 //ex7.3
+exec('value_of_I_D.sci', -1);
 I_DSS=9*10^-3;
 V_GS_off=-8;
 V_GS=0;

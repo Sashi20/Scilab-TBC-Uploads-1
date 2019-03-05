@@ -1,4 +1,5 @@
 //ex12.10
+exec('phase_shift.sci');
 A_v1=40;    //all gains are in decibels
 A_v2=32;
 A_v3=20;

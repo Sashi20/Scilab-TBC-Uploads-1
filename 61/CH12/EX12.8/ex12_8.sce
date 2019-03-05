@@ -1,4 +1,5 @@
 //ex12.8
+exec('open_loop_gain.sci');
 f_c_ol=100;
 A_ol_mid=100000;
 f=0;

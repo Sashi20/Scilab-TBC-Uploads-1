@@ -1,4 +1,5 @@
 //ex12.9
+exec('phase_shift.sci');
 f_c=100;
 f=1;
 theta=phase_shift(f,f_c);

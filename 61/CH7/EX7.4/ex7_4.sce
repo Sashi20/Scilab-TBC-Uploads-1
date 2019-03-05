@@ -1,4 +1,5 @@
 //ex7.4
+exec('value_of_I_D.sci', -1);
 I_DSS=3*10^-3;
 V_GS_off=-6;
 y_fs_max=5000*10^-6;
