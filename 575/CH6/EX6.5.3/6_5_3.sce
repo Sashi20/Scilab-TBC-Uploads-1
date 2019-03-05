@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('6_5_3.sce')
-filename=pathname+filesep()+'653.sci'
-exec(filename)
+exec('653.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 disp("Total mass balance")
 disp("m1=1+m2")

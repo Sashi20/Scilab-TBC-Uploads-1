@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('6_4_1.sce')
-filename=pathname+filesep()+'641.sci'
-exec(filename)
+exec('641.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 yH2O=PH2O/P
 ySO2=PSO2/P

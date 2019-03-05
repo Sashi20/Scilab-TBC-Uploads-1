@@ -1,7 +1,6 @@
 clc
-pathname=get_absolute_file_path('5_4_3.sce')
-filename=pathname+filesep()+'543.sci'
-exec(filename)
+exec('543.sci')
+R = 10 //For exact result, replace the value with the exact value in the textbook.
 printf("All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 disp("Applying newton corrections for Hydrogen,")
 TcaH2=TcH2+8

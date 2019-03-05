@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('8_5_5.sce')
-filename=pathname+filesep()+'855.sci'
-exec(filename)
+exec('855.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 disp("From figure 8.5-2, ")
 xL=0.185

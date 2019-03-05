@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('4_7_3.sce')
-filename=pathname+filesep()+'473.sci'
-exec(filename)
+exec('473.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 disp("Reactor analysis, ")
 n2=(1-single_pass)*basis*inputxH2

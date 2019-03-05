@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('8_4_4.sce')
-filename=pathname+filesep()+'844.sci'
-exec(filename)
+exec('844.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 A=[1 1;x y]
 b=[basis;basis/2]

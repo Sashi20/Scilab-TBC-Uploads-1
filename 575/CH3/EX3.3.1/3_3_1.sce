@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('3_3_1.sce')
-filename=pathname+filesep()+'331.sci'
-exec(filename)
+exec('331.sci')
 moles=mass/M
 printf("\n no.of moles=%f",moles)
 lbmole=moles/453.6

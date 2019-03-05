@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('4_2_3.sce')
-filename=pathname+filesep()+'423.sci'
-exec(filename)
+exec('423.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 m=m1+m2
 printf(" \n Total mass after mixing m=%d g",m)

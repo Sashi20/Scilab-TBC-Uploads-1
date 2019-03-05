@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('4_3_2.sce')
-filename=pathname+filesep()+'432.sci'
-exec(filename)
+exec('432.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 multiply=FinalBasis/basis
 Feed=100*multiply

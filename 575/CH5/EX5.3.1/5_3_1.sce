@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('5_3_1.sce')
-filename=pathname+filesep()+'531.sci'
-exec(filename)
+exec('531.sci')
 printf("All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 Pideal=0.08206*T/Vcap
 printf(" \n The value of pressure as per Ideal gas equation = %f atm",Pideal)

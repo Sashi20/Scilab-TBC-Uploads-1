@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('8_3_2.sce')
-filename=pathname+filesep()+'832.sci'
-exec(filename)
+exec('832.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook \n ")
 disp("part 1")
 function[Cp]=fun1(T)

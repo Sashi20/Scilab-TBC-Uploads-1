@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('8_4_3.sce')
-filename=pathname+filesep()+'843.sci'
-exec(filename)
+exec('843.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 disp("using Trouton rule,")
 deltaHvT1=0.109*T1

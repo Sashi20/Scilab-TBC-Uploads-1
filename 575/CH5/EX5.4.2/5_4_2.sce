@@ -1,7 +1,6 @@
 clc
-pathname=get_absolute_file_path('5_4_2.sce')
-filename=pathname+filesep()+'542.sci'
-exec(filename)
+exec('542.sci')
+P= 100 //For exact result replace with the value in the textbook.
 printf("All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 Tr=T/Tc
 Pr=P/Pc

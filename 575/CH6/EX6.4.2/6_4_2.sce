@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('6_4_2.sce')
-filename=pathname+filesep()+'642.sci'
-exec(filename)
+exec('642.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 x=y*P/H
 PBstar=10^(6.906- 1211/(T+220.8))

@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('9_6_1.sce')
-filename=pathname+filesep()+'961.sci'
-exec(filename)
+exec('961.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 y1=x*16
 y2=(1-x)*30

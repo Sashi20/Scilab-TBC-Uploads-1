@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('9_1_2.sce')
-filename=pathname+filesep()+'912.sci'
-exec(filename)
+exec('912.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 disp("From reaction, only gaseous are counted")
 left=1+2

@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('6_6_1.sce')
-filename=pathname+filesep()+'661.sci'
-exec(filename)
+exec('661.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 Dbar=DA*DW/(x*DW + (1-x)*DA)
 mass1=V1*Dbar

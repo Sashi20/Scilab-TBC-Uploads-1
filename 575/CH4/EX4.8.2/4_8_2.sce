@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('4_8_2.sce')
-filename=pathname+filesep()+'482.sci'
-exec(filename)
+exec('482.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 nO2Theoretical=basisButane*6.5
 nAirTheoretical=nO2Theoretical*4.76

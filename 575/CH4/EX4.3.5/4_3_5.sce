@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('4_3_5.sce')
-filename=pathname+filesep()+'435.sci'
-exec(filename)
+exec('435.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 mass1=outputBasis*M1*outputx
 mass2=outputBasis*M2*(1-outputx)

@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('2_7_2.sce')
-filename=pathname+filesep()+'272.sci'
-exec(filename)
+exec('272.sci')
 disp(sqrtT);
 sx=sum(sqrtT);sx2=sum(T);sy=sum(M);sxy=sum(sqrtT.*M);n=length(T);
 A=[sx,n;sx2,sx]; B=[sy;sxy]; p=A\B;

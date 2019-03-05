@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('4_6_3.sce')
-filename=pathname+filesep()+'463.sci'
-exec(filename)
+exec('463.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 n1=(1-conv1)*basis*x
 n2=conv2*basis*x

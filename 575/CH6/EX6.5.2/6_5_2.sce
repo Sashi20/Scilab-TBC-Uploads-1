@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('6_5_2.sce')
-filename=pathname+filesep()+'652.sci'
-exec(filename)
+exec('652.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 outputx=S/(S+100)
 printf("x=%f Kg KNO3/Kg",outputx)

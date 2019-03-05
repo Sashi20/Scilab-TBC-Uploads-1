@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('4_5_2.sce')
-filename=pathname+filesep()+'452.sci'
-exec(filename)
+exec('452.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 m6x=m5x
 printf("Given, m4=%f (m4+m5)",x)

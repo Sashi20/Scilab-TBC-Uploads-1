@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('6_3_2.sce')
-filename=pathname+filesep()+'632.sci'
-exec(filename)
+exec('632.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 P=y*PT
 if(P<760)

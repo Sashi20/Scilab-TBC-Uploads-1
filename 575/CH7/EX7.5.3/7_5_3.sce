@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('7_5_3.sce')
-filename=pathname+filesep()+'753.sci'
-exec(filename)
+exec('753.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 disp("From Steam tables, ")
 Hin=3201 //Kj/Kg

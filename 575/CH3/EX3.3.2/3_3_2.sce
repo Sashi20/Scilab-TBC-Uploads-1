@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('3_3_2.sce')
-filename=pathname+filesep()+'332.sci'
-exec(filename)
+exec('332.sci')
 massA=mass*xA
 printf(" \n Mass of A in %d kg of solution = %f kg A",mass,massA)
 flowrateA=flowrate1*xA

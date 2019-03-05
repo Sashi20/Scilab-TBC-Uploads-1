@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('4_8_4.sce')
-filename=pathname+filesep()+'484.sci'
-exec(filename)
+exec('484.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 disp("N2 balance")
 na=basis*xN2/0.79

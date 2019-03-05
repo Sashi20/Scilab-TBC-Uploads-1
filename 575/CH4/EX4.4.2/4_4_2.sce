@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('4_4_2.sce')
-filename=pathname+filesep()+'442.sci'
-exec(filename)
+exec('442.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 disp("Using Balances around two-extraxtor system,")
 disp("Balance on total mass,")
@@ -33,7 +31,7 @@ disp("Balance on  A")
 mA2=massin*inputx-m1*m1xA
 printf(" \n mA2=%f Kg Acetone",mA2)
 disp("Balance on  M")
-mM2=massin-x1*xM1
+mM2=massin-xM1*xM1
 printf(" \n xM1=%f Kg MIBK",xM1)
 disp("Balance on  W")
 mW2=massin*inputx- m1*(m1xM-xM1)

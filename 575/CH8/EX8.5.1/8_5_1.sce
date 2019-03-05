@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('8_5_1.sce')
-filename=pathname+filesep()+'851.sci'
-exec(filename)
+exec('851.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 nHCl=mdot*x*10^3 /M1
 nH2O=mdot*(1-x)*10^3 /M2

@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('4_2_2.sce')
-filename=pathname+filesep()+'422.sci'
-exec(filename)
+exec('422.sci')
 printf("All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 disp("Using benzene balance,")
 m2dot=inputBenzene-UpStreamBenzene

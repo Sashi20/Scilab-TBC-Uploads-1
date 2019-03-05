@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('5_2_4.sce')
-filename=pathname+filesep()+'524.sci'
-exec(filename)
+exec('524.sci')
 //SCFH means ft^3(STP)/h
 ndot=3.95*10^5/359
 printf(" Molar flowrate=%E lb-moles/hr",ndot)

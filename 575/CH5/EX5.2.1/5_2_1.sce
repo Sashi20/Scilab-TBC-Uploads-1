@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('5_2_1.sce')
-filename=pathname+filesep()+'521.sci'
-exec(filename)
+exec('521.sci')
 n=weight/MN2 //mol
 V=n*R*T*14.7/P //lt
 printf("assuming ideal gas behaviour, volume=%f litres",V)

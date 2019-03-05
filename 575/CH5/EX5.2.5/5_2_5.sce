@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('5_2_5.sce')
-filename=pathname+filesep()+'525.sci'
-exec(filename)
+exec('525.sci')
 printf("All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 n2cap=flowinA*Dacetone/Macetone
 printf(" \n Molar flowrate of Acetone=%f mol Acetone/min",n2cap)

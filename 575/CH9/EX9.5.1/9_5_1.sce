@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('9_5_1.sce')
-filename=pathname+filesep()+'951.sci'
-exec(filename)
+exec('951.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 function[Cp]=fun(T)
     Cp=29.50*10^(-3)+ T*0.8188*10^(-5) - T^2 * 0.2925 *10^(-8) + T^3 * 0.3652 * 10^(-12)

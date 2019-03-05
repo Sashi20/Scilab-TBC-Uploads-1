@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('6_5_1.sce')
-filename=pathname+filesep()+'651.sci'
-exec(filename)
+exec('651.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 disp("COmposition of Filter cake,")
 disp("m2=4m3")

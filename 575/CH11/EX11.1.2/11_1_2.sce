@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('11_1_2.sce')
-filename=pathname+filesep()+'1112.sci'
-exec(filename)
+exec('1112.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 function [dv]=fun(t)
     dv=(10^6)*exp(-t/100) -10^7

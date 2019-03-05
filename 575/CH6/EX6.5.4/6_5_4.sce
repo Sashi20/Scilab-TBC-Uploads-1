@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('6_5_4.sce')
-filename=pathname+filesep()+'654.sci'
-exec(filename)
+exec('654.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 x=(Tf-100)*40656/(R*373.16^2)
 y=m2/18.016

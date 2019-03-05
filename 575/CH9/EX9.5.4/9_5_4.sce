@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('9_5_4.sce')
-filename=pathname+filesep()+'954.sci'
-exec(filename)
+exec('954.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 disp("Carbon Balance")
 printf("%d * %f *2 + %d * %f *2=2 n1+2 n2",basis,x,basis,1-x)

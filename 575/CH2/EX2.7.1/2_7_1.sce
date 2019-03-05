@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('2_7_1.sce')
-filename=pathname+filesep()+'271.sci'
-exec(filename)
+exec('271.sci')
 //this program uses least squares fit to solve for slope and intercept.
 //hence the value differs from textbook a bit.
 sx=sum(x);sx2=sum(x^2);sy=sum(y);sxy=sum(x.*y);n=length(x);

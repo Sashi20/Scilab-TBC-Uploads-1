@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('9_1_1.sce')
-filename=pathname+filesep()+'911.sci'
-exec(filename)
+exec('911.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 disp("Part 1")
 E1= ndot/4

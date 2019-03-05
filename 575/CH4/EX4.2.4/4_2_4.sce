@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('4_2_4.sce')
-filename=pathname+filesep()+'424.sci'
-exec(filename)
+exec('424.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 ndot=rate/(1-x1)
 deltaN= -vol*d*10^3 /M

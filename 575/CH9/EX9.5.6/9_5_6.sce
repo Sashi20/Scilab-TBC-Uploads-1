@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('9_5_6.sce')
-filename=pathname+filesep()+'956.sci'
-exec(filename)
+exec('956.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 disp("Using S balance, ")
 m2=basis*x*MS*MSalt/(MAcid*MS)

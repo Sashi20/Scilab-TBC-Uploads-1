@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('3_3_3.sce')
-filename=pathname+filesep()+'333.sci'
-exec(filename)
+exec('333.sci')
 molO2=massO2/MO2
 molCO=massCO/MCO
 molCO2=massCO2/MCO2

@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('3_1_1.sce')
-filename=pathname+filesep()+'311.sci'
-exec(filename)
+exec('311.sci')
 density=13.546*62.43
 printf("density of mercury=%f lbm/ft^3",density);
 //the multiplication factor is to convert density from gm/cc to lbm/ft^3.

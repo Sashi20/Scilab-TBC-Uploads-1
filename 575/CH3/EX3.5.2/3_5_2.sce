@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('3_5_2.sce')
-filename=pathname+filesep()+'352.sci'
-exec(filename)
+exec('352.sci')
 //In this code I used a function to achieve the conversion
 function[centigrade]=conversion(fahrenheit)
     centigrade=(fahrenheit-32)/1.8

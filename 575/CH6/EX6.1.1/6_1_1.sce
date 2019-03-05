@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('6_1_1.sce')
-filename=pathname+filesep()+'611.sci'
-exec(filename)
+exec('611.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 disp("let deltaHv/R = S")
 S= - (T1*T2* log(P2/P1))/(T1-T2)

@@ -1,8 +1,6 @@
 clc
 //this program is used to calculate weight of water at different places
-pathname=get_absolute_file_path('2_4_1.sce')
-filename=pathname+filesep()+'241.sci'
-exec(filename)
+exec('241.sci')
 mass=volume*density;
 printf("mass of the water = volume x density=%f lbm",mass)
 printf(" \n At sealevel, g=32.174 ft/s^2")

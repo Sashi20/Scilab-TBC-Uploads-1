@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('3_1_2.sce')
-filename=pathname+filesep()+'312.sci'
-exec(filename)
+exec('312.sci')
 disp("we know that V(T)=Vo[1+0.18182x10^(-3)xT +0.0078x10^(-6)xTxT]")
 Vat0=Vat20/(1+0.18182*10^(-3)*T1 +0.0078*10^(-6)*T1*T1)
 //the function is defined with the variable as temperature

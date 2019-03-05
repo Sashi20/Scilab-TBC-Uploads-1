@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('11_3_1.sce')
-filename=pathname+filesep()+'1131.sci'
-exec(filename)
+exec('1131.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 MCv=(m1*Cv1 + m2*Cv2)*1000*4.184
 disp(MCv)

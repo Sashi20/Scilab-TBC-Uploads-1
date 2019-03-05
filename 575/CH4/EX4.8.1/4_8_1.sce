@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('4_8_1.sce')
-filename=pathname+filesep()+'481.sci'
-exec(filename)
+exec('481.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 disp("part 1")
 wet=xN2wet+xCO2wet+xO2wet

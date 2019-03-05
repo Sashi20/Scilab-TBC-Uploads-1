@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('6_7_1.sce')
-filename=pathname+filesep()+'671.sci'
-exec(filename)
+exec('671.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 n=P*V/(R*T)
 printf(" \n No.of moles=%f mol",n)

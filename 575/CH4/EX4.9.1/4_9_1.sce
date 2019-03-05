@@ -1,7 +1,5 @@
 clc
-pathname=get_absolute_file_path('4_9_1.sce')
-filename=pathname+filesep()+'491.sci'
-exec(filename)
+exec('491.sci')
 printf(" All the values in the textbook are Approximated hence the values in this code differ from those of Textbook")
 disp("Design")
 MEKin1=feed*x
