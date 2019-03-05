@@ -1,4 +1,5 @@
-        //    PG (365)
+//    PG (365)
+exec('euler.sce');
 
 deff('[z]=g(x,y)','z=-y')
 [y,x] = Euler1(0.25,1,2.25,0.25,g)

@@ -1,6 +1,7 @@
-    //    EXAMPLE1 (PG 76)
+//    EXAMPLE1 (PG 76)
     //    f(x) = x^20 - 1
     //    solving using Muller's method
+exec('muller.sce');
 
 
 xset('window',1);                                   
@@ -22,4 +23,3 @@ title(' y = x^20-1')
         //sollution by muller method to 3 iterations.
 
 muller(0,.5,1,f)
-

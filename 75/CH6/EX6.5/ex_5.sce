@@ -1,8 +1,10 @@
-        //    PG (344)
+//    PG (344)
 
 //    dy/dx = y
 
 // y'=f(x,t)
+exec('euler.sce');
+
 deff('[z]=f(x,y)','z=y');
 
 // execute the function euler1 , so as to call it to evaluate the value of y,

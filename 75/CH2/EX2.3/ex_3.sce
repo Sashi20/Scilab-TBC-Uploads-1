@@ -1,7 +1,7 @@
-    //    EXAMPLE ( PG 66)
+//    EXAMPLE ( PG 66)
     //    To find largest root, alpha, of f(x) = x^6 - x - 1 = 0 
     //    using secant method
-
+exec('secant.sce');
 deff('[y]=f(x)','y=x^6-x-1')
 a=1
 b=2        //    Initial approximations

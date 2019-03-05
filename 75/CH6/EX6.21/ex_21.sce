@@ -1,4 +1,5 @@
-        //    PG (405)
+//    PG (405)
+exec('euler.sce');
 
 deff('[y]=f(x,y)','y=lamda*y+(1-lamda)*cos(x)-(1+lamda)*sin(x)')
 lamda = -1;
@@ -7,4 +8,3 @@ lamda = -10;
 [x,y]=Euler1(1,1,5,0.1,f)
 lamda = -50;
 [x,y]=Euler1(1,1,5,0.01,f)
-

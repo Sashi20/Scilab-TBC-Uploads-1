@@ -1,7 +1,8 @@
-    //    EXAMPLE (PG 60)
+//    EXAMPLE (PG 60)
     //    To find largest root, alpha, of f(x) = x^6 - x - 1 = 0 
     //    using newton's method
 
+exec('newton.sce');
 
 deff('[y]=f(x)','y=x^6-x-1')
 deff('[y]=fp(x)','y=6*x^5-1')                    //    Derivative of f(x)

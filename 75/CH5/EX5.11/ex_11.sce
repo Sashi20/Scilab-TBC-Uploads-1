@@ -1,4 +1,5 @@
-        //    PG (297)
+//    PG (297)
+exec('romberg.sce');
 
 deff('[y]=f(x)','y=exp(x)*cos(x)')
 a=0;

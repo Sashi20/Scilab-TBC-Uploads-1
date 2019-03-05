@@ -1,7 +1,8 @@
-    //    EXAMPLE3 (PG 76)
+//    EXAMPLE3 (PG 76)
     //   f(x) = x^6- 12 * x^5 + 63 * x^4 - 216* x^3 + 567 * x^2 - 972 * x + 729
     //    or f(x) = (x^2+9)*(x-3)^4
     //    solving using Muller's method
+exec('muller.sce');
 
 deff('[y]=f(x)','y=(x^2+9)*(x-3)^4')
 

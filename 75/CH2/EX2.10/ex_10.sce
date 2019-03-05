@@ -1,7 +1,9 @@
-    //    EXAMPLE (PG 85)
+//    EXAMPLE (PG 85)
+exec('bisection.sce');
 
     //    x(n+1) = 6.28 + sin(x(n))
     //    True root is alpha = 6.01550307297
+exec('aitken1.sce');
 
     deff ('[y]=f(x)','f(x)=6.28+sin(x(n))')
     //    k=6.01550307297

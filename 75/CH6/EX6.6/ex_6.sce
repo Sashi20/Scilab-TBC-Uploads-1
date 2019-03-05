@@ -1,6 +1,7 @@
-        //    PG (351)
+//    PG (351)
 
 //    dy/dx = -y + 2 * cos(x)
+exec('euler.sce');
 
 deff('[y]=g(x,y)','y=-y+2*cos(x)')
 y0=1;
