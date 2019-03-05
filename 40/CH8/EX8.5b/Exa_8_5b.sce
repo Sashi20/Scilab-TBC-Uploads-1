@@ -1,12 +1,12 @@
 //b1)modulation
 XDFT=[4 -2*%i 0 2*%i];
-xn=dft(XDFT,1)
+xn=fft(XDFT,1)
 for i=1:length(xn)
     zn(i)=xn(i)*%e^((%i*%pi*(i-1))/2);
 end
 disp(zn,'The IDFT of XDFT[k-1] is');
 ZDFT=[2*%i 4 -2*%i 0];
-zn1=dft(ZDFT,1)
+zn1=fft(ZDFT,1)
 //b2)periodic convolution
 HDFT=(convol(XDFT,XDFT))
 HDFT=[HDFT,zeros(8:12)];
@@ -18,12 +18,12 @@ for i=1:4
     end
 end
 HDFT1;
-hn=dft(HDFT1,1)
+hn=fft(HDFT1,1)
 hn1=4*(xn.*xn);
 disp(hn1,'The IDFT of XDFT*XDFT is');
 //b3)product
 WDFT=XDFT.*XDFT;
-wn=dft(WDFT,1)
+wn=fft(WDFT,1)
 wn1=convol(xn,xn);
 wn1=[wn1,zeros(8:12)];
 wn1=[wn1(1:4);wn1(5:8);wn1(9:12)];

@@ -1,4 +1,6 @@
 //example 2.7.pg.no.27
+exec('Aliasfrequency.sci');
+
 f=100;
 s=240;
 s1=s;

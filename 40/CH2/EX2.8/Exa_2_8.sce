@@ -1,3 +1,5 @@
+exec('Aliasfrequency.sci');
+
 f=100;
 s=210;
 s1=420;

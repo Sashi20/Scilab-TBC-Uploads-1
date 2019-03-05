@@ -7,5 +7,5 @@ for i=1:4
         xdft(i)=xdft(i)+x(j)*w^((i-1)*(j-1));
     end
 end
-XDFT=dft(x,-1);
+XDFT=fft(x,-1);
 xdft,XDFT
