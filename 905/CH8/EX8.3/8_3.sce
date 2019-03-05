@@ -1,7 +1,7 @@
 clear;
 clc;
 
-// Illustration 8.2
+// Illustration 8.3
 // Page: 482
 
 printf('Illustration 8.3 -  Page: 482\n\n');
