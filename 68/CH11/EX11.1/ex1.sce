@@ -1,4 +1,4 @@
-// Example 10.1 : To determine t_PHL, t_PLH and t_P
+// Example 11.1 : To determine t_PHL, t_PLH and t_P
 // Consider CMOS inverter
 C_ox=6*10^-15; // (F/um^2)
 uC_n=115*10^-6; //uC_n=u_n*C_ox (A/V^2)
