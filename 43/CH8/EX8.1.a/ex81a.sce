@@ -8,7 +8,7 @@ clc;
     for i1=1:l1
        a1=C(1,i1);
         r1=real(a1);
-        if r1&gt;0 then
+        if r1>0 then
             x=x+1;
         end
     end
@@ -20,7 +20,7 @@ clc;
         for i=1:l
             a=S(i,1);
             r=real(a);
-            if r&lt;0 then
+            if r<0 then
                 c=c+1;
             end
         end

@@ -2,4 +2,4 @@
 clc;
 clear;
 f=[0 1 1 1 0 0];
-F=fft(f,-1);
+F=fft(f,-1)

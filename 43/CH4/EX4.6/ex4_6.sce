@@ -5,4 +5,4 @@ n=-8:8;
 for i=1:length(n)
     x(i)=cos(Wo*n(i));
 end
-X=fft(x,-1);
+X=fft(x,-1)
