@@ -4,7 +4,6 @@ clc;
 //Caption:Design an amplifier using yA702A
 //Given Data
 f=32;//feedback in dB
-//from the Bodes plot we get that Avo = 2510
 Avo = 2510;//gain
 disp('The parameters are R , r (for Rdash), C (for Cdash)');
 //Desensivity D = B*Rmo = Avo*(R/(R+r))
