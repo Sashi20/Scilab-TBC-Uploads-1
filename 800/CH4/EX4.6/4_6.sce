@@ -1,7 +1,7 @@
 //clear//
 clc
 clear
-exec("4.6data.sci");
+exec('4_6.sci');
 
 FT0 = FA0+FB0+FI;
 yA0 = FA0/FT0;

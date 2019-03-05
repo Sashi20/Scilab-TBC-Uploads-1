@@ -1,9 +1,7 @@
 //clear//
 clc
 clear
-exec("2.4data.sci");
-
-
+exec('2_4.sci');
 VCSTR = FA0*X(7)*(1/-rAat);
 VPFR = FA0*inttrap(X,p)
 disp("VCSTR =")

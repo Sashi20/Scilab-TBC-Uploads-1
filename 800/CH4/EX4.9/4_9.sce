@@ -1,7 +1,7 @@
 //clear//
 clc
 clear
-exec("4.9data.sci");
+exec('4_9.sci');
  V = 0:1:100;
 function w=f(V,fa)
  
@@ -27,5 +27,3 @@ plot2d(V',[l1 l2]);
 
 xtitle( 'Figure E4-9.1 Molar flow rate profiles', 'V', 'fa,fb' ) ;
 legend(['fa';'fb']);
-
-

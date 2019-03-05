@@ -1,7 +1,7 @@
 //clear//
 clc
 clear
-exec("8.8data.sci");
+exec('8_8.sci');
 for i = 1:length(T)
   Xe(i) = 100000*exp(-33.78*(T(i)-298)/(T(i)))/(1+ 100000*exp(-33.78*(T(i)-298)/T(i)));
   XEB(i) = (2.5e-3)*(T(i)-300);

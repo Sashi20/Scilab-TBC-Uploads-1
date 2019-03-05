@@ -1,7 +1,7 @@
 //clear//
 clc
 clear
-exec("4.7data.sci");
+exec('4_7.sci');
  W = 0:1:60;
 function w=f(W,Y)
  

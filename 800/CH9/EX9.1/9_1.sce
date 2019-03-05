@@ -1,7 +1,7 @@
 //clear//
 clc
 clear
-exec("9.1data.sci");
+exec('9_1.sci');
  t = 0:10:1500;
 function w=f(t,x)
  
@@ -23,6 +23,3 @@ scf(2)
 plot2d(t,X); 
 
 xtitle( 'Figure E9-1.1', 't (Seconds)', 'X' ) ;
-
-
-

@@ -1,7 +1,7 @@
 //clear//
 clc
 clear
-exec("3.5data.sci");
+exec('3_5.sci');
 CD=CA0*(X/3);
 CB=CA0*((CB0/CA0)-(X/3));
 CD1=CA0*(X1/3);

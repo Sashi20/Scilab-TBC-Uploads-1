@@ -1,9 +1,7 @@
 //clear//
 clc
 clear all
-exec("2.6data.sci");
-
-
+exec('2_6.sci')
 X1 = X(1:5);
 p1 = p(1:5);
 V1 = FA0*inttrap(X1,p1)

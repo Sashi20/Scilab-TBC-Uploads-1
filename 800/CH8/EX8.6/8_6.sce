@@ -1,7 +1,7 @@
 //clear//
 clc
 clear
-exec("8.6data.sci");
+exec('8_6.sci');
  V = 0:.1:3.6;
 function w=f(V,X)
  
@@ -38,5 +38,3 @@ scf(3)
 plot2d(V,ra); 
 
 xtitle( 'Figure E8-6.1c', 'V(m^3)', '-ra (kmol/m^3hr)' ) ;
-
-

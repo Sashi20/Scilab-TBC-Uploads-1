@@ -1,7 +1,7 @@
 //clear//
 clc
 clear
-exec("8.4data.sci");
+exec('8_4.sci');
 HRx0 = H0C-H0B-H0A;
 deltaCp = CpC-CpB-CpA;
 deltaHRx0 = HRx0+deltaCp*(TR-TR);

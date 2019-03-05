@@ -2,7 +2,7 @@
 clc
 clear
 //this code is only for Part C
-exec("9.2data.sci");
+exec('9_2.sci');
  t = 55:1:121;
 function w=f(t,Y)
  
@@ -26,5 +26,3 @@ x=ode([467.992;0.0423],t0,t,f);
 plot2d(t,x(1,:)); 
 
 xtitle( 'Figure E9-2.2', 't ', 'T (oC)' ) ;
-
-

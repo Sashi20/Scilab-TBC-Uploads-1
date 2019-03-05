@@ -1,7 +1,7 @@
 //clear//
 clc
 clear
-exec("4.8data.sci");
+exec('4_8.sci');
 Z = 0:1:12;
 function w=f(Z,Y)
  
@@ -31,4 +31,3 @@ plot2d(W1',[l1 l2]);
 
 xtitle( 'Figure E4-8.2', 'w', 'x,y' ) ;
 legend(['x';'y']);
-

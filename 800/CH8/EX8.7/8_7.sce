@@ -2,7 +2,7 @@
 clc
 clear
 //this code is only for the first part of the problem (Adiabatic PFR)
-exec("8.7data.sci");
+exec('8_7.sci');
  V = 0:.1:5;
 function w=f(V,Y)
  
@@ -29,4 +29,3 @@ scf(2)
 plot2d(V,x(2,:)); 
 
 xtitle( 'Figure E8-7.1', 'V (m^3)', 'X' ) ;
-

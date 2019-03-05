@@ -1,7 +1,7 @@
 //clear//
 clc
 clear
-exec("10.3data.sci");
+exec('10_3.sci');
 w = 0:10:10000;
 
 function W=f(w,x)
@@ -44,7 +44,3 @@ plot2d(w',[l1 l2 l3]);
 
 xtitle( 'Figure E10-3.2', 'w', 'ph,pt,pb' ) ;
 legend(['ph';'pt';'pb']);
-
-
-
-

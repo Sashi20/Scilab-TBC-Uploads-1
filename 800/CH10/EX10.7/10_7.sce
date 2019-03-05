@@ -1,7 +1,7 @@
 //clear//
 clc
 clear
-exec("10.7data.sci");
+exec('10_7.sci');
 z = 0:.1:10;
 z0=0;
 function w=f(z,X)
@@ -36,7 +36,3 @@ plot2d(z',[l1 l2]);
 
 xtitle( 'Figure E10-7.1', 'z', 'X,a' ) ;
 legend(['X';'a']);
-
-
-
-

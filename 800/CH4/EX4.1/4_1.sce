@@ -1,7 +1,7 @@
 //clear//
 clc
 clear
-exec("4.1data.sci");
+exec('4_1.sci');
  
 x=t;
 y =((CA0-CC)/CA0);

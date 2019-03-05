@@ -1,7 +1,7 @@
 //clear//
 clc
 clear
-exec("4.10data.sci");
+exec('4__10.sci');
  V = 0:1:500;
 function w=f(V,F)
  
@@ -25,8 +25,3 @@ plot2d(V',[l1 l2 l3]);
 
 xtitle( 'Figure E4-10.2', 'V', 'Fa,Fb,Fc' ) ;
 legend(['Fa';'Fb';'Fc']);
-
-
-
-
-

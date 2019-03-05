@@ -1,7 +1,7 @@
 //clear//
 clc
 clear
-exec("9.8data.sci");
+exec('9_8.sci');
 t = 0:.01:1.5;
 
 function w=f(t,Y)
@@ -35,6 +35,3 @@ scf(2)
 plot2d(t,x(4,:)); 
 
 xtitle( 'Figure E9-8.2', 't', 'T' ) ;
-
-
-

@@ -1,7 +1,7 @@
 //clear//
 clc
 clear
-exec("1.3data.sci");
+exec('1_3.sci',-1);
 
 //CA = 0.1*CA0;
 V = (v0/k)*log(1/0.1);

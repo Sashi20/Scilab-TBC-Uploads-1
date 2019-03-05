@@ -1,7 +1,7 @@
 //clear//
 clc
 clear
-exec("6.8data.sci");
+exec('6_8.sci');
  v = 0:.1:10;
 function w =FF(v,f)
 
@@ -36,5 +36,3 @@ plot2d(v,x(5,:)/10,rect=[1,0,10,1.5]);
 plot2d(v,x(6,:)/10,rect=[1,0,10,1.5]);
 xtitle('FigureE');
 legend (['B';'A';'C';'D';'E';'F']);
-
-

@@ -1,7 +1,7 @@
 //clear//
 clc
 clear
-exec("8.3data.sci");
+exec('8_3.sci');
 deltaHRx0 = 2*H0NH3-3*H0H2-HN2;
 deltaCp = 2*CpNH3-3*CpH2-CpN2;
 deltaHRx = deltaHRx0+deltaCp*(T-TR);

@@ -1,7 +1,7 @@
 //clear//
 clc
 clear
-exec("7.7data.sci");
+exec('7_7.sci');
 for i=1:length(Curea)
 x(i)= 1/Curea(i);
 y(i) = 1/(-rurea(i));

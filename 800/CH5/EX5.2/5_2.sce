@@ -1,7 +1,7 @@
 //clear//
 clc
 clear
-exec("5.2data.sci");
+exec('5_2.sci');
  for i =1:length(t)
 g(i) =log(2*P0/(3*P0-P(i)));
 end

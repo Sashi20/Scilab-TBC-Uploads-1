@@ -1,7 +1,7 @@
 //clear//
 clc
 clear
-exec("9.3data.sci");
+exec('9_3.sci');
 t = 0:1:360;
 
 function w=f(t,Y)
@@ -44,5 +44,3 @@ plot2d(t',[l1 l2 l3]);
 
 xtitle( 'Figure E9-3.2', 't', 'Ca,Cb,Cc' ) ;
 legend(['Ca';'Cb';'Cc']);
-
-

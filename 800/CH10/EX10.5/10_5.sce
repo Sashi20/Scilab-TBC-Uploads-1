@@ -1,7 +1,7 @@
 //clear//
 clc
 clear
-exec("10.5data.sci");
+exec('10_5.sci');
 t = 0:.01:.5;
 
 function w=f(t,Y)
@@ -31,8 +31,3 @@ plot2d(t',[l1 l2 l3]);
 
 xtitle( 'Figure E10-5.1', 't', 'a,Ca,X' ) ;
 legend(['a';'Ca';'X']);
-
-
-
-
-

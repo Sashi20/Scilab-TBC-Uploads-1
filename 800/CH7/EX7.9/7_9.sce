@@ -1,7 +1,7 @@
 //clear//
 clc
 clear
-exec("7.9data.sci");
+exec('7_9.sci');
  t = 0:.1:12;
 function w=f(t,c)
  
@@ -28,5 +28,3 @@ plot2d(t',[l1 l2 l3]);
 
 xtitle( 'Figure E7-9.1 concentrations as a function of time', 't (hr)', 'C (g/dm^3)' ) ;
 legend(['Cc';'Cs';'Cp']);
-
-

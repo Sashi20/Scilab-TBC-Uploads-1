@@ -1,7 +1,7 @@
 //Clear//
 clc
 clear
-exec("6.6data.sci");
+exec('6_6.sci');
  t = 0:.01:.5;
 function w=f(t,c)
  
@@ -25,4 +25,3 @@ plot2d(t',[l1 l2 l3]);
 
 xtitle( 'Figure E6-6.1', 'Tau (hr)', 'Concentration (lb mol/ft^3' ) ;
 legend(['CH';'CM';'CX']);
-

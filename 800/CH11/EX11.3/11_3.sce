@@ -1,6 +1,6 @@
 clc
 clear
-exec("11.3data.sci");
+exec('11_3.sci');
 //this is only Part A of the problem. 
 dp=(6*(D^2)*L/4)^(1/3);
 disp("Particle diameter dp =")

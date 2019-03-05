@@ -1,6 +1,6 @@
 clc
 clear
-exec("13.9data.sci");
+exec('13_9.sci');
 t = 0:.1:2.52;
 
 function w=f(t,Y)
@@ -13,7 +13,7 @@ rc=k1*Y(1)*Y(2)
 re=k3*Y(2)*Y(4)
 ra=-k1*Y(1)*Y(2)-k2*Y(1)
 rb=-k1*Y(1)*Y(2)-k3*Y(2)*Y(4)
-if t< =1.26
+if t&lt; =1.26
   E=E1
 else
   E=E2
@@ -34,10 +34,4 @@ endfunction
 
 X=ode([1;1;0;0;0;0;0;0;0;0],t0,t,f);
 
-plot2d(t,X(1,:)); 
-
-
-
-
-
-
+plot2d(t,X(1,:));

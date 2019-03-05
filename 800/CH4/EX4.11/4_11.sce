@@ -1,7 +1,7 @@
 //clear//
 clc
 clear
-exec("4.11data.sci");
+exec('4__11.sci');
  t = 0:1:500;
 function w=f(t,C)
  
@@ -31,8 +31,3 @@ legend(['Ca';'Cb';'Cc']);
 scf(2)
 plot2d(t,rate)
 xtitle( 'Figure E4-11.2 Reaction rate-time trajectories', 't', 'Reaction Rate(mols dm^3)' ) ;
-
-
-
-
-'V

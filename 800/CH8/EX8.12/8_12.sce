@@ -1,7 +1,7 @@
 //clear//
 clc
 clear
-exec("8.12data.sci");
+exec('8_12.sci');
 t=1:10:250;
 for i=1:length(t)
 T(i)=2*t(i)+283;

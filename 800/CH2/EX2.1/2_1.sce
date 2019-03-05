@@ -1,7 +1,7 @@
 //clear//
 clc
 clear
-exec("2.1data.sci");
+exec('2_1.sci');
 CA0=(yA0*P0)/(R*T0);
 FA0 = CA0*v0;
 disp("CA0 =")

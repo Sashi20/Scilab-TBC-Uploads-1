@@ -1,7 +1,7 @@
 //Clear//
 clc
 clear
-exec("5.3data.sci");
+exec('5_3.sci');
 
 x=log(CHCl);
 y=log(-rHCl);
