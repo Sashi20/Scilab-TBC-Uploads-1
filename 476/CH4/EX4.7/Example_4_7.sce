@@ -1,7 +1,7 @@
 //A Textbook of Chemical Engineering Thermodynamics
 //Chapter 4
 //Second Law of Thermodynamics
-//Example 14
+//Example 7
 
 
 clear;
