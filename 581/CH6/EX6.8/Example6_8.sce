@@ -1,8 +1,7 @@
-
 clear;
 clc;
 
-printf("\t Example 6.3\n");
+printf("\t Example 6.8\n");
 
 v=15; //air velocity,m/s
 T2=383; // temperature of plate,K

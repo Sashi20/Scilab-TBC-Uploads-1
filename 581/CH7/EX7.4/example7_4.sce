@@ -1,8 +1,7 @@
-
 clear;
 clc;
 
-printf("\t Example 7.3\n");
+printf("\t Example 7.4\n");
 
 m=21.5;  //mass flow rate, kg/s
 e=260*10^-6;   //wall roughness,m

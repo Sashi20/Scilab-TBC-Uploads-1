@@ -1,8 +1,7 @@
-
 clear;
 clc;
 
-printf("\t Example 6.3\n");
+printf("\t Example 6.9\n");
 
 T1=297; // river water temp.,K
 T2=283; // ocean water temp., K

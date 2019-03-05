@@ -1,8 +1,7 @@
-
 clear;
 clc;
 
-printf("\t Example 6.3\n");
+printf("\t Example 6.10\n");
 
 l=2; // length of plate,m
 p=1000; // power density,W/m^2
