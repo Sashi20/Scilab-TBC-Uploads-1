@@ -8,3 +8,4 @@ end
 for t=1:100
     E=E+x(t)^2;
 end
+disp(E,'The Energy of the given signal is =');

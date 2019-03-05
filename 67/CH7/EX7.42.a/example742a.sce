@@ -6,5 +6,5 @@ function[za]=ztransfer(sequence,n)
 endfunction
 x=[1,2,3,4,5,0,7];
 n1=0:length(x)-1;
-X=ztransfer(x,n1);
+X=ztransfer(x,n1)
 funcprot(0);
