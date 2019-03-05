@@ -1,4 +1,7 @@
 clc;
+exec('number_of.sci');
+exec('dec21bin.sci');
+exec('donkmap.sci');
 n=10;
 //coverting decimal numbers into excess 3 values
 for i=0:n-1
@@ -9,7 +12,7 @@ b=zeros(10,4);
 //placing excess 3 outputs in matrix for convenience
 for i=1:n
     j=4;
-       while(a(i,1)>=1)
+       while(a(i,1)&gt;=1)
           b(i,j)=round(modulo(a(i,1),10));
           a(i,1)=a(i,1)/10;
           j=j-1;

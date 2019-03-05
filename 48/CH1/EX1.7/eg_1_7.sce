@@ -1,4 +1,6 @@
 clc;
+exec('bin21dec.sci');
+exec('dec21bin.sci');
 a=0111.10;        //first number 
 b=1111.01;        //second number
 A=bin21dec(a);   //converting a in to decimal number 

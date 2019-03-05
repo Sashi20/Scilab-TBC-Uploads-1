@@ -1,16 +1,16 @@
 clc;//clears the command window 
-clear;//clears all the variables 
+clear;
 i=1;w=1;
 bin=1101.01;//Given binary number which we need to be convert into decimal 
 temp1=floor(bin);//separating integer part from the given number
 temp2=modulo(bin,1);//separating decimal part from the given number
 temp2=temp2*10^3;//converting decimal value to interger for convenience
-while(temp1>0)//storing each integer digit in vector for convenience
+while(temp1&gt;0)//storing each integer digit in vector for convenience
     p(i)=modulo(temp1,10);
     temp1=floor(temp1/10);
     i=i+1;
 end
-while(temp2>0)//storing each decimal digit in vector for convenience
+while(temp2&gt;0)//storing each decimal digit in vector for convenience
     q(w)=modulo(temp2,2);
     temp2=(temp2/10);
     temp2=floor(temp2);
@@ -18,7 +18,7 @@ while(temp2>0)//storing each decimal digit in vector for convenience
 end
 temp1=0;//flag bit
 for i=1:length(p)//checking whether it is a binary number or not
-    if(p(i)>1) then
+    if(p(i)&gt;1) then
         disp('not a binary number');
         abort; 
     end

@@ -1,4 +1,7 @@
 clc;
+exec('number_of.sci');
+exec('karmap.sci');
+exec('karmap1.sci');
 k=[1 1 0 1;
    0 1 1 1;
    0 1 1 0;

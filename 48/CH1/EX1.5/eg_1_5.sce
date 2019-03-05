@@ -1,5 +1,5 @@
 clc;//clears the command window 
-clear;//clears all the variables 
+clear; 
 format('v',18);//changing the default prcision to 20 significant digits
 
 i=1;x=1;//flag bits
@@ -8,7 +8,7 @@ dec=432.354;//given decimal number which should be expressed in base 2
 temp2=floor(dec);//separating integer part from the given number
 temp4=modulo(dec,1);//separating decimal part from the given number
 
-while(temp2>0)//storing each integer digit in vector for convenience
+while(temp2&gt;0)//storing each integer digit in vector for convenience
     p(i)=(modulo(floor(temp2),2))
     temp2=floor(temp2)/2;
     i=i+1;

@@ -1,5 +1,5 @@
 clc;//clears the command window 
-clear;//clears all the variables 
+clear;
 format('v',8);//making the default precision to 8 significant digits
 i=1;
 dec=0.3125;//given decimal number which should be expressed in base 8

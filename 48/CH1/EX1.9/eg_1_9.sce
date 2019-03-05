@@ -1,4 +1,6 @@
 clc;
+exec('bin21dec.sci');
+exec('dec21bin.sci');
 format('v',8);  //changing the default precision to 8
 a=11001.1;     //first number 
 b=110.1;        //second number
