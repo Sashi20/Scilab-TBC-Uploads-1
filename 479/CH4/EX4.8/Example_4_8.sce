@@ -2,7 +2,7 @@
 //Chapter 4
 //Second Law of Thermodynamics
 
-//Example 4.1
+//Example 4.8
 clear;
 clc;
 
