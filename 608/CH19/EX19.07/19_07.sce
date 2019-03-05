@@ -1,4 +1,4 @@
-//Problem 19.07: Three coils each having resistance 3 ohm and inductive reactance 4 ohm are connected (i) in star and (ii) in delta to a 415 V, 3-phase supply. Calculate for each connection (a) the line and phase voltages and (b) the phase and line currents.
+//Problem 19.07: Three coils each having resistance 3 ohm and inductive reactance 4 ohm are connected (i) in star and (ii) in delta to a 415 V, 3-phase supply. Calculate for each connection (a) the line and phase voltages and (b) the phase and line currents.
 
 //initializing the variables:
 R = 3; // in ohms

@@ -1,4 +1,4 @@
-//Problem 19.02: A star-connected load consists of three identical coils each of resistance 30 ohm and inductance 127.3 mH. If the line current is 5.08 A, calculate the line voltage if the supply frequency is 50 Hz.
+//Problem 19.02: A star-connected load consists of three identical coils each of resistance 30 ohm and inductance 127.3 mH. If the line current is 5.08 A, calculate the line voltage if the supply frequency is 50 Hz.
 
 //initializing the variables:
 R = 30; // in ohms

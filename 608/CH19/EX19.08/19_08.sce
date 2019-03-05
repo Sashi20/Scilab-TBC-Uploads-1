@@ -1,4 +1,4 @@
-//Problem 19.08: Three 12 ohms resistors are connected in star to a 415 V, 3-phase supply. Determine the total power dissipated by the resistors.
+//Problem 19.08: Three 12 ohms resistors are connected in star to a 415 V, 3-phase supply. etermine the total power dissipated by the resistors.
 
 //initializing the variables:
 Rp = 12; // in ohms

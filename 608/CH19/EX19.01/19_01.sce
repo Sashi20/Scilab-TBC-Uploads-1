@@ -1,4 +1,4 @@
-//Problem 19.01: Three loads, each of resistance 30 ohm , are connected in star to a 415 V, 3-phase supply. Determine (a) the system phase voltage, (b) the phase current and (c) the line current.
+//Problem 19.01: Three loads, each of resistance 30 ohm , are connected in star to a 415 V, 3-phase supply. Determine (a) the system phase voltage, (b) the phase current and (c) the line current.
 
 //initializing the variables:
 Vl = 415; // in Volts

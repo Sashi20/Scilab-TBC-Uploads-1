@@ -1,4 +1,4 @@
-//Problem 19.14: Each phase of a delta-connected load comprises a resistance of 30 ohm and an 80 μF capacitor in series. The load is connected to a 400 V, 50 Hz, 3-phase supply. Calculate (a) the phase current, (b) the line current, (c) the total power dissipated and (d) the kVA rating of the load. Draw the complete phasor diagram for the load.
+//Problem 19.14: Each phase of a delta-connected load comprises a resistance of 30 ohm and an 80 μF capacitor in series. The load is connected to a 400 V, 50 Hz, 3-phase supply. Calculate (a) the phase current, (b) the line current, (c) the total power dissipated and (d) the kVA rating of the load. Draw the complete phasor diagram for the load.
 
 //initializing the variables:
 R = 30; // in ohms

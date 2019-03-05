@@ -1,4 +1,4 @@
-//Problem 19.13: A 400 V, 3-phase star connected alternator supplies a delta-connected load, each phase of which has a resistance of 30 ohm and inductive reactance 40 ohm. Calculate (a) the current supplied by the alternator and (b) the output power and the kVA of the alternator, neglecting losses in the line between the alternator and load.
+//Problem 19.13: A 400 V, 3-phase star connected alternator supplies a delta-connected load, each phase of which has a resistance of 30 ohm and inductive reactance 40 ohm. Calculate (a) the current supplied by the alternator and (b) the output power and the kVA of the alternator, neglecting losses in the line between the alternator and load.
 
 //initializing the variables:
 R = 30; // in ohms

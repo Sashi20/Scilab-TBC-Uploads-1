@@ -1,4 +1,4 @@
-//Problem 38.03: A ferromagnetic ring has a uniform cross-sectional area of 2000 mm2 and a mean circumference of 1000 mm. A hysteresis loop obtained for the specimen is plotted to scales of 10 mm = 0.1 T and 10 mm = 400 A/m and is found to have an area of 104 mm2. Determine the hysteresis loss at a frequency of 80 Hz.
+//Problem 38.03: A ferromagnetic ring has a uniform cross-sectional area of 2000 mm2 and a mean circumference of 1000 mm. A hysteresis loop obtained for the specimen is drawn to scales of 10 mm = 0.1 T and 10 mm = 400 A/m and is found to have an area of 104 mm2. Determine the hysteresis loss at a frequency of 80 Hz.
 
 //initializing the variables:
 csa = 0.002; // in m2

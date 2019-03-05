@@ -1,4 +1,4 @@
-//Problem 40.08: A concentric cable has a core diameter of 20 mm and a sheath inside diameter of 60 mm. The permittivity of the dielectric is 3.2. Using three equipotential surfaces within the dielectric, determine the capacitance of the cable per metre length by the method of curvilinear squares. Draw the field plot for the cable.
+//Problem 40.08: A concentric cable has a core diameter of 20 mm and a sheath inside diameter of 60 mm. The permittivity of the dielectric is 3.2. Using three equipotential surfaces within the dielectric, determine the capacitance of the cable per metre length by the method of curvilinear squares.
 
 //initializing the variables:
 e0 = 8.85E-12; 

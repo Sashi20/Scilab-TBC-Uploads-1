@@ -1,4 +1,4 @@
-//Problem 40.01: A field plot between two metal plates is shown in Figure 40.9. The relative permeability of the dielectric is 2.8. Determine the capacitance per metre length of the system.
+//Problem 40.01: A field between two metal plates is shown in Figure 40.9. The relative permeability of the dielectric is 2.8. Determine the capacitance per metre length of the system.
 
 //initializing the variables:
 e0 = 8.85E-12; 

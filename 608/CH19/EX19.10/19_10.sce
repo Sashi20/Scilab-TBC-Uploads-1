@@ -1,4 +1,4 @@
-//Problem 19.10: Three identical coils, each of resistance 10 ohm and inductance 42 mH are connected (a) in star and (b) in delta to a 415 V, 50 Hz, 3-phase supply. Determine the total power dissipated in each case.
+//Problem 19.10: Three identical coils, each of resistance 10 ohm and inductance 42 mH are connected (a) in star and (b) in delta to a 415 V, 50 Hz, 3-phase supply. Determine the total power dissipated in each case.
 
 //initializing the variables:
 R = 10; // in ohms
