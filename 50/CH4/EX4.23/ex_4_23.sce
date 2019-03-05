@@ -1,6 +1,6 @@
 // example: 4.23;
 // piecewise cubical interpolating polinomials:
-
+exec('lagrangefundamentalpoly.sci');
 X=[-3 -2 -1 1 3 6 7];
 F=[369 222 171 165 207 990 1779];
 //  we need to apply legranges interpolation in sub-ranges [-3 ,1];[1,7];

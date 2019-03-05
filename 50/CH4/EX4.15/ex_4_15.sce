@@ -1,6 +1,6 @@
 // example 4.15:
 // obtain the interpolate using backward differences polinomial
-
+exec('NBDP.sci');
 
 xL=[.1 .2 .3 .4 .5 ]'
 

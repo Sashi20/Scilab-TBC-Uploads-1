@@ -1,6 +1,6 @@
 // example 6.3
 // solution to the given IVP
-
+exec('geigenvectors.sci');
 disp('du/dt= A*u');
 // u=[u1 u2]';
 A=[-3 4 ;-2 3];                      // given 

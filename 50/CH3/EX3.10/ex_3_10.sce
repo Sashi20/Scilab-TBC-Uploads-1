@@ -1,6 +1,8 @@
 //example no. 3.10
 //solve system by decomposition method
-
+exec('LandU.sce');
+exec('fore.sce');
+exec('back.sce');
 A=[1 1 1;4 3 -1;3 5 3]
 n=3;
 

@@ -1,6 +1,6 @@
 // example 4.20;
 // hermite interpolation:
-
+exec('hermiteinterpol.sci');
 x=[-1 0 1];
 
 f=[1  1 3];

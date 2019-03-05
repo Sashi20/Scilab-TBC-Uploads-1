@@ -1,6 +1,8 @@
 //example no. 3.13
 //solve system by LU decomposition method
 
+exec('LandU.sce');
+
 A=[2 1 1 -2;4 0 2 1;3 2 2 0;1 3 2 -1]
 
 b=[-10;8;7;-5]

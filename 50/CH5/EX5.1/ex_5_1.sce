@@ -1,6 +1,6 @@
 // example: 5.1
 // linear and quadratic interpolation:
-
+exec('linearinterpol.sci');
 // f(x)=ln x;
 
 xL=[2 2.2 2.6];

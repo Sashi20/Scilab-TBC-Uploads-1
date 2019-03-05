@@ -1,6 +1,6 @@
 //example no.3.9
 //solving the system using inverse of the cofficient matrix
-
+exec('jordan.sce');
 A=[1 1 1;4 3 -1;3 5 3]
 
 I=[1 0 0;0 1 0;0 0 1]
@@ -12,4 +12,3 @@ M=jorden(A,I)
 IA=M(1:3,4:6)
 
 X=IA*b
-

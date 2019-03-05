@@ -1,5 +1,8 @@
 //example no. 3.15
 //solve system by cholesky method
+exec('cholesky.sce');
+exec('fore.sce');
+exec('back.sce');
 
 A=[4 -1 0 0;-1 4 -1 0;0 -1 4 -1;0 0 -1 4]
 

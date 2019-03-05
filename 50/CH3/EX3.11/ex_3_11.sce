@@ -1,6 +1,8 @@
 //example no.3.11
 //caption: Inverse using LU decomposition
 
+exec('LandU.sce');
+
 A=[3 2 1;2 3 2;1 2 2]
 
 [U,L]=LandU(A,3)      // call LandU function to evaluate U,L of A,

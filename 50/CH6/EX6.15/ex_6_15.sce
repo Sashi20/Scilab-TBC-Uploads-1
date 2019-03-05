@@ -1,6 +1,8 @@
 // example 6.15
 //caption: solving ODE by tailor series method
 // u'=t^2+ u^2,  u0=0;
+exec('taylor.sci');
+exec('fact.sci');
 
 t=0;U=0;                   //at t=0, the value of u is 0
 U1=0;                  // u1 is the 1st derivatove of the funtion u 
@@ -17,4 +19,4 @@ U11=2*(U*U10+10*U1*U9+45*U2*U8+120*U3*U7+210*U4*U6+126*U5^2)
                                  // U11 is the 11th derivative of u
 
 
-taylor(1)                             
+taylor(1)

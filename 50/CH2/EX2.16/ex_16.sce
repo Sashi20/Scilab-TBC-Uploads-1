@@ -1,5 +1,7 @@
-                                   // The equation x^3-5*x+1==0 has  real roots.
+// The equation x^3-5*x+1==0 has  real roots.
                                    // the graph of this function can be observed here.
+exec('multipoint_iteration31.sce');
+exec('multipoint_iteration33.sce');
 xset('window',15);                                   
 x=-2:.01:4;                                             // defining the range of x.
 deff('[y]=f(x)','y=x^3-5*x+1');                  //defining the function.

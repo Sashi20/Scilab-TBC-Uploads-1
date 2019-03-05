@@ -1,5 +1,7 @@
 // example 6.17,
 // caption: solve by 1)modified euler cauchy, 2)heun method
+exec('heun.sci');
+exec('modifiedeuler.sci');
 
 // h=0.2
 // 1) modified euler cauchy method,

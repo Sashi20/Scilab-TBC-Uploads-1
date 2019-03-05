@@ -1,6 +1,8 @@
 //example no. 3.12
 //solve system by decomposition method
 
+exec('LandU.sce');
+
 A=[1 1 -1;2 2 5;3 2 -3]
 
 b=[2;-3;6]
@@ -25,4 +27,3 @@ n=3;
 Z=fore(L,b);
 
 X=back(U,Z)
-                 

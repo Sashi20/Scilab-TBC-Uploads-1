@@ -1,6 +1,8 @@
 // example : 5.11
 // solve the definite integral by 1) trapezoidal rule, 2)simpsons rule
 // exact value of the integral is ln 2= 0.693147,
+exec('trapezoidal.sci');
+exec('simpson.sci');
 
 deff('[y]=F(x)','y=1/(1+x)')
 

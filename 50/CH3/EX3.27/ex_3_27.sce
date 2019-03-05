@@ -3,6 +3,8 @@
 // b) verify inv(S)*A*S is a diagonal matrix;
 
 // 1) 
+exec('geigenvectors.sci');
+
 A=[1 2 -2 ;1 1 1;1 3 -1];
 
 B=[1 0 0;0 1 0; 0 0 1];
@@ -20,5 +22,3 @@ B=[1 0 0;0 1 0; 0 0 1];
  [x,lam] = geigenvectors(A,B);
  
  inv(x)*A*x
- 
- 

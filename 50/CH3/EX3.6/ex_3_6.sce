@@ -1,5 +1,6 @@
 //example-3.6
 //caption-solution by gauss elimibnation method
+exec('pivotgausselim.sci');
 
 A=[1 1 1;3 3 4;2 1 3]               //matrices A and b from the above 
                                                  //system of equations

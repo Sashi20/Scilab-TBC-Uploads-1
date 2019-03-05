@@ -3,6 +3,7 @@
 
 // u'=f(t,u)
 // u'=-2tu^2
+exec('RK4.sci');
 deff('[z]=f(t,u)','z=-2*t*u^2');
 
 RK4(1,0,.4,.2,f)       // calling the function,

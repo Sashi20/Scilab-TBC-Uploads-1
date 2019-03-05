@@ -1,6 +1,6 @@
 // example: 4.21;
 // piecewise linear interpolating polinomials:
-
+exec('legrangeinterpol.sci');
 x1=1;x2=2; x3=4;x4=8;
 f1=3; f2=7; f3=21; f4=73;
 //  we need to apply legranges interpolation in sub-ranges [1,2];[2,4],[4,8];

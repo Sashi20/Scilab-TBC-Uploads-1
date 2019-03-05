@@ -1,6 +1,8 @@
 //example no. 3.21
 //solve the system by jacobi iteration method
 
+exec('jacobiiteration.sce');
+
 A=[4 1 1;1 5 2;1 2 3]
 
 b=[2 ;-6;-4]

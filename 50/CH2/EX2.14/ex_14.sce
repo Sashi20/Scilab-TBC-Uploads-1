@@ -1,7 +1,6 @@
-     
-                       
-                                   // The equation 1/x-7==0 has a real root.
+// The equation 1/x-7==0 has a real root.
                                    // the graph of this function can be observed here.
+exec('chebyshev.sce');
 xset('window',13);                                   
 x=0.001:.001:.25;                                             // defining the range of x.
 deff('[y]=f(x)','y=1/x-7');                  //defining the function.
@@ -24,7 +23,3 @@ title(' y =1/x-7')
            
            
  chebyshev(0.1,f,fp)                //calling the pre-defined function 'chebyshev' to find the approximate root in the range of (0,2/7).
- 
- 
-
- 

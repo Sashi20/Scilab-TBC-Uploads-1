@@ -1,6 +1,6 @@
 // example 5.10;
 // find the jacobian matrix;
-
+exec('jacobianmat.sci');
 
 // given two functions in x,y;
 // and the point at which the jacobian has to be found out;
@@ -12,4 +12,4 @@ deff('[q]=f2(x,y)','q=x^2-y^2-y');
 h=1;k=1;
 
 J= jacobianmat (f1,f2,h,k);
-disp(J); 
+disp(J);
