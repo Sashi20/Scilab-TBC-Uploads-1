@@ -1,11 +1,13 @@
+//Windows 10
+// Scilab 6.0.0
 //Chapter 9 Ionic Equilibria and Buffer Action
 
 clc;
 clear;
 
 //Initialisation of Variables
-kw= 10**-14
-Ka= 1.8*10**-5
+kw= 10**-14  //from hydrolysis constant expression
+Ka= 1.8*10**-5  //given
 
 //CALCULATIONS
 Kb= Ka

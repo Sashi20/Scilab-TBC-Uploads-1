@@ -1,15 +1,17 @@
+//Windows 10
+// Scilab 6.0.0
 //Chapter 13 Thermodynamics Entropy and Free Energy
 
 clc;
 clear;
 
 //Initialisation of Variables
-m= 14 //gms
-M= 28 //gms
-S= 6.94 //cal per mole
-T= 127 //C
-T1= 27 //C
-S1= 4.94 //cal per mole
+m= 14 //weight in gms
+M= 28 //weight in gms
+S= 6.94 //cal per mole - heat capacity
+T= 127 //temperature in Celsius
+T1= 27 //temperature in Celsius
+S1= 4.94 //cal per mole - heat capacity
 
 //CALCULATIONS
 dS= (m/M)*S*log((273+T)/(273+T1))

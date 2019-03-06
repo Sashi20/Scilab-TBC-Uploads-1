@@ -1,13 +1,15 @@
+//Windows 10
+// Scilab 6.0.0
 //Chapter 14 Determination of Hydroniumion Concentrations
 
 clc;
 clear;
 
 //Initialisation of Variables
-E= 0.034 //v
-E1= -0.280 //v
-E2= -0.699 //v
-E3= 0.0592
+E= 0.034 //potential in v
+E1= -0.280 //potential in v
+E2= -0.699 //potential in v
+E3= 0.0592 //constant
 
 //CALCULATIONS
 pH= (E1-E-E2)/E3

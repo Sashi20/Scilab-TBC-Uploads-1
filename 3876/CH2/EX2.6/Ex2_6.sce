@@ -1,13 +1,15 @@
+//Windows 10
+// Scilab 6.0.0
 //Chapter 2 Gases
 
 clc;
 clear;
 
 //Initialisation of Variables
-P= 23.8 //mm
-V= 0.5 //lit
-R= 0.0821 //lit atm mole^-1
-T= 25 //C
+P= 23.8 //pressure in mm
+V= 0.5 //volume in litres
+R= 0.0821 //gas constant in lit atm mole^-1
+T= 25 //temperature in Celsius
 
 //CALCULATIONS
 P1= 760-P

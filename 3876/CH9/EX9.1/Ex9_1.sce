@@ -1,12 +1,14 @@
+//Windows 10
+// Scilab 6.0.0
 //Chapter 9 Ionic Equilibria and Buffer Action
 
 clc;
 clear;
 
 //Initialisation of Variables
-c= 0.1 //M
-p= 1.34 //per cent
-T= 25 //C
+c= 0.1 //Molarity of solution
+p= 1.34 //per cent ionized
+T= 25 //temperature in Celsius
 
 //CALCULATIONS
 C1= c*p/100

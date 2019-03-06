@@ -1,3 +1,5 @@
+//Windows 10
+// Scilab 6.0.0
 //Chapter 16 Oxidation Reduction Potentials
 
 clc;

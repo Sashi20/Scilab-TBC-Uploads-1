@@ -1,14 +1,16 @@
+//Windows 10
+// Scilab 6.0.0
 //Chapter 14 Determination of Hydroniumion Concentrations
 
 clc;
 clear;
 
 //Initialisation of Variables
-E= 0.232 //v
-R= 0.0592
-p= 1 //atm
-R1= 0.0296
-P= 740 //atm
+E= 0.232 //potential in voltage
+R= 0.0592  //constant
+p= 1 //pressure in atm
+R1= 0.0296// constant
+P= 740 //pressure in atm
 
 //CALCULATIONS
 pH= E/R

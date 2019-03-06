@@ -1,3 +1,5 @@
+//Windows 10
+// Scilab 6.0.0
 
 //Chapter 7 Conductivity
 
@@ -5,12 +7,12 @@ clc;
 clear;
 
 //Initialisation of Variables
-i= 20 //amp
-t= 50 ///min
-F= 96500 //coloumb
-we= 8 //gms
-Mo= 32 ///gms
-M= 27 //gms
+i= 20 //current in amp
+t= 50 ///time in min
+F= 96500 //chage in coloumb
+we= 8 //volume in litres
+Mo= 32 //volume in litres
+M= 27 //volume in litres
 n= 3
 
 //CALCULATIONS

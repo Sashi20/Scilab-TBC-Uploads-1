@@ -1,12 +1,14 @@
+//Windows 10
+// Scilab 6.0.0
 //Chapter 7 Conductivity
 
 clc;
 clear;
 
 //Initialisation of Variables
-R= 10 //ohms
-V= 5 //v
-t= 20 //min
+R= 10 //resistance in ohms
+V= 5 //potential in v
+t= 20 //time in min
 
 //CALCULATIONS
 I= V/R

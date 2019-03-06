@@ -1,12 +1,14 @@
+//Windows 10
+// Scilab 6.0.0
 //Chapter 13 Thermodynamics Entropy and Free Energy
 
 clc;
 clear;
 
 //Initialisation of Variables
-F1= 31350 //cal
-F2= 26224 //cal
-F= 96500 //coloumbs
+F1= 31350 //cal - free energy of formation
+F2= 26224 //cal - free energy of formation
+F= 96500 //charge in coloumbs
 
 //CALCULATIONS
 F3= -F1+F2

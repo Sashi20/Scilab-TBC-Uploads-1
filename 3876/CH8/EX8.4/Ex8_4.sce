@@ -1,3 +1,5 @@
+//Windows 10
+// Scilab 6.0.0
 
 //Chapter 8 Chemical Equlibrium
 
@@ -5,9 +7,9 @@ clc;
 clear;
 
 //Initialisation of Variables
-pno2= 0.31 //atm
-pn2o2= 0.69 //atm
-p= 10 //atm
+pno2= 0.31 //pressure in atm
+pn2o2= 0.69 //pressure in atm
+p= 10 //pressure in atm
 
 //CALCULATIONS
 Kp= pno2**2/pn2o2

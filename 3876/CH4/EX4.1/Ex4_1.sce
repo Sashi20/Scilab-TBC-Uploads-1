@@ -1,14 +1,16 @@
+//Windows 10
+// Scilab 6.0.0
 //Chapter 4 Solutions Nonelectrolytes
 
 clc;
 clear;
 
 //Initialisation of Variables
-m= 164.2 //gms
-M= 60 //gms
-V= 0.8 //lit
-d= 1.026 //g/cc
-mw= 18.02 //gms
+m= 164.2 //weight in gms
+M= 60 //weight in gms
+V= 0.8 //volume in litres
+d= 1.026 //density in g/cc
+mw= 18.02 //weight in gms
 
 //CALCULATIONS
 M1= m/M

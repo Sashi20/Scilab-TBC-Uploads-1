@@ -1,3 +1,5 @@
+//Windows 10
+// Scilab 6.0.0
 
 //Chapter 2 Gases
 
@@ -37,4 +39,7 @@ mprintf("\nPO2=%.3f atm",pO2)
 mprintf("\nPH2=%.3f atm",pH2)
 mprintf("\n The total pressure is: %.3f atm",Tp)
 mprintf("\n The total number of moles is: %.2f moles",Tm)
-mprintf("\nTotal pressure multiplied by mole fraction: %.3f",Tpc)
+mprintf("\nTotal pressure multiplied by mole fraction: %.3f atm",Tpc)
+
+//The difference in the solution compared to textbook is due to round off error:
+//PH2 is being taken as 0.498 in the textbook whereas it is being calculated as 0.497 in the code

@@ -1,12 +1,14 @@
+//Windows 10
+// Scilab 6.0.0
 //Chapter 8 Chemical Equlibrium
 
 clc;
 clear;
 
 //Initialisation of Variables
-n= 1 //mole
-x= 3
-y= 4
+n= 1 //no of moles
+x= 3 //no of moles
+y= 4 //no of moles
 
 //CALCULATIONS
 r= x**2/n**2

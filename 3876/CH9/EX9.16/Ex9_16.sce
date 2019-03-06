@@ -1,11 +1,13 @@
+//Windows 10
+// Scilab 6.0.0
 //Chapter 9 Ionic Equilibria and Buffer Action
 
 clc;
 clear;
 
 //Initialisation of Variables
-c= 1 //M
-Kb= 5.3*10**-5
+c= 1 //Molarity of solution
+Kb= 5.3*10**-5  //given
 pKw= 14
 
 //CALCULATIONS

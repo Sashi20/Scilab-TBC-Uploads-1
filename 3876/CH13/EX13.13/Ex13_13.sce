@@ -1,13 +1,15 @@
+//Windows 10
+// Scilab 6.0.0
 //Chapter 13 Thermodynamics Entropy and Free Energy
 
 clc;
 clear;
 
 //Initialisation of Variables
-T= 25 //C
+T= 25 //temperature in Celsius
 a= 0.2 //molar
-P= 1 //atm
-F1= -5126 //cal
+P= 1 //pressure in atm
+F1= -5126 //cal  - free energy of formation
 R= 2 //cal/mole K
 
 //CALCULATIONS

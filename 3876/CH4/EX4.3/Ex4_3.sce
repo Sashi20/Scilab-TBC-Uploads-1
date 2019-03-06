@@ -1,15 +1,17 @@
+//Windows 10
+// Scilab 6.0.0
 //Chapter 4 Solutions Nonelectrolytes
 
 clc;
 clear;
 
 //Initialisation of Variables
-mn= 0.0134 //gms
-mo= 0.0261 //gms
-mh= 0.0081 //gms
-T= 30 //C
-P= 3 //atm
-r= 4/5
+mn= 0.0134 //weight in gms
+mo= 0.0261 //weight in gms
+mh= 0.0081 //weight in gms
+T= 30 //temperature in C
+P= 3 //pressure in atm
+r= 4/5  //ratio of nitrogen to oxygen
 
 //CALCULATIONS
 V= mn*(273+T)*1000/273

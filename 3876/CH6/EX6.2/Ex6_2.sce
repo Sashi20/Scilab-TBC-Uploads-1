@@ -1,3 +1,5 @@
+//Windows 10
+// Scilab 6.0.0
 
 //Chapter 6 Solutions of Electrolytes
 
@@ -5,13 +7,13 @@ clc;
 clear;
 
 //Initialisation of Variables
-Na=0.001 //molar
-NaCl= 0.001 //molar
-BaCl= 0.002 //molar
-Cl= 0.004 //molar
-n= 1 //moles
-n1= 2 //moles
-v= 0.509
+Na=0.001 //solution molarity in Na
+NaCl= 0.001 //solution molarity in NaCl
+BaCl= 0.002 //solution molarity in BaCl
+Cl= 0.004 //solution molarity in Cl
+n= 1 //no of moles
+n1= 2 //no of moles
+v= 0.509 //given
 
 //CALCULATIONS
 Is= 0.5*(Na*n**2+NaCl*n**2+Cl*n**2+BaCl*n1**2)
