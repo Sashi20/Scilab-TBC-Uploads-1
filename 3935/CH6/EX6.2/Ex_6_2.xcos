@@ -1,0 +1,468 @@
+<?xml version="1.0" ?>
+<XcosDiagram debugLevel="0" finalIntegrationTime="100000.0" integratorAbsoluteTolerance="1.0E-6" integratorRelativeTolerance="1.0E-6" toleranceOnTime="1.0E-10" maxIntegrationTimeInterval="100001.0" maximumStepSize="0.0" realTimeScaling="0.0" solver="1.0" background="-1" gridEnabled="1" title="Ex_6_2"><!--Xcos - 2.0 - scilab-6.0.1 - 20180215 0947-->
+  <Array as="context" scilabClass="String[]">
+    <add value="A=0100101"/>
+    <add value="B=10101101"/>
+    <add value="C=101011"/>
+  </Array>
+  <mxGraphModel as="model">
+    <root>
+      <mxCell id="0:1:0"/>
+      <mxCell id="0:2:0" parent="0:1:0"/>
+      <BasicBlock id="-123277ed:16a59edc0a5:-7fe5" parent="0:2:0" interfaceFunctionName="LOGICAL_OP" blockType="c" dependsOnU="1" dependsOnT="0" simulationFunctionName="logicalop" simulationFunctionType="C_OR_FORTRAN" style="LOGICAL_OP;blockWithLabel;displayedLabel=NAND">
+        <ScilabString as="exprs" height="4" width="1">
+          <data line="0" column="0" value="2"/>
+          <data line="1" column="0" value="2"/>
+          <data line="2" column="0" value="1"/>
+          <data line="3" column="0" value="0"/>
+        </ScilabString>
+        <ScilabDouble as="realParameters" height="0" width="0"/>
+        <ScilabInteger as="integerParameters" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="2"/>
+        </ScilabInteger>
+        <Array as="objectsParameters" scilabClass="ScilabList"/>
+        <ScilabInteger as="nbZerosCrossing" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabInteger as="nmode" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabDouble as="state" height="0" width="0"/>
+        <ScilabDouble as="dState" height="0" width="0"/>
+        <Array as="oDState" scilabClass="ScilabList"/>
+        <Array as="equations" scilabClass="ScilabList"/>
+        <mxGeometry as="geometry" x="430.0" y="170.0" width="40.0" height="40.0"/>
+      </BasicBlock>
+      <ExplicitInputPort id="-123277ed:16a59edc0a5:-7fe4" parent="-123277ed:16a59edc0a5:-7fe5" ordering="1" dataType="REAL_MATRIX" dataColumns="-2" dataLines="-1" initialState="0.0" style="ExplicitInputPort;align=left;verticalAlign=middle;spacing=10.0;rotation=0"/>
+      <ExplicitInputPort id="-123277ed:16a59edc0a5:-7fe3" parent="-123277ed:16a59edc0a5:-7fe5" ordering="2" dataType="REAL_MATRIX" dataColumns="-2" dataLines="-1" initialState="0.0" style="ExplicitInputPort;align=left;verticalAlign=middle;spacing=10.0;rotation=0"/>
+      <ExplicitOutputPort id="-123277ed:16a59edc0a5:-7fe2" parent="-123277ed:16a59edc0a5:-7fe5" ordering="1" dataType="REAL_MATRIX" dataColumns="-2" dataLines="-1" initialState="0.0" style="ExplicitOutputPort;align=right;verticalAlign=middle;spacing=10.0;rotation=0"/>
+      <BasicBlock id="-123277ed:16a59edc0a5:-7fe1" parent="0:2:0" interfaceFunctionName="LOGICAL_OP" blockType="c" dependsOnU="1" dependsOnT="0" simulationFunctionName="logicalop" simulationFunctionType="C_OR_FORTRAN" style="LOGICAL_OP;blockWithLabel;displayedLabel=AND">
+        <ScilabString as="exprs" height="4" width="1">
+          <data line="0" column="0" value="2"/>
+          <data line="1" column="0" value="0"/>
+          <data line="2" column="0" value="1"/>
+          <data line="3" column="0" value="0"/>
+        </ScilabString>
+        <ScilabDouble as="realParameters" height="0" width="0"/>
+        <ScilabInteger as="integerParameters" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <Array as="objectsParameters" scilabClass="ScilabList"/>
+        <ScilabInteger as="nbZerosCrossing" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabInteger as="nmode" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabDouble as="state" height="0" width="0"/>
+        <ScilabDouble as="dState" height="0" width="0"/>
+        <Array as="oDState" scilabClass="ScilabList"/>
+        <Array as="equations" scilabClass="ScilabList"/>
+        <mxGeometry as="geometry" x="170.0" y="40.0" width="40.0" height="40.0"/>
+      </BasicBlock>
+      <ExplicitInputPort id="-123277ed:16a59edc0a5:-7fe0" parent="-123277ed:16a59edc0a5:-7fe1" ordering="1" dataType="REAL_MATRIX" dataColumns="-2" dataLines="-1" initialState="0.0" style="ExplicitInputPort;align=left;verticalAlign=middle;spacing=10.0;rotation=0"/>
+      <ExplicitInputPort id="-123277ed:16a59edc0a5:-7fdf" parent="-123277ed:16a59edc0a5:-7fe1" ordering="2" dataType="REAL_MATRIX" dataColumns="-2" dataLines="-1" initialState="0.0" style="ExplicitInputPort;align=left;verticalAlign=middle;spacing=10.0;rotation=0"/>
+      <ExplicitOutputPort id="-123277ed:16a59edc0a5:-7fde" parent="-123277ed:16a59edc0a5:-7fe1" ordering="1" dataType="REAL_MATRIX" dataColumns="-2" dataLines="-1" initialState="0.0" style="ExplicitOutputPort;align=right;verticalAlign=middle;spacing=10.0;rotation=0"/>
+      <BasicBlock id="-123277ed:16a59edc0a5:-7fd9" parent="0:2:0" interfaceFunctionName="LOGICAL_OP" blockType="c" dependsOnU="1" dependsOnT="0" simulationFunctionName="logicalop" simulationFunctionType="C_OR_FORTRAN" style="LOGICAL_OP;blockWithLabel;displayedLabel=NOT">
+        <ScilabString as="exprs" height="4" width="1">
+          <data line="0" column="0" value="2"/>
+          <data line="1" column="0" value="5"/>
+          <data line="2" column="0" value="1"/>
+          <data line="3" column="0" value="0"/>
+        </ScilabString>
+        <ScilabDouble as="realParameters" height="0" width="0"/>
+        <ScilabInteger as="integerParameters" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="5"/>
+        </ScilabInteger>
+        <Array as="objectsParameters" scilabClass="ScilabList"/>
+        <ScilabInteger as="nbZerosCrossing" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabInteger as="nmode" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabDouble as="state" height="0" width="0"/>
+        <ScilabDouble as="dState" height="0" width="0"/>
+        <Array as="oDState" scilabClass="ScilabList"/>
+        <Array as="equations" scilabClass="ScilabList"/>
+        <mxGeometry as="geometry" x="190.0" y="120.0" width="40.0" height="40.0"/>
+      </BasicBlock>
+      <ExplicitInputPort id="-123277ed:16a59edc0a5:-7fd8" parent="-123277ed:16a59edc0a5:-7fd9" ordering="1" dataType="REAL_MATRIX" dataColumns="-2" dataLines="-1" initialState="0.0" style="ExplicitInputPort;align=left;verticalAlign=middle;spacing=10.0;rotation=0"/>
+      <ExplicitOutputPort id="-123277ed:16a59edc0a5:-7fd6" parent="-123277ed:16a59edc0a5:-7fd9" ordering="1" dataType="REAL_MATRIX" dataColumns="-2" dataLines="-1" initialState="0.0" style="ExplicitOutputPort;align=right;verticalAlign=middle;spacing=10.0;rotation=0"/>
+      <BasicBlock id="-123277ed:16a59edc0a5:-7fd5" parent="0:2:0" interfaceFunctionName="LOGICAL_OP" blockType="c" dependsOnU="1" dependsOnT="0" simulationFunctionName="logicalop" simulationFunctionType="C_OR_FORTRAN" style="LOGICAL_OP;blockWithLabel;displayedLabel=NOT">
+        <ScilabString as="exprs" height="4" width="1">
+          <data line="0" column="0" value="2"/>
+          <data line="1" column="0" value="5"/>
+          <data line="2" column="0" value="1"/>
+          <data line="3" column="0" value="0"/>
+        </ScilabString>
+        <ScilabDouble as="realParameters" height="0" width="0"/>
+        <ScilabInteger as="integerParameters" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="5"/>
+        </ScilabInteger>
+        <Array as="objectsParameters" scilabClass="ScilabList"/>
+        <ScilabInteger as="nbZerosCrossing" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabInteger as="nmode" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabDouble as="state" height="0" width="0"/>
+        <ScilabDouble as="dState" height="0" width="0"/>
+        <Array as="oDState" scilabClass="ScilabList"/>
+        <Array as="equations" scilabClass="ScilabList"/>
+        <mxGeometry as="geometry" x="160.0" y="180.0" width="40.0" height="40.0"/>
+      </BasicBlock>
+      <ExplicitInputPort id="-123277ed:16a59edc0a5:-7fd4" parent="-123277ed:16a59edc0a5:-7fd5" ordering="1" dataType="REAL_MATRIX" dataColumns="-2" dataLines="-1" initialState="0.0" style="ExplicitInputPort;align=left;verticalAlign=middle;spacing=10.0;rotation=0"/>
+      <ExplicitOutputPort id="-123277ed:16a59edc0a5:-7fd2" parent="-123277ed:16a59edc0a5:-7fd5" ordering="1" dataType="REAL_MATRIX" dataColumns="-2" dataLines="-1" initialState="0.0" style="ExplicitOutputPort;align=right;verticalAlign=middle;spacing=10.0;rotation=0"/>
+      <BasicBlock id="-123277ed:16a59edc0a5:-7fd1" parent="0:2:0" interfaceFunctionName="LOGICAL_OP" blockType="c" dependsOnU="1" dependsOnT="0" simulationFunctionName="logicalop" simulationFunctionType="C_OR_FORTRAN" style="LOGICAL_OP;blockWithLabel;displayedLabel=OR">
+        <ScilabString as="exprs" height="4" width="1">
+          <data line="0" column="0" value="2"/>
+          <data line="1" column="0" value="1"/>
+          <data line="2" column="0" value="1"/>
+          <data line="3" column="0" value="0"/>
+        </ScilabString>
+        <ScilabDouble as="realParameters" height="0" width="0"/>
+        <ScilabInteger as="integerParameters" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="1"/>
+        </ScilabInteger>
+        <Array as="objectsParameters" scilabClass="ScilabList"/>
+        <ScilabInteger as="nbZerosCrossing" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabInteger as="nmode" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabDouble as="state" height="0" width="0"/>
+        <ScilabDouble as="dState" height="0" width="0"/>
+        <Array as="oDState" scilabClass="ScilabList"/>
+        <Array as="equations" scilabClass="ScilabList"/>
+        <mxGeometry as="geometry" x="300.0" y="110.0" width="40.0" height="40.0"/>
+      </BasicBlock>
+      <ExplicitInputPort id="-123277ed:16a59edc0a5:-7fd0" parent="-123277ed:16a59edc0a5:-7fd1" ordering="1" dataType="REAL_MATRIX" dataColumns="-2" dataLines="-1" initialState="0.0" style="ExplicitInputPort;align=left;verticalAlign=middle;spacing=10.0;rotation=0"/>
+      <ExplicitInputPort id="-123277ed:16a59edc0a5:-7fcf" parent="-123277ed:16a59edc0a5:-7fd1" ordering="2" dataType="REAL_MATRIX" dataColumns="-2" dataLines="-1" initialState="0.0" style="ExplicitInputPort;align=left;verticalAlign=middle;spacing=10.0;rotation=0"/>
+      <ExplicitOutputPort id="-123277ed:16a59edc0a5:-7fce" parent="-123277ed:16a59edc0a5:-7fd1" ordering="1" dataType="REAL_MATRIX" dataColumns="-2" dataLines="-1" initialState="0.0" style="ExplicitOutputPort;align=right;verticalAlign=middle;spacing=10.0;rotation=0"/>
+      <BasicBlock id="cc06b04:13ef8c5d2ac:-7f46" parent="0:2:0" interfaceFunctionName="FROM" blockType="c" dependsOnU="0" dependsOnT="0" simulationFunctionName="from" simulationFunctionType="DEFAULT" style="FROM;flip=false;mirror=false">
+        <ScilabString as="exprs" height="1" width="1">
+          <data line="0" column="0" value="B"/>
+        </ScilabString>
+        <ScilabDouble as="realParameters" height="0" width="0"/>
+        <ScilabDouble as="integerParameters" height="0" width="0"/>
+        <Array as="objectsParameters" scilabClass="ScilabList">
+          <ScilabString height="1" width="1">
+            <data line="0" column="0" value="B"/>
+          </ScilabString>
+        </Array>
+        <ScilabInteger as="nbZerosCrossing" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabInteger as="nmode" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabDouble as="state" height="0" width="0"/>
+        <ScilabDouble as="dState" height="0" width="0"/>
+        <Array as="oDState" scilabClass="ScilabList"/>
+        <Array as="equations" scilabClass="ScilabList"/>
+        <mxGeometry as="geometry" x="30.0" y="60.0" width="40.0" height="20.0"/>
+      </BasicBlock>
+      <ExplicitOutputPort id="cc06b04:13ef8c5d2ac:-7f31" parent="cc06b04:13ef8c5d2ac:-7f46" ordering="1" dataType="REAL_MATRIX" dataColumns="-2" dataLines="-1" initialState="-1.0" style="ExplicitOutputPort;align=right;verticalAlign=middle;spacing=10.0;rotation=0;flip=false;mirror=false"/>
+      <BasicBlock id="cc06b04:13ef8c5d2ac:-7f42" parent="0:2:0" interfaceFunctionName="FROM" blockType="c" dependsOnU="0" dependsOnT="0" simulationFunctionName="from" simulationFunctionType="DEFAULT" style="FROM;flip=false;mirror=false">
+        <ScilabString as="exprs" height="1" width="1">
+          <data line="0" column="0" value="C"/>
+        </ScilabString>
+        <ScilabDouble as="realParameters" height="0" width="0"/>
+        <ScilabDouble as="integerParameters" height="0" width="0"/>
+        <Array as="objectsParameters" scilabClass="ScilabList">
+          <ScilabString height="1" width="1">
+            <data line="0" column="0" value="C"/>
+          </ScilabString>
+        </Array>
+        <ScilabInteger as="nbZerosCrossing" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabInteger as="nmode" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabDouble as="state" height="0" width="0"/>
+        <ScilabDouble as="dState" height="0" width="0"/>
+        <Array as="oDState" scilabClass="ScilabList"/>
+        <Array as="equations" scilabClass="ScilabList"/>
+        <mxGeometry as="geometry" x="60.0" y="190.0" width="40.0" height="20.0"/>
+      </BasicBlock>
+      <ExplicitOutputPort id="cc06b04:13ef8c5d2ac:-7f41" parent="cc06b04:13ef8c5d2ac:-7f42" ordering="1" dataType="REAL_MATRIX" dataColumns="-2" dataLines="-1" initialState="-1.0" style="ExplicitOutputPort;align=right;verticalAlign=middle;spacing=10.0;rotation=0;flip=false;mirror=false"/>
+      <BasicBlock id="cc06b04:13ef8c5d2ac:-7f52" parent="0:2:0" interfaceFunctionName="FROM" blockType="c" dependsOnU="0" dependsOnT="0" simulationFunctionName="from" simulationFunctionType="DEFAULT" style="FROM;flip=false;mirror=false">
+        <ScilabString as="exprs" height="1" width="1">
+          <data line="0" column="0" value="A"/>
+        </ScilabString>
+        <ScilabDouble as="realParameters" height="0" width="0"/>
+        <ScilabDouble as="integerParameters" height="0" width="0"/>
+        <Array as="objectsParameters" scilabClass="ScilabList">
+          <ScilabString height="1" width="1">
+            <data line="0" column="0" value="A"/>
+          </ScilabString>
+        </Array>
+        <ScilabInteger as="nbZerosCrossing" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabInteger as="nmode" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabDouble as="state" height="0" width="0"/>
+        <ScilabDouble as="dState" height="0" width="0"/>
+        <Array as="oDState" scilabClass="ScilabList"/>
+        <Array as="equations" scilabClass="ScilabList"/>
+        <mxGeometry as="geometry" x="30.0" y="40.0" width="40.0" height="20.0"/>
+      </BasicBlock>
+      <ExplicitOutputPort id="cc06b04:13ef8c5d2ac:-7f51" parent="cc06b04:13ef8c5d2ac:-7f52" ordering="1" dataType="REAL_MATRIX" dataColumns="-2" dataLines="-1" initialState="-1.0" style="ExplicitOutputPort;align=right;verticalAlign=middle;spacing=10.0;rotation=0;flip=false;mirror=false"/>
+      <BasicBlock id="-123277ed:16a59edc0a5:-7fbf" parent="0:2:0" interfaceFunctionName="FROM" blockType="c" dependsOnU="0" dependsOnT="0" simulationFunctionName="from" simulationFunctionType="DEFAULT" style="FROM;flip=false;mirror=false">
+        <ScilabString as="exprs" height="1" width="1">
+          <data line="0" column="0" value="C"/>
+        </ScilabString>
+        <ScilabDouble as="realParameters" height="0" width="0"/>
+        <ScilabDouble as="integerParameters" height="0" width="0"/>
+        <Array as="objectsParameters" scilabClass="ScilabList">
+          <ScilabString height="1" width="1">
+            <data line="0" column="0" value="C"/>
+          </ScilabString>
+        </Array>
+        <ScilabInteger as="nbZerosCrossing" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabInteger as="nmode" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabDouble as="state" height="0" width="0"/>
+        <ScilabDouble as="dState" height="0" width="0"/>
+        <Array as="oDState" scilabClass="ScilabList"/>
+        <Array as="equations" scilabClass="ScilabList"/>
+        <mxGeometry as="geometry" x="30.0" y="130.0" width="40.0" height="20.0"/>
+      </BasicBlock>
+      <ExplicitOutputPort id="-123277ed:16a59edc0a5:-7fbe" parent="-123277ed:16a59edc0a5:-7fbf" ordering="1" dataType="REAL_MATRIX" dataColumns="-2" dataLines="-1" initialState="-1.0" style="ExplicitOutputPort;align=right;verticalAlign=middle;spacing=10.0;rotation=0;flip=false;mirror=false"/>
+      <BasicBlock id="-123277ed:16a59edc0a5:-7f6c" parent="0:2:0" interfaceFunctionName="GOTO" blockType="c" dependsOnU="0" dependsOnT="0" simulationFunctionName="goto" simulationFunctionType="DEFAULT" style="GOTO" value="Goto">
+        <ScilabString as="exprs" height="2" width="1">
+          <data line="0" column="0" value="D"/>
+          <data line="1" column="0" value="1"/>
+        </ScilabString>
+        <ScilabDouble as="realParameters" height="0" width="0"/>
+        <ScilabInteger as="integerParameters" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="1"/>
+        </ScilabInteger>
+        <Array as="objectsParameters" scilabClass="ScilabList">
+          <ScilabString height="1" width="1">
+            <data line="0" column="0" value="D"/>
+          </ScilabString>
+        </Array>
+        <ScilabInteger as="nbZerosCrossing" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabInteger as="nmode" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabDouble as="state" height="0" width="0"/>
+        <ScilabDouble as="dState" height="0" width="0"/>
+        <Array as="oDState" scilabClass="ScilabList"/>
+        <Array as="equations" scilabClass="ScilabList"/>
+        <mxGeometry as="geometry" x="430.0" y="50.0" width="40.0" height="20.0"/>
+      </BasicBlock>
+      <ExplicitInputPort id="-123277ed:16a59edc0a5:-7f6b" parent="-123277ed:16a59edc0a5:-7f6c" ordering="1" dataType="REAL_MATRIX" dataColumns="-2" dataLines="-1" initialState="0.0" style="ExplicitInputPort;align=left;verticalAlign=middle;spacing=10.0;rotation=0"/>
+      <BasicBlock id="-123277ed:16a59edc0a5:-7f6a" parent="0:2:0" interfaceFunctionName="GOTO" blockType="c" dependsOnU="0" dependsOnT="0" simulationFunctionName="goto" simulationFunctionType="DEFAULT" style="GOTO" value="Goto">
+        <ScilabString as="exprs" height="2" width="1">
+          <data line="0" column="0" value="E"/>
+          <data line="1" column="0" value="1"/>
+        </ScilabString>
+        <ScilabDouble as="realParameters" height="0" width="0"/>
+        <ScilabInteger as="integerParameters" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="1"/>
+        </ScilabInteger>
+        <Array as="objectsParameters" scilabClass="ScilabList">
+          <ScilabString height="1" width="1">
+            <data line="0" column="0" value="E"/>
+          </ScilabString>
+        </Array>
+        <ScilabInteger as="nbZerosCrossing" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabInteger as="nmode" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabDouble as="state" height="0" width="0"/>
+        <ScilabDouble as="dState" height="0" width="0"/>
+        <Array as="oDState" scilabClass="ScilabList"/>
+        <Array as="equations" scilabClass="ScilabList"/>
+        <mxGeometry as="geometry" x="450.0" y="120.0" width="40.0" height="20.0"/>
+      </BasicBlock>
+      <ExplicitInputPort id="-123277ed:16a59edc0a5:-7f69" parent="-123277ed:16a59edc0a5:-7f6a" ordering="1" dataType="REAL_MATRIX" dataColumns="-2" dataLines="-1" initialState="0.0" style="ExplicitInputPort;align=left;verticalAlign=middle;spacing=10.0;rotation=0"/>
+      <BasicBlock id="-123277ed:16a59edc0a5:-7f68" parent="0:2:0" interfaceFunctionName="GOTO" blockType="c" dependsOnU="0" dependsOnT="0" simulationFunctionName="goto" simulationFunctionType="DEFAULT" style="GOTO" value="Goto">
+        <ScilabString as="exprs" height="2" width="1">
+          <data line="0" column="0" value="F"/>
+          <data line="1" column="0" value="1"/>
+        </ScilabString>
+        <ScilabDouble as="realParameters" height="0" width="0"/>
+        <ScilabInteger as="integerParameters" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="1"/>
+        </ScilabInteger>
+        <Array as="objectsParameters" scilabClass="ScilabList">
+          <ScilabString height="1" width="1">
+            <data line="0" column="0" value="F"/>
+          </ScilabString>
+        </Array>
+        <ScilabInteger as="nbZerosCrossing" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabInteger as="nmode" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabDouble as="state" height="0" width="0"/>
+        <ScilabDouble as="dState" height="0" width="0"/>
+        <Array as="oDState" scilabClass="ScilabList"/>
+        <Array as="equations" scilabClass="ScilabList"/>
+        <mxGeometry as="geometry" x="510.0" y="180.0" width="40.0" height="20.0"/>
+      </BasicBlock>
+      <ExplicitInputPort id="-123277ed:16a59edc0a5:-7f67" parent="-123277ed:16a59edc0a5:-7f68" ordering="1" dataType="REAL_MATRIX" dataColumns="-2" dataLines="-1" initialState="0.0" style="ExplicitInputPort;align=left;verticalAlign=middle;spacing=10.0;rotation=0"/>
+      <SplitBlock id="-123277ed:16a59edc0a5:-7f65" parent="0:2:0" interfaceFunctionName="SPLIT_f" blockType="c" dependsOnU="1" dependsOnT="0" simulationFunctionName="lsplit" simulationFunctionType="DEFAULT" style="SPLIT_f">
+        <ScilabDouble as="exprs" height="0" width="0"/>
+        <ScilabDouble as="realParameters" height="0" width="0"/>
+        <ScilabDouble as="integerParameters" height="0" width="0"/>
+        <Array as="objectsParameters" scilabClass="ScilabList"/>
+        <ScilabInteger as="nbZerosCrossing" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabInteger as="nmode" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabDouble as="state" height="0" width="0"/>
+        <ScilabDouble as="dState" height="0" width="0"/>
+        <Array as="oDState" scilabClass="ScilabList"/>
+        <Array as="equations" scilabClass="ScilabList"/>
+        <mxGeometry as="geometry" x="266.5" y="56.5" width="7.0" height="7.0"/>
+      </SplitBlock>
+      <ExplicitInputPort id="-123277ed:16a59edc0a5:-7f64" parent="-123277ed:16a59edc0a5:-7f65" ordering="1" dataType="REAL_MATRIX" dataColumns="1" dataLines="-1" initialState="0.0" style="ExplicitInputPort;align=left;verticalAlign=middle;spacing=10.0"/>
+      <ExplicitOutputPort id="-123277ed:16a59edc0a5:-7f63" parent="-123277ed:16a59edc0a5:-7f65" ordering="1" dataType="REAL_MATRIX" dataColumns="1" dataLines="-1" initialState="0.0" style="ExplicitOutputPort;align=right;verticalAlign=middle;spacing=10.0"/>
+      <ExplicitOutputPort id="-123277ed:16a59edc0a5:-7f62" parent="-123277ed:16a59edc0a5:-7f65" ordering="2" dataType="REAL_MATRIX" dataColumns="1" dataLines="-1" initialState="0.0" style="ExplicitOutputPort;align=right;verticalAlign=middle;spacing=10.0"/>
+      <ExplicitOutputPort id="-123277ed:16a59edc0a5:-7f61" parent="-123277ed:16a59edc0a5:-7f65" ordering="3" dataType="REAL_MATRIX" dataColumns="1" dataLines="-1" initialState="0.0" style="ExplicitOutputPort;align=right;verticalAlign=middle;spacing=10.0"/>
+      <SplitBlock id="-123277ed:16a59edc0a5:-7f5b" parent="0:2:0" interfaceFunctionName="SPLIT_f" blockType="c" dependsOnU="1" dependsOnT="0" simulationFunctionName="lsplit" simulationFunctionType="DEFAULT" style="SPLIT_f">
+        <ScilabDouble as="exprs" height="0" width="0"/>
+        <ScilabDouble as="realParameters" height="0" width="0"/>
+        <ScilabDouble as="integerParameters" height="0" width="0"/>
+        <Array as="objectsParameters" scilabClass="ScilabList"/>
+        <ScilabInteger as="nbZerosCrossing" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabInteger as="nmode" height="1" width="1" intPrecision="sci_int32">
+          <data line="0" column="0" value="0"/>
+        </ScilabInteger>
+        <ScilabDouble as="state" height="0" width="0"/>
+        <ScilabDouble as="dState" height="0" width="0"/>
+        <Array as="oDState" scilabClass="ScilabList"/>
+        <Array as="equations" scilabClass="ScilabList"/>
+        <mxGeometry as="geometry" x="366.5" y="126.5" width="7.0" height="7.0"/>
+      </SplitBlock>
+      <ExplicitInputPort id="-123277ed:16a59edc0a5:-7f5a" parent="-123277ed:16a59edc0a5:-7f5b" ordering="1" dataType="REAL_MATRIX" dataColumns="1" dataLines="-1" initialState="0.0" style="ExplicitInputPort;align=left;verticalAlign=middle;spacing=10.0"/>
+      <ExplicitOutputPort id="-123277ed:16a59edc0a5:-7f59" parent="-123277ed:16a59edc0a5:-7f5b" ordering="1" dataType="REAL_MATRIX" dataColumns="1" dataLines="-1" initialState="0.0" style="ExplicitOutputPort;align=right;verticalAlign=middle;spacing=10.0"/>
+      <ExplicitOutputPort id="-123277ed:16a59edc0a5:-7f58" parent="-123277ed:16a59edc0a5:-7f5b" ordering="2" dataType="REAL_MATRIX" dataColumns="1" dataLines="-1" initialState="0.0" style="ExplicitOutputPort;align=right;verticalAlign=middle;spacing=10.0"/>
+      <ExplicitOutputPort id="-123277ed:16a59edc0a5:-7f57" parent="-123277ed:16a59edc0a5:-7f5b" ordering="3" dataType="REAL_MATRIX" dataColumns="1" dataLines="-1" initialState="0.0" style="ExplicitOutputPort;align=right;verticalAlign=middle;spacing=10.0"/>
+      <ExplicitLink id="-123277ed:16a59edc0a5:-7fcd" parent="0:2:0" source="-123277ed:16a59edc0a5:-7fd2" target="-123277ed:16a59edc0a5:-7fe3" style="ExplicitLink" value="">
+        <mxGeometry as="geometry">
+          <mxPoint as="sourcePoint" x="0.0" y="0.0"/>
+          <Array as="points"></Array>
+          <mxPoint as="targetPoint" x="0.0" y="0.0"/>
+        </mxGeometry>
+      </ExplicitLink>
+      <ExplicitLink id="-123277ed:16a59edc0a5:-7fbd" parent="0:2:0" source="cc06b04:13ef8c5d2ac:-7f41" target="-123277ed:16a59edc0a5:-7fd4" style="ExplicitLink" value="">
+        <mxGeometry as="geometry">
+          <mxPoint as="sourcePoint" x="0.0" y="0.0"/>
+          <Array as="points"></Array>
+          <mxPoint as="targetPoint" x="0.0" y="0.0"/>
+        </mxGeometry>
+      </ExplicitLink>
+      <ExplicitLink id="-123277ed:16a59edc0a5:-7fbc" parent="0:2:0" source="cc06b04:13ef8c5d2ac:-7f31" target="-123277ed:16a59edc0a5:-7fdf" style="ExplicitLink" value="">
+        <mxGeometry as="geometry">
+          <mxPoint as="sourcePoint" x="0.0" y="0.0"/>
+          <Array as="points"></Array>
+          <mxPoint as="targetPoint" x="0.0" y="0.0"/>
+        </mxGeometry>
+      </ExplicitLink>
+      <ExplicitLink id="-123277ed:16a59edc0a5:-7fbb" parent="0:2:0" source="cc06b04:13ef8c5d2ac:-7f51" target="-123277ed:16a59edc0a5:-7fe0" style="ExplicitLink" value="">
+        <mxGeometry as="geometry">
+          <mxPoint as="sourcePoint" x="0.0" y="0.0"/>
+          <Array as="points"></Array>
+          <mxPoint as="targetPoint" x="0.0" y="0.0"/>
+        </mxGeometry>
+      </ExplicitLink>
+      <ExplicitLink id="-123277ed:16a59edc0a5:-7fab" parent="0:2:0" source="-123277ed:16a59edc0a5:-7fbe" target="-123277ed:16a59edc0a5:-7fd8" style="ExplicitLink" value="">
+        <mxGeometry as="geometry">
+          <mxPoint as="sourcePoint" x="0.0" y="0.0"/>
+          <Array as="points"></Array>
+          <mxPoint as="targetPoint" x="0.0" y="0.0"/>
+        </mxGeometry>
+      </ExplicitLink>
+      <ExplicitLink id="-123277ed:16a59edc0a5:-7fa6" parent="0:2:0" source="-123277ed:16a59edc0a5:-7fd6" target="-123277ed:16a59edc0a5:-7fcf" style="ExplicitLink" value="">
+        <mxGeometry as="geometry">
+          <mxPoint as="sourcePoint" x="0.0" y="0.0"/>
+          <Array as="points"></Array>
+          <mxPoint as="targetPoint" x="0.0" y="0.0"/>
+        </mxGeometry>
+      </ExplicitLink>
+      <ExplicitLink id="-123277ed:16a59edc0a5:-7f60" parent="0:2:0" source="-123277ed:16a59edc0a5:-7fde" target="-123277ed:16a59edc0a5:-7f64" style="ExplicitLink" value="">
+        <mxGeometry as="geometry">
+          <mxPoint as="sourcePoint" x="0.0" y="0.0"/>
+          <Array as="points"></Array>
+          <mxPoint as="targetPoint" x="0.0" y="0.0"/>
+        </mxGeometry>
+      </ExplicitLink>
+      <ExplicitLink id="-123277ed:16a59edc0a5:-7f5f" parent="0:2:0" source="-123277ed:16a59edc0a5:-7f63" target="-123277ed:16a59edc0a5:-7fd0" style="ExplicitLink" value="">
+        <mxGeometry as="geometry">
+          <mxPoint as="sourcePoint" x="0.0" y="0.0"/>
+          <Array as="points">
+            <mxPoint x="270.0" y="60.0"/>
+            <mxPoint x="270.0" y="120.0"/>
+          </Array>
+          <mxPoint as="targetPoint" x="0.0" y="0.0"/>
+        </mxGeometry>
+      </ExplicitLink>
+      <ExplicitLink id="-123277ed:16a59edc0a5:-7f66" parent="0:2:0" source="-123277ed:16a59edc0a5:-7f62" target="-123277ed:16a59edc0a5:-7f6b" style="ExplicitLink" value="">
+        <mxGeometry as="geometry">
+          <mxPoint as="sourcePoint" x="0.0" y="0.0"/>
+          <Array as="points">
+            <mxPoint x="270.0" y="60.0"/>
+          </Array>
+          <mxPoint as="targetPoint" x="0.0" y="0.0"/>
+        </mxGeometry>
+      </ExplicitLink>
+      <ExplicitLink id="-123277ed:16a59edc0a5:-7f5e" parent="0:2:0" source="-123277ed:16a59edc0a5:-7fe2" target="-123277ed:16a59edc0a5:-7f67" style="ExplicitLink" value="">
+        <mxGeometry as="geometry">
+          <mxPoint as="sourcePoint" x="0.0" y="0.0"/>
+          <Array as="points"></Array>
+          <mxPoint as="targetPoint" x="0.0" y="0.0"/>
+        </mxGeometry>
+      </ExplicitLink>
+      <ExplicitLink id="-123277ed:16a59edc0a5:-7f56" parent="0:2:0" source="-123277ed:16a59edc0a5:-7fce" target="-123277ed:16a59edc0a5:-7f5a" style="ExplicitLink" value="">
+        <mxGeometry as="geometry">
+          <mxPoint as="sourcePoint" x="0.0" y="0.0"/>
+          <Array as="points"></Array>
+          <mxPoint as="targetPoint" x="0.0" y="0.0"/>
+        </mxGeometry>
+      </ExplicitLink>
+      <ExplicitLink id="-123277ed:16a59edc0a5:-7f55" parent="0:2:0" source="-123277ed:16a59edc0a5:-7f59" target="-123277ed:16a59edc0a5:-7fe4" style="ExplicitLink" value="">
+        <mxGeometry as="geometry">
+          <mxPoint as="sourcePoint" x="0.0" y="0.0"/>
+          <Array as="points">
+            <mxPoint x="380.0" y="130.0"/>
+            <mxPoint x="380.0" y="180.0"/>
+          </Array>
+          <mxPoint as="targetPoint" x="0.0" y="0.0"/>
+        </mxGeometry>
+      </ExplicitLink>
+      <ExplicitLink id="-123277ed:16a59edc0a5:-7f5c" parent="0:2:0" source="-123277ed:16a59edc0a5:-7f58" target="-123277ed:16a59edc0a5:-7f69" style="ExplicitLink" value="">
+        <mxGeometry as="geometry">
+          <mxPoint as="sourcePoint" x="0.0" y="0.0"/>
+          <Array as="points">
+            <mxPoint x="380.0" y="130.0"/>
+          </Array>
+          <mxPoint as="targetPoint" x="0.0" y="0.0"/>
+        </mxGeometry>
+      </ExplicitLink>
+    </root>
+  </mxGraphModel>
+  <mxCell as="defaultParent" id="0:2:0" parent="0:1:0"/>
+</XcosDiagram>
